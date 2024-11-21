@@ -27,3 +27,14 @@ seje_menu_links = [
     {url = "$BASE_URL/tags/top/", name = "Top"},
 ]
 
+[languages.zh-cn.translations]
+title = "Vandee's Memos"
+home = "主页"
+archives = "归档"
+about = "关于"
+rss = "订阅"
+more = "查看全文"
+olderArticle = "旧文"
+newer = "上一篇"
+older = "下一篇"
+loading = "加载中..."

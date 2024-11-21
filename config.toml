@@ -1,14 +1,39 @@
 base_url = "https://vandeefeng.github.io/gitmemo/"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
-theme = "even"
+theme = "Seje2"
 taxonomies = [
     {name = "categories", feed = true},
     {name = "tags", feed = true},
 ]
+# What language to use
+default_language = "zh-cn"
 [extra]
-even_title = "Vandee's Memos"
-even_menu = [
+# show Chinese date format instead of normal date format
+seje_chinese_date = false
+# show summary instead of the whole article on the index page
+seje_show_summary_only = false
+# Google Font API mirror URLs (for China mainland users, try fonts.loli.net)
+seje_font_mirror = "fonts.loli.net"
+# whether use traditional Chinese style vertical layout
+seje_vertical_layout = false
+# additional custom fonts to include (must be in CSS font-family format)
+seje_custom_fonts = ""
+# whether enable darkmode. Possible values: auto, always, never
+seje_darkmode = "auto"
+# Your site blog links
+seje_menu_links = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/tags/top/", name = "Top"},
 ]
+[languages.zh-cn.translations]
+title = "Vandee's Memos"
+home = "主页"
+archives = "归档"
+about = "关于"
+rss = "订阅"
+more = "查看全文"
+olderArticle = "旧文"
+newer = "上一篇"
+older = "下一篇"
+loading = "加载中..."

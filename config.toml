@@ -1,4 +1,4 @@
-base_url = "https://vandeefeng.github.io/gitmemos/"
+base_url = "https://vandeefeng.github.io/gitmemo/"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 theme = "even"

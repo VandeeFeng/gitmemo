@@ -9,7 +9,7 @@ from github import Github
 from lxml.etree import CDATA
 from marko.ext.gfm import gfm as marko
 
-MD_HEAD = """## [GitMemos](https://vandeefeng.github.io/gitmemos/)
+MD_HEAD = """## [GitMemo](https://vandeefeng.github.io/gitmemo/)
 My personal memos using issues and GitHub Actions.
 
 [About me](https://x.vandee.art/wiki)
@@ -172,7 +172,7 @@ def add_md_firends(repo, md, me):
     s = markdown.markdown(s, output_format="html", extensions=["extra"])
     with open(md, "a+", encoding="utf-8") as md:
         md.write(
-            f"## [友情链接](https://github.com/{str(me)}/gitmemos/issues/{friends_issue_number})\n"
+            f"## [友情链接](https://github.com/{str(me)}/gitmemo/issues/{friends_issue_number})\n"
         )
         md.write("<details><summary>显示</summary>\n")
         md.write(s)

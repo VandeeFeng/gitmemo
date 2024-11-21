@@ -1,7 +1,13 @@
 ## [GitMemos](https://vandeefeng.github.io/gitmemos/)
 My personal memos using issues and GitHub Actions.
+
+[About me](https://x.vandee.art/wiki)
+
 [RSS Feed](https://raw.githubusercontent.com/VandeeFeng/gitmemos/main/feed.xml)
 
+## 置顶文章
+- [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemos/issues/7)--2024-11-21
+- [相信直觉](https://github.com/VandeeFeng/gitmemos/issues/2)--2024-11-21
 ## 最近更新
 - [整理了之前的笔记，现在用org-publish 来发布博客](https://github.com/VandeeFeng/gitmemos/issues/10)--2024-11-21
 - [开源模型随着时间的推移，优势会越来越明显](https://github.com/VandeeFeng/gitmemos/issues/9)--2024-11-21

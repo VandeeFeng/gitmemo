@@ -1,0 +1,14 @@
+base_url = "https://vandeefeng.github.io/gitmemos/"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+theme = "even"
+taxonomies = [
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+[extra]
+even_title = "Vandee's Memos"
+even_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/tags/top/", name = "Top"},
+]

@@ -11,6 +11,9 @@ from marko.ext.gfm import gfm as marko
 
 MD_HEAD = """## [GitMemos](https://vandeefeng.github.io/gitmemos/)
 My personal memos using issues and GitHub Actions.
+
+[About me](https://x.vandee.art/wiki)
+
 [RSS Feed](https://raw.githubusercontent.com/{repo_name}/main/feed.xml)
 """
 

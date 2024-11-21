@@ -23,7 +23,7 @@ seje_custom_fonts = ""
 seje_darkmode = "auto"
 # Your site blog links
 seje_menu_links = [
-    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL", name = "home"},
     {url = "$BASE_URL/tags/top/", name = "Top"},
 ]
 

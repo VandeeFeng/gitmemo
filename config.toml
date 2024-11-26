@@ -7,6 +7,7 @@ taxonomies = [
     {name = "tags", feed = true},
 ]
 [extra]
+summary_length = 150  # 设置摘要长度，单位为字符
 even_title = "Vandee's Memos"
 even_menu = [
     {url = "$BASE_URL", name = "Home"},

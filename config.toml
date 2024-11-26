@@ -12,4 +12,5 @@ even_title = "Vandee's Memos"
 even_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/tags/top/", name = "Top"},
+    {url = "$BASE_URL/issue-12/", name = "About"},
 ]

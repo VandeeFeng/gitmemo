@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import MDEditor from '@uiw/react-md-editor';
 import { Button } from './ui/button';
-import { createIssue, updateIssue, getLabels, createLabel } from '@/lib/github';
+import { createIssue, updateIssue, getLabels, createLabel, getGitHubConfig } from '@/lib/github';
 import { useTheme } from 'next-themes';
 
 interface Label {
@@ -50,6 +50,7 @@ export function IssueEditor({ issue, onSave, onCancel }: IssueEditorProps) {
   );
   const [showLabelDropdown, setShowLabelDropdown] = useState(false);
   const [showNewLabelForm, setShowNewLabelForm] = useState(false);
+  const [isConfigured, setIsConfigured] = useState(false);
   const [newLabel, setNewLabel] = useState({
     name: '',
     color: GITHUB_LABEL_COLORS[0].color,
@@ -58,6 +59,11 @@ export function IssueEditor({ issue, onSave, onCancel }: IssueEditorProps) {
   const [creatingLabel, setCreatingLabel] = useState(false);
   const { theme } = useTheme();
   const labelDropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const config = getGitHubConfig(false);
+    setIsConfigured(Boolean(config.token && config.owner && config.repo));
+  }, []);
 
   useEffect(() => {
     const fetchLabels = async () => {
@@ -86,6 +92,12 @@ export function IssueEditor({ issue, onSave, onCancel }: IssueEditorProps) {
   }, []);
 
   const handleSave = async () => {
+    const config = getGitHubConfig(false);
+    if (!config.token || !config.owner || !config.repo) {
+      alert('Please configure your GitHub settings first');
+      return;
+    }
+
     if (!title.trim()) {
       alert('Please enter a title');
       return;
@@ -331,13 +343,23 @@ export function IssueEditor({ issue, onSave, onCancel }: IssueEditorProps) {
         >
           Cancel
         </Button>
-        <Button 
-          onClick={handleSave} 
-          disabled={saving}
-          className="bg-[#2da44e] hover:bg-[#2c974b] text-white border-0"
-        >
-          {saving ? 'Saving...' : issue?.number ? 'Update' : 'Create'}
-        </Button>
+        <div className="relative group">
+          <Button 
+            onClick={handleSave} 
+            disabled={saving || !isConfigured}
+            className="bg-[#2da44e] hover:bg-[#2c974b] text-white border-0 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {saving ? 'Saving...' : !isConfigured ? 'Login Required' : issue?.number ? 'Update' : 'Create'}
+          </Button>
+          {!isConfigured && (
+            <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-900 text-white text-xs rounded py-1 px-2 whitespace-nowrap">
+              Please configure your GitHub settings first
+              <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-1">
+                <div className="border-4 border-transparent border-t-gray-900"></div>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

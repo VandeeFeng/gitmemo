@@ -1,90 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Git Memo
 
-## Getting Started
+Issue Memo 是一个基于 GitHub Issues 的笔记应用，它提供了一个简洁优雅的界面来管理和编写你的笔记。通过利用 GitHub Issues 的强大功能，你可以轻松地组织、标记和搜索你的笔记内容。
 
-First, run the development server:
+## 特性
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🎨 现代化的用户界面
+  - 支持亮色/暗色主题
+  - GitHub 风格的设计
+  - 响应式布局
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 📝 Markdown 编辑器
+  - 实时预览
+  - 支持完整的 Markdown 语法
+  - GitHub 风格的渲染
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🏷️ 标签管理
+  - 自定义标签颜色
+  - 标签分类和筛选
+  - 快速创建和编辑标签
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🔄 GitHub 集成
+  - 直接与 GitHub Issues 同步
+  - 支持多仓库配置
+  - 实时保存和更新
 
-## Learn More
+## 技术栈
 
-To learn more about Next.js, take a look at the following resources:
+- **框架**: Next.js 13+ (App Router)
+- **样式**: Tailwind CSS
+- **UI 组件**: shadcn/ui
+- **Markdown**: @uiw/react-md-editor
+- **主题**: next-themes
+- **API**: Octokit (GitHub API)
+- **类型**: TypeScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 开始使用
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. 克隆仓库：
+   ```bash
+   git clone https://github.com/yourusername/issuememo.git
+   cd issuememo
+   ```
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-# Issue Memo
-
-A GitHub Issues based memo application built with Next.js, Tailwind CSS, and shadcn/ui.
-
-## Features
-
-- List all GitHub issues in a beautiful, memo-like interface
-- Create new issues with Markdown support
-- Edit existing issues
-- Real-time preview of Markdown content
-- Clean and modern UI
-
-## Setup
-
-1. Clone the repository
-2. Install dependencies:
+2. 安装依赖：
    ```bash
    npm install
    ```
 
-3. Create a `.env.local` file in the root directory with the following variables:
+3. 配置环境变量：
+   创建 `.env.local` 文件并添加以下内容：
    ```
-   NEXT_PUBLIC_GITHUB_TOKEN=your_github_token_here
+   NEXT_PUBLIC_GITHUB_TOKEN=your_github_token
    NEXT_PUBLIC_GITHUB_OWNER=your_github_username
    NEXT_PUBLIC_GITHUB_REPO=your_repository_name
    ```
 
-   To get your GitHub token:
-   1. Go to GitHub Settings
-   2. Developer settings
-   3. Personal access tokens
-   4. Generate new token (classic)
-   5. Give it repo scope
-
-4. Run the development server:
+4. 启动开发服务器：
    ```bash
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. 在浏览器中打开 [http://localhost:3000](http://localhost:3000)
 
-## Technologies Used
+## GitHub Token 配置
 
-- Next.js 14
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
-- Octokit (GitHub API)
-- @uiw/react-md-editor
+1. 访问 [GitHub Settings > Developer settings > Personal access tokens](https://github.com/settings/tokens)
+2. 点击 "Generate new token (classic)"
+3. 勾选以下权限：
+   - `repo` (完整的仓库访问权限)
+4. 生成并复制 token
+5. 将 token 粘贴到 `.env.local` 文件中
 
-## License
+## 使用说明
 
-MIT
+1. **创建笔记**
+   - 点击右上角的 "New Issue" 按钮
+   - 输入标题和内容
+   - 可选择添加标签
+   - 点击 "Create" 保存
+
+2. **管理标签**
+   - 点击 "Labels" 按钮查看所有标签
+   - 可以创建新标签，设置颜色和描述
+   - 点击标签可以筛选相关笔记
+
+3. **编辑笔记**
+   - 点击笔记右上角的编辑按钮
+   - 修改内容后点击 "Update" 保存
+
+4. **主题切换**
+   - 点击右上角的主题切换按钮
+   - 支持亮色/暗色主题
+   - 自动跟随系统主题
+
+## 贡献
+
+欢迎提交 Pull Request 或创建 Issue 来帮助改进这个项目。
+
+## 许可
+
+MIT License

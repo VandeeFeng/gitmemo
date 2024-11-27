@@ -34,22 +34,23 @@ export async function getIssues(page: number = 1) {
   return data;
 }
 
-export const getGitHubConfig = (): GitHubConfig => {
-  // 优先使用环境变量
-  const envConfig = {
-    owner: process.env.NEXT_PUBLIC_GITHUB_OWNER,
-    repo: process.env.NEXT_PUBLIC_GITHUB_REPO,
-    token: process.env.NEXT_PUBLIC_GITHUB_TOKEN,
-  };
-
-  // 如果所有环境变量都存在，使用环境变量
-  if (envConfig.owner && envConfig.repo && envConfig.token) {
-    return {
-      owner: envConfig.owner,
-      repo: envConfig.repo,
-      token: envConfig.token,
-      issuesPerPage: 10
+export const getGitHubConfig = (forApi: boolean = true): GitHubConfig => {
+  // API 调用时优先使用环境变量
+  if (forApi) {
+    const envConfig = {
+      owner: process.env.NEXT_PUBLIC_GITHUB_OWNER,
+      repo: process.env.NEXT_PUBLIC_GITHUB_REPO,
+      token: process.env.NEXT_PUBLIC_GITHUB_TOKEN,
     };
+
+    if (envConfig.owner && envConfig.repo && envConfig.token) {
+      return {
+        owner: envConfig.owner,
+        repo: envConfig.repo,
+        token: envConfig.token,
+        issuesPerPage: 10
+      };
+    }
   }
 
   // 其次使用运行时配置

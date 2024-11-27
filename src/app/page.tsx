@@ -49,32 +49,10 @@ export default function Home() {
 
   useEffect(() => {
     setMounted(true);
-  }, []);
-
-  useEffect(() => {
-    // 检查环境变量
-    const envConfig = {
-      owner: process.env.NEXT_PUBLIC_GITHUB_OWNER,
-      repo: process.env.NEXT_PUBLIC_GITHUB_REPO,
-      token: process.env.NEXT_PUBLIC_GITHUB_TOKEN,
-    };
-
-    if (envConfig.owner && envConfig.repo && envConfig.token) {
-      setGithubConfig({
-        owner: envConfig.owner,
-        repo: envConfig.repo,
-        token: envConfig.token,
-        issuesPerPage: 10
-      });
-      return;
-    }
-
-    // 如果没有环境变量，尝试从 localStorage 读取
-    const savedConfig = localStorage.getItem('github-config');
-    if (savedConfig) {
-      const parsedConfig = JSON.parse(savedConfig);
-      setGithubConfig(parsedConfig);
-      setGitHubConfig(parsedConfig); // 同时更新运行时配置
+    // 获取界面配置时不使用环境变量
+    const uiConfig = getGitHubConfig(false);
+    if (uiConfig.owner || uiConfig.repo || uiConfig.token) {
+      setGithubConfig(uiConfig);
     }
   }, []);
 

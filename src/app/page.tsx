@@ -123,6 +123,12 @@ export default function Home() {
             <Link
               href="/"
               className="text-2xl font-bold text-[#24292f] dark:text-[#adbac7] hover:text-[#0969da] dark:hover:text-[#2f81f7] transition-colors"
+              onClick={() => {
+                setSelectedIssue(null);
+                setIsEditing(false);
+                setSelectedLabel(null);
+                window.location.reload();
+              }}
             >
               GitMemo
             </Link>

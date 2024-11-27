@@ -166,7 +166,7 @@ export function IssueList({
                               color: `#${label.color}`,
                               border: `1px solid #${label.color}40`
                             }}
-                            title={label.description}
+                            title={label.description || undefined}
                             onClick={(e) => {
                               e.stopPropagation();
                               onLabelClick(label.name);

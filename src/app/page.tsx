@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { IssueList } from '@/components/issue-list';
 import { IssueEditor } from '@/components/issue-editor';
 import { useTheme } from "next-themes";
-import { setGitHubConfig } from '@/lib/github';
+import { setGitHubConfig, getGitHubConfig } from '@/lib/github';
 import { LabelFilter } from '@/components/label-filter';
 import Link from 'next/link';
 

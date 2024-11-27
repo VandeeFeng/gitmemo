@@ -7,6 +7,7 @@ import { IssueEditor } from '@/components/issue-editor';
 import { useTheme } from "next-themes";
 import { setGitHubConfig } from '@/lib/github';
 import { LabelFilter } from '@/components/label-filter';
+import Link from 'next/link';
 
 interface Label {
   id: number;
@@ -92,12 +93,12 @@ export default function Home() {
         )}
         <header className="flex items-center justify-between py-4 mb-8">
           <div className="flex items-center gap-4">
-            <a
+            <Link
               href="/"
               className="text-2xl font-bold text-[#24292f] dark:text-[#adbac7] hover:text-[#0969da] dark:hover:text-[#2f81f7] transition-colors"
             >
               GitMemo
-            </a>
+            </Link>
             <LabelFilter
               selectedLabel={selectedLabel}
               onLabelSelect={setSelectedLabel}

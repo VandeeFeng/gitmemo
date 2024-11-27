@@ -10,7 +10,7 @@ interface Label {
   id: number;
   name: string;
   color: string;
-  description?: string;
+  description: string | null;
 }
 
 interface Issue {
@@ -28,7 +28,12 @@ interface GitHubIssue {
   body: string | null;
   created_at: string;
   state: string;
-  labels: Label[];
+  labels: {
+    id: number;
+    name: string;
+    color: string;
+    description: string | null;
+  }[];
 }
 
 interface ExpandedIssues {

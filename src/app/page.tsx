@@ -13,7 +13,7 @@ interface Label {
   id: number;
   name: string;
   color: string;
-  description?: string;
+  description: string | null;
 }
 
 interface Issue {

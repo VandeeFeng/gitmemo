@@ -52,9 +52,29 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
+    // 检查环境变量
+    const envConfig = {
+      owner: process.env.NEXT_PUBLIC_GITHUB_OWNER,
+      repo: process.env.NEXT_PUBLIC_GITHUB_REPO,
+      token: process.env.NEXT_PUBLIC_GITHUB_TOKEN,
+    };
+
+    if (envConfig.owner && envConfig.repo && envConfig.token) {
+      setGithubConfig({
+        owner: envConfig.owner,
+        repo: envConfig.repo,
+        token: envConfig.token,
+        issuesPerPage: 10
+      });
+      return;
+    }
+
+    // 如果没有环境变量，尝试从 localStorage 读取
     const savedConfig = localStorage.getItem('github-config');
     if (savedConfig) {
-      setGithubConfig(JSON.parse(savedConfig));
+      const parsedConfig = JSON.parse(savedConfig);
+      setGithubConfig(parsedConfig);
+      setGitHubConfig(parsedConfig); // 同时更新运行时配置
     }
   }, []);
 
@@ -70,12 +90,19 @@ export default function Home() {
 
   const handleConfigSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setGitHubConfig(githubConfig);
-    setShowConfig(false);
-    setShowSuccess(true);
-    setTimeout(() => {
-      setShowSuccess(false);
-    }, 3000);
+    try {
+      setGitHubConfig(githubConfig);
+      localStorage.setItem('github-config', JSON.stringify(githubConfig));
+      setShowConfig(false);
+      setShowSuccess(true);
+      setTimeout(() => {
+        setShowSuccess(false);
+        window.location.reload();
+      }, 3000);
+    } catch (error) {
+      console.error('Error saving config:', error);
+      alert('Failed to save configuration');
+    }
   };
 
   if (!mounted) return null;

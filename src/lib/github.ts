@@ -35,12 +35,29 @@ export async function getIssues(page: number = 1) {
 }
 
 export const getGitHubConfig = (): GitHubConfig => {
-  // 优先使用运行时配置
+  // 优先使用环境变量
+  const envConfig = {
+    owner: process.env.NEXT_PUBLIC_GITHUB_OWNER,
+    repo: process.env.NEXT_PUBLIC_GITHUB_REPO,
+    token: process.env.NEXT_PUBLIC_GITHUB_TOKEN,
+  };
+
+  // 如果所有环境变量都存在，使用环境变量
+  if (envConfig.owner && envConfig.repo && envConfig.token) {
+    return {
+      owner: envConfig.owner,
+      repo: envConfig.repo,
+      token: envConfig.token,
+      issuesPerPage: 10
+    };
+  }
+
+  // 其次使用运行时配置
   if (config) {
     return config;
   }
 
-  // 在客户端环境下尝试从 localStorage 读取
+  // 最后尝试从 localStorage 读取
   if (typeof window !== 'undefined') {
     const savedConfig = localStorage.getItem('github-config');
     if (savedConfig) {
@@ -50,11 +67,11 @@ export const getGitHubConfig = (): GitHubConfig => {
     }
   }
 
-  // 最后使用环境变量
+  // 如果都没有，返回空配置
   return {
-    owner: process.env.NEXT_PUBLIC_GITHUB_OWNER || '',
-    repo: process.env.NEXT_PUBLIC_GITHUB_REPO || '',
-    token: process.env.NEXT_PUBLIC_GITHUB_TOKEN || '',
+    owner: '',
+    repo: '',
+    token: '',
     issuesPerPage: 10
   };
 };

@@ -1,6 +1,7 @@
 import type { Components } from 'react-markdown';
 import Link from 'next/link';
 
+// @ts-ignore - This interface might be used in the future
 interface CodeComponentProps extends React.HTMLAttributes<HTMLElement> {
   inline?: boolean;
 }

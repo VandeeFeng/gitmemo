@@ -23,10 +23,25 @@ interface CacheStore {
 const CACHE_DURATION = 5 * 60 * 1000; // 5分钟缓存
 const LABELS_CACHE_DURATION = 30 * 60 * 1000; // 标签缓存30分钟，因为变动较少
 
-const cache: CacheStore = {
+// 创建一个在客户端和服务器端都可用的缓存存储
+const createCache = (): CacheStore => ({
   issues: new Map(),
   singleIssue: new Map(),
   labels: null,
+});
+
+// 使用一个函数来获取缓存实例
+const getCache = (): CacheStore => {
+  if (typeof window === 'undefined') {
+    // 服务器端：每个请求使用新的缓存
+    return createCache();
+  }
+  
+  // 客户端：使用全局缓存
+  if (!(globalThis as any).__GITHUB_CACHE) {
+    (globalThis as any).__GITHUB_CACHE = createCache();
+  }
+  return (globalThis as any).__GITHUB_CACHE;
 };
 
 // 生成缓存键
@@ -35,7 +50,7 @@ function getCacheKey(page: number, labels?: string): string {
 }
 
 // 检查缓存是否有效
-function isCacheValid(cache: CacheItem<any>, duration: number = CACHE_DURATION) {
+function isCacheValid<T>(cache: CacheItem<T>, duration: number = CACHE_DURATION) {
   return Date.now() - cache.timestamp < duration;
 }
 
@@ -44,10 +59,14 @@ let config: GitHubConfig | null = null;
 export function setGitHubConfig(newConfig: GitHubConfig) {
   config = newConfig;
   // 当配置改变时，清除所有缓存
+  const cache = getCache();
   cache.issues.clear();
   cache.singleIssue.clear();
   cache.labels = null;
-  localStorage.setItem('github-config', JSON.stringify(newConfig));
+  
+  if (typeof window !== 'undefined') {
+    localStorage.setItem('github-config', JSON.stringify(newConfig));
+  }
 }
 
 export const getGitHubConfig = (forApi: boolean = true): GitHubConfig => {
@@ -74,7 +93,7 @@ export const getGitHubConfig = (forApi: boolean = true): GitHubConfig => {
     return config;
   }
 
-  // 最后尝试从 localStorage 读取
+  // 最后尝试从 localStorage 读取（仅在客户端）
   if (typeof window !== 'undefined') {
     const savedConfig = localStorage.getItem('github-config');
     if (savedConfig) {
@@ -95,7 +114,7 @@ export const getGitHubConfig = (forApi: boolean = true): GitHubConfig => {
 
 export async function getIssues(page: number = 1, labels?: string) {
   const cacheKey = getCacheKey(page, labels);
-  const cachedData = cache.issues.get(cacheKey);
+  const cachedData = getCache().issues.get(cacheKey);
 
   if (cachedData && isCacheValid(cachedData)) {
     return cachedData.data;
@@ -117,13 +136,30 @@ export async function getIssues(page: number = 1, labels?: string) {
     labels: labels || undefined
   });
 
+  const issuesData: GitHubIssue[] = data.map(issue => ({
+    number: issue.number,
+    title: issue.title,
+    body: issue.body || null,
+    created_at: issue.created_at,
+    state: issue.state,
+    labels: issue.labels
+      .filter((label): label is { id: number; name: string; color: string; description: string | null } => 
+        typeof label === 'object' && label !== null)
+      .map(label => ({
+        id: label.id,
+        name: label.name,
+        color: label.color,
+        description: label.description,
+      })),
+  }));
+
   // 更新缓存
-  cache.issues.set(cacheKey, {
-    data,
+  getCache().issues.set(cacheKey, {
+    data: issuesData,
     timestamp: Date.now()
   });
 
-  return data;
+  return issuesData;
 }
 
 interface GitHubLabel {
@@ -131,11 +167,6 @@ interface GitHubLabel {
   name: string;
   color: string;
   description: string | null;
-}
-
-interface GitHubCache<T> {
-  data: T;
-  timestamp: number;
 }
 
 interface GitHubIssue {
@@ -149,7 +180,7 @@ interface GitHubIssue {
 
 export async function getIssue(issueNumber: number) {
   // 检查缓存
-  const cachedIssue = cache.singleIssue.get(issueNumber);
+  const cachedIssue = getCache().singleIssue.get(issueNumber);
   if (cachedIssue && isCacheValid(cachedIssue)) {
     return cachedIssue.data;
   }
@@ -171,16 +202,19 @@ export async function getIssue(issueNumber: number) {
     body: data.body || '',
     created_at: data.created_at,
     state: data.state,
-    labels: data.labels.map((label: { id: number; name: string; color: string; description: string | null }) => ({
-      id: label.id,
-      name: label.name,
-      color: label.color,
-      description: label.description,
-    })),
+    labels: data.labels
+      .filter((label): label is { id: number; name: string; color: string; description: string | null } => 
+        typeof label === 'object' && label !== null)
+      .map(label => ({
+        id: label.id,
+        name: label.name,
+        color: label.color,
+        description: label.description,
+      })),
   };
 
   // 更新缓存
-  cache.singleIssue.set(issueNumber, {
+  getCache().singleIssue.set(issueNumber, {
     data: issueData,
     timestamp: Date.now()
   });
@@ -203,7 +237,7 @@ export async function createIssue(title: string, body: string, labels: string[] 
   });
 
   // 清除 issues 列表缓存，因为有新的 issue 创建
-  cache.issues.clear();
+  getCache().issues.clear();
 
   return data;
 }
@@ -224,16 +258,16 @@ export async function updateIssue(issueNumber: number, title: string, body: stri
   });
 
   // 清除相关缓存
-  cache.singleIssue.delete(issueNumber);
-  cache.issues.clear();
+  getCache().singleIssue.delete(issueNumber);
+  getCache().issues.clear();
 
   return data;
 }
 
 export async function getLabels() {
   // 检查标签缓存
-  if (cache.labels && isCacheValid(cache.labels, LABELS_CACHE_DURATION)) {
-    return cache.labels.data;
+  if (getCache().labels && isCacheValid(getCache().labels, LABELS_CACHE_DURATION)) {
+    return getCache().labels.data;
   }
 
   const config = getGitHubConfig();
@@ -247,7 +281,7 @@ export async function getLabels() {
   });
 
   // 更新缓存
-  cache.labels = {
+  getCache().labels = {
     data,
     timestamp: Date.now()
   };
@@ -270,7 +304,7 @@ export async function createLabel(name: string, color: string, description?: str
   });
 
   // 清除标签缓存
-  cache.labels = null;
+  getCache().labels = null;
 
   return data;
 }

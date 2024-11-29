@@ -20,7 +20,7 @@ interface Label {
 interface Issue {
   number: number;
   title: string;
-  body: string;
+  body: string | null;
   created_at: string;
   state: string;
   labels: Label[];
@@ -153,7 +153,7 @@ export default function IssuePage({ params }: { params: Promise<{ number: string
                 components={markdownComponents}
                 className="text-[#24292f] dark:text-[#d1d5db]"
               >
-                {issue.body}
+                {issue.body || ''}
               </ReactMarkdown>
             </div>
           </div>

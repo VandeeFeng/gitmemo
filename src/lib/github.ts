@@ -19,10 +19,7 @@ const LABELS_CACHE_DURATION = 60 * 60 * 1000; // 标签缓存60分钟，因为�
 
 // 声明全局类型
 declare global {
-  // 正确扩展 globalThis
-  interface globalThis {
-    __GITHUB_CACHE: CacheStore | undefined;
-  }
+  var __GITHUB_CACHE: CacheStore | undefined;
 }
 
 // 确保这是一个模块

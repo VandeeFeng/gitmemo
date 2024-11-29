@@ -8,9 +8,8 @@ import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
 import rehypeSanitize from 'rehype-sanitize'
 import { getGitHubConfig } from '@/lib/github';
-import type { Components } from 'react-markdown';
+import { markdownComponents } from './markdown-components';
 import Link from 'next/link';
-import type { ReactNode } from 'react';
 
 interface Label {
   id: number;
@@ -28,24 +27,6 @@ interface Issue {
   labels: Label[];
 }
 
-interface GitHubIssue {
-  number: number;
-  title: string;
-  body: string | null;
-  created_at: string;
-  state: string;
-  labels: {
-    id: number;
-    name: string;
-    color: string;
-    description: string | null;
-  }[];
-}
-
-interface ExpandedIssues {
-  [key: number]: boolean;
-}
-
 export function IssueList({ 
   onSelect,
   selectedLabel,
@@ -57,76 +38,36 @@ export function IssueList({
 }) {
   const [issues, setIssues] = useState<Issue[]>([]);
   const [loading, setLoading] = useState(true);
-  const [expandedIssues, setExpandedIssues] = useState<ExpandedIssues>({});
+  const [expandedIssues, setExpandedIssues] = useState<{[key: number]: boolean}>({});
   const [currentPage, setCurrentPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
   const [loadingMore, setLoadingMore] = useState(false);
 
-  const config = getGitHubConfig(false);
-
-  const components: Components = {
-    p: ({ children, ...props }: { children: ReactNode } & JSX.IntrinsicElements['p']) => {
-      const content = Array.isArray(children) ? children.join('') : children;
-      if (typeof content === 'string') {
-        const parts = content.split(/(#\d+)/g);
-        return (
-          <p {...props}>
-            {parts.map((part, i) => {
-              if (part.match(/^#\d+$/)) {
-                const issueNumber = part.substring(1);
-                return (
-                  <Link
-                    key={i}
-                    href={`/issue/${issueNumber}`}
-                    className="text-[#0969da] dark:text-[#2f81f7] hover:underline"
-                  >
-                    {part}
-                  </Link>
-                );
-              }
-              return part;
-            })}
-          </p>
-        );
-      }
-      return <p {...props}>{children}</p>;
-    }
-  };
-
   useEffect(() => {
     async function fetchIssues() {
-      const data = await getIssues();
-      const transformedIssues: Issue[] = (data as GitHubIssue[]).map(issue => ({
-        number: issue.number,
-        title: issue.title,
-        body: issue.body || '',
-        created_at: issue.created_at,
-        state: issue.state,
-        labels: issue.labels,
-      }));
-      setIssues(transformedIssues);
-      setHasMore(transformedIssues.length === 10);
-      setLoading(false);
+      setLoading(true);
+      try {
+        const data = await getIssues(1, selectedLabel || undefined);
+        setIssues(data);
+        setHasMore(data.length === 10);
+        setCurrentPage(1);
+      } catch (error) {
+        console.error('Error fetching issues:', error);
+      } finally {
+        setLoading(false);
+      }
     }
     fetchIssues();
-  }, []);
+  }, [selectedLabel]);
 
   const loadMore = async () => {
     setLoadingMore(true);
     try {
       const nextPage = currentPage + 1;
-      const data = await getIssues(nextPage);
-      const transformedIssues: Issue[] = (data as GitHubIssue[]).map(issue => ({
-        number: issue.number,
-        title: issue.title,
-        body: issue.body || '',
-        created_at: issue.created_at,
-        state: issue.state,
-        labels: issue.labels,
-      }));
-      setIssues(prev => [...prev, ...transformedIssues]);
+      const data = await getIssues(nextPage, selectedLabel || undefined);
+      setIssues(prev => [...prev, ...data]);
       setCurrentPage(nextPage);
-      setHasMore(transformedIssues.filter(issue => !selectedLabel || issue.labels.some(label => label.name === selectedLabel)).length === 10);
+      setHasMore(data.length === 10);
     } catch (error) {
       console.error('Error loading more issues:', error);
     } finally {
@@ -200,8 +141,10 @@ export function IssueList({
                         {issue.labels.map((label) => (
                           <span
                             key={label.id}
-                            className={`inline-flex items-center px-2 py-0.5 text-xs font-medium rounded-full cursor-pointer hover:opacity-80 transition-opacity ${
-                              selectedLabel === label.name ? 'ring-2 ring-offset-2 ring-[#0969da] dark:ring-[#2f81f7]' : ''
+                            className={`inline-flex items-center px-2 py-0.5 text-xs font-medium rounded-full cursor-pointer transition-all ${
+                              selectedLabel === label.name 
+                                ? 'outline outline-2 outline-offset-1 outline-[#0969da] dark:outline-[#2f81f7]' 
+                                : 'hover:opacity-80'
                             }`}
                             style={{
                               backgroundColor: `#${label.color}20`,
@@ -285,7 +228,7 @@ export function IssueList({
                         <ReactMarkdown
                           remarkPlugins={[remarkGfm]}
                           rehypePlugins={[rehypeRaw, rehypeSanitize]}
-                          components={components}
+                          components={markdownComponents}
                           className="text-[#24292f] dark:text-[#d1d5db] 
                             [&_h1]:!text-[#24292f] [&_h2]:!text-[#24292f] [&_h3]:!text-[#24292f] 
                             dark:[&_h1]:!text-[#adbac7] dark:[&_h2]:!text-[#adbac7] dark:[&_h3]:!text-[#adbac7] 

@@ -9,7 +9,7 @@ import rehypeSanitize from 'rehype-sanitize';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
-import type { Components } from 'react-markdown';
+import { markdownComponents } from '@/components/markdown-components';
 
 interface Label {
   id: number;
@@ -46,34 +46,6 @@ export default function IssuePage({ params }: { params: Promise<{ number: string
     }
     fetchIssue();
   }, [resolvedParams.number]);
-
-  const components: Components = {
-    p: ({ children, ...props }) => {
-      if (typeof children === 'string') {
-        const parts = children.split(/(#\d+)/g);
-        return (
-          <p {...props}>
-            {parts.map((part, i) => {
-              if (part.match(/^#\d+$/)) {
-                const issueNumber = part.substring(1);
-                return (
-                  <Link
-                    key={i}
-                    href={`/issue/${issueNumber}`}
-                    className="text-[#0969da] dark:text-[#2f81f7] hover:underline"
-                  >
-                    {part}
-                  </Link>
-                );
-              }
-              return part;
-            })}
-          </p>
-        );
-      }
-      return <p {...props}>{children}</p>;
-    }
-  };
 
   if (loading) {
     return (
@@ -179,7 +151,7 @@ export default function IssuePage({ params }: { params: Promise<{ number: string
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeRaw, rehypeSanitize]}
-                components={components}
+                components={markdownComponents}
                 className="text-[#24292f] dark:text-[#d1d5db] 
                   [&_h1]:!text-[#24292f] [&_h2]:!text-[#24292f] [&_h3]:!text-[#24292f] 
                   dark:[&_h1]:!text-[#adbac7] dark:[&_h2]:!text-[#adbac7] dark:[&_h3]:!text-[#adbac7] 

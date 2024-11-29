@@ -30,8 +30,8 @@ const cache: CacheStore = {
 };
 
 // 生成缓存键
-function getCacheKey(page?: number, state?: string) {
-  return `${page || 1}-${state || 'all'}`;
+function getCacheKey(page: number, labels?: string): string {
+  return `${page}-${labels || 'all'}`;
 }
 
 // 检查缓存是否有效
@@ -93,8 +93,8 @@ export const getGitHubConfig = (forApi: boolean = true): GitHubConfig => {
   };
 };
 
-export async function getIssues(page: number = 1) {
-  const cacheKey = getCacheKey(page);
+export async function getIssues(page: number = 1, labels?: string) {
+  const cacheKey = getCacheKey(page, labels);
   const cachedData = cache.issues.get(cacheKey);
 
   if (cachedData && isCacheValid(cachedData)) {
@@ -113,7 +113,8 @@ export async function getIssues(page: number = 1) {
     per_page: config.issuesPerPage,
     page,
     sort: 'created',
-    direction: 'desc'
+    direction: 'desc',
+    labels: labels ? [labels] : undefined
   });
 
   // 更新缓存

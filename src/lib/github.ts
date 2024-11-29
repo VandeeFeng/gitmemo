@@ -114,7 +114,7 @@ export async function getIssues(page: number = 1, labels?: string) {
     page,
     sort: 'created',
     direction: 'desc',
-    labels: labels ? [labels] : undefined
+    labels: labels || undefined
   });
 
   // 更新缓存

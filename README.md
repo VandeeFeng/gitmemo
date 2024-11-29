@@ -9,7 +9,7 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
-- [翻到了以前的《易经》典藏版](https://github.com/VandeeFeng/gitmemo/issues/15)--2024-11-29
+- [翻到了以前的《周易》典藏版](https://github.com/VandeeFeng/gitmemo/issues/15)--2024-11-29
 - [糊了个页面来配合 gitmemo](https://github.com/VandeeFeng/gitmemo/issues/14)--2024-11-28
 - [糊了个 Dream Journal 来记录梦境](https://github.com/VandeeFeng/gitmemo/issues/13)--2024-11-26
 - [Nothing About Me](https://github.com/VandeeFeng/gitmemo/issues/12)--2024-11-26

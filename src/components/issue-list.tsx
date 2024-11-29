@@ -20,7 +20,7 @@ interface Label {
 interface Issue {
   number: number;
   title: string;
-  body: string;
+  body: string | null;
   created_at: string;
   state: string;
   labels: Label[];
@@ -219,7 +219,7 @@ export function IssueList({
                     <div className="relative">
                       <div 
                         className={`origin-top overflow-hidden transition-all duration-500 ease-in-out ${
-                          !expandedIssues[issue.number] && issue.body.length > 300 
+                          !expandedIssues[issue.number] && (issue.body?.length ?? 0) > 300 
                             ? 'max-h-[300px]' 
                             : 'max-h-[10000px]'
                         }`}
@@ -231,15 +231,15 @@ export function IssueList({
                             components={markdownComponents}
                             className="text-[#24292f] dark:text-[#adbac7]"
                           >
-                            {issue.body}
+                            {issue.body || ''}
                           </ReactMarkdown>
                         </div>
                       </div>
-                      {!expandedIssues[issue.number] && issue.body.length > 300 && (
+                      {!expandedIssues[issue.number] && (issue.body?.length ?? 0) > 300 && (
                         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white dark:from-[#22272e] to-transparent opacity-100 transition-all duration-500" />
                       )}
                     </div>
-                    {issue.body.length > 300 && (
+                    {(issue.body?.length ?? 0) > 300 && (
                       <button
                         onClick={(e) => toggleExpand(e, issue.number)}
                         className="mt-2 text-xs font-semibold text-[#0969da] dark:text-[#2f81f7] hover:text-[#0969da]/90 dark:hover:text-[#2f81f7]/90 relative z-10"

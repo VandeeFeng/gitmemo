@@ -3,8 +3,10 @@
 import { useEffect, useState } from 'react';
 import { getIssues } from '@/lib/github';
 import { Button } from './ui/button';
-import MDEditor from '@uiw/react-md-editor';
-import rehypeSanitize from 'rehype-sanitize';
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'
+import rehypeSanitize from 'rehype-sanitize'
 
 interface Label {
   id: number;
@@ -240,14 +242,9 @@ export function IssueList({
                             : 'max-h-[10000px]'
                         }`}
                       >
-                        <MDEditor.Markdown 
-                          source={issue.body}
-                          rehypePlugins={[[rehypeSanitize]]}
-                          style={{
-                            backgroundColor: 'transparent',
-                            color: 'var(--color-fg-default, #24292f)',
-                            fontSize: 'inherit',
-                          }}
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm]}
+                          rehypePlugins={[rehypeRaw, rehypeSanitize]}
                           className="text-[#24292f] dark:text-[#d1d5db] 
                             [&_h1]:!text-[#24292f] [&_h2]:!text-[#24292f] [&_h3]:!text-[#24292f] 
                             dark:[&_h1]:!text-[#adbac7] dark:[&_h2]:!text-[#adbac7] dark:[&_h3]:!text-[#adbac7] 
@@ -271,7 +268,9 @@ export function IssueList({
                             [&_ul_ul]:!mt-0 [&_ul_ul]:!mb-0
                             [&_ol_ol]:!mt-0 [&_ol_ol]:!mb-0
                             [&_li]:marker:text-[#57606a] dark:[&_li]:marker:text-[#768390]"
-                        />
+                        >
+                          {issue.body}
+                        </ReactMarkdown>
                       </div>
                       {!expandedIssues[issue.number] && issue.body.length > 300 && (
                         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white dark:from-[#22272e] to-transparent opacity-100 transition-all duration-500" />

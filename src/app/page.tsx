@@ -8,7 +8,13 @@ import { useTheme } from "next-themes";
 import { setGitHubConfig, getGitHubConfig } from '@/lib/github';
 import { LabelFilter } from '@/components/label-filter';
 import Link from 'next/link';
-import { Issue, GitHubConfig } from '@/types/github';
+import { Issue, GitHubConfig, EditableIssue } from '@/types/github';
+
+// 将 Issue 转换为 EditableIssue
+const toEditableIssue = (issue: Issue): EditableIssue => ({
+  ...issue,
+  body: issue.body || ''
+});
 
 export default function Home() {
   const [selectedIssue, setSelectedIssue] = useState<Issue | null>(null);
@@ -204,7 +210,7 @@ export default function Home() {
             {isEditing ? (
               <div className="animate-fade-in">
                 <IssueEditor
-                  issue={selectedIssue || undefined}
+                  issue={selectedIssue ? toEditableIssue(selectedIssue) : undefined}
                   onSave={handleEditComplete}
                   onCancel={() => setIsEditing(false)}
                 />

@@ -14,8 +14,8 @@ interface CacheStore {
 }
 
 // 缓存配置
-const CACHE_DURATION = 15 * 60 * 1000; // 15分钟缓存
-const LABELS_CACHE_DURATION = 60 * 60 * 1000; // 标签缓存60分钟，因为变动较少
+const CACHE_DURATION = 60 * 60 * 1000; // 1小时缓存
+const LABELS_CACHE_DURATION = 60 * 60 * 1000; // 标签缓存也设为1小时
 
 // 声明全局类型
 declare global {
@@ -169,12 +169,30 @@ export async function getIssues(page: number = 1, labels?: string) {
 }
 
 export async function getIssue(issueNumber: number) {
-  // 检查缓存
-  const cachedIssue = getCache().singleIssue.get(issueNumber);
+  const cache = getCache();
+  
+  // 先检查单个issue缓存
+  const cachedIssue = cache.singleIssue.get(issueNumber);
   if (cachedIssue && isCacheValid(cachedIssue)) {
     return cachedIssue.data;
   }
 
+  // 尝试从列表缓存中查找
+  for (const [, cachedData] of cache.issues) {
+    if (isCacheValid(cachedData)) {
+      const issueFromList = cachedData.data.find(issue => issue.number === issueNumber);
+      if (issueFromList) {
+        // 找到后，同时更新单个issue缓存
+        cache.singleIssue.set(issueNumber, {
+          data: issueFromList,
+          timestamp: Date.now()
+        });
+        return issueFromList;
+      }
+    }
+  }
+
+  // 如果缓存中都没有，则调用API获取
   const config = getGitHubConfig();
   const octokit = new Octokit({
     auth: config.token
@@ -204,7 +222,7 @@ export async function getIssue(issueNumber: number) {
   };
 
   // 更新缓存
-  getCache().singleIssue.set(issueNumber, {
+  cache.singleIssue.set(issueNumber, {
     data: issueData,
     timestamp: Date.now()
   });

@@ -40,7 +40,7 @@ GIt Memo 是一个基于 GitHub Issues 的笔记应用，它提供了一个简�
 
 1. 克隆仓库：
    ```bash
-   git clone --branch mp --single-branch https://github.com/vandeefeng/gitmemo.git
+   git clone --branch mp --single-branch git@github.com:VandeeFeng/gitmemo.git
    cd gitmemo
    ```
 

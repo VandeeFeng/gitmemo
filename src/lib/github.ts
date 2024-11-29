@@ -19,7 +19,7 @@ const LABELS_CACHE_DURATION = 60 * 60 * 1000; // 标签缓存60分钟，因为�
 
 // 声明全局类型
 declare global {
-  var __GITHUB_CACHE: CacheStore | undefined;
+  let __GITHUB_CACHE: CacheStore | undefined;
 }
 
 // 创建一个在客户端和服务器端都可用的缓存存储

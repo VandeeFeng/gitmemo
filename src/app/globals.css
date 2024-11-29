@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 防止主题闪烁 */
-html {
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.4s ease;
+/* 主题切换过渡效果 */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
 }
 
 @layer base {
@@ -72,7 +72,7 @@ html {
     --ring: 212.7 26.8% 83.9%;
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;

@@ -27,14 +27,16 @@ export default function RootLayout({
         />
         <style>{`
           /* 防止主题闪烁 */
-          html {
-            visibility: visible;
-            opacity: 1;
+          :root {
+            color-scheme: light;
+          }
+          [data-theme="dark"] {
+            color-scheme: dark;
           }
         `}</style>
       </head>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <main className="min-h-screen bg-background">
             {children}
           </main>

@@ -19,8 +19,14 @@ const LABELS_CACHE_DURATION = 60 * 60 * 1000; // 标签缓存60分钟，因为�
 
 // 声明全局类型
 declare global {
-  let __GITHUB_CACHE: CacheStore | undefined;
+  // 扩展 globalThis 接口
+  interface Global {
+    __GITHUB_CACHE: CacheStore | undefined;
+  }
 }
+
+// 确保 TypeScript 知道 globalThis 上有这个属性
+export {};
 
 // 创建一个在客户端和服务器端都可用的缓存存储
 const createCache = (): CacheStore => ({
@@ -37,7 +43,7 @@ const getCache = (): CacheStore => {
   }
   
   // 客户端：使用全局缓存
-  if (typeof globalThis.__GITHUB_CACHE === 'undefined') {
+  if (!globalThis.__GITHUB_CACHE) {
     globalThis.__GITHUB_CACHE = createCache();
   }
   return globalThis.__GITHUB_CACHE;

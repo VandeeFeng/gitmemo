@@ -5,23 +5,10 @@ import MDEditor from '@uiw/react-md-editor';
 import { Button } from './ui/button';
 import { createIssue, updateIssue, getLabels, createLabel, getGitHubConfig } from '@/lib/github';
 import { useTheme } from 'next-themes';
-
-interface Label {
-  id: number;
-  name: string;
-  color: string;
-  description: string | null;
-}
-
-interface Issue {
-  number?: number;
-  title: string;
-  body: string;
-  labels?: Label[];
-}
+import { Label, EditableIssue } from '@/types/github';
 
 interface IssueEditorProps {
-  issue?: Issue;
+  issue?: EditableIssue;
   onSave: () => void;
   onCancel: () => void;
 }

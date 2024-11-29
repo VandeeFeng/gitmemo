@@ -1,11 +1,5 @@
 import { Octokit } from "octokit";
-
-interface GitHubConfig {
-  owner: string;
-  repo: string;
-  token: string;
-  issuesPerPage: number;
-}
+import { GitHubConfig, Issue as GitHubIssue, Label as GitHubLabel } from '@/types/github';
 
 // 缓存接口
 interface CacheItem<T> {
@@ -160,22 +154,6 @@ export async function getIssues(page: number = 1, labels?: string) {
   });
 
   return issuesData;
-}
-
-interface GitHubLabel {
-  id: number;
-  name: string;
-  color: string;
-  description: string | null;
-}
-
-interface GitHubIssue {
-  number: number;
-  title: string;
-  body: string | null;
-  created_at: string;
-  state: string;
-  labels: GitHubLabel[];
 }
 
 export async function getIssue(issueNumber: number) {

@@ -67,7 +67,7 @@ export default function IssuePage({ params }: { params: Promise<{ number: string
               Issue not found
             </h2>
             <p className="text-[#57606a] dark:text-[#768390] mb-4">
-              The issue you're looking for doesn't exist or you don't have access to it.
+              The issue you&apos;re looking for doesn&apos;t exist or you don&apos;t have access to it.
             </p>
             <Button
               onClick={() => router.push('/')}

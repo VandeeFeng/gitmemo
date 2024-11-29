@@ -14,9 +14,9 @@ interface CacheItem<T> {
 }
 
 interface CacheStore {
-  issues: Map<string, CacheItem<any>>;
-  singleIssue: Map<number, CacheItem<any>>;
-  labels: CacheItem<any[]> | null;
+  issues: Map<string, CacheItem<GitHubIssue[]>>;
+  singleIssue: Map<number, CacheItem<GitHubIssue>>;
+  labels: CacheItem<GitHubLabel[]> | null;
 }
 
 // 缓存配置
@@ -165,13 +165,13 @@ export async function getIssue(issueNumber: number) {
     issue_number: issueNumber
   });
 
-  const issueData = {
+  const issueData: GitHubIssue = {
     number: data.number,
     title: data.title,
     body: data.body || '',
     created_at: data.created_at,
     state: data.state,
-    labels: data.labels.map((label: GitHubLabel) => ({
+    labels: data.labels.map((label: { id: number; name: string; color: string; description: string | null }) => ({
       id: label.id,
       name: label.name,
       color: label.color,

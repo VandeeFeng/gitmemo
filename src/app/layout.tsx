@@ -25,9 +25,16 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://unpkg.com/@uiw/react-md-editor@3.6.0/dist/mdeditor.min.css"
         />
+        <style>{`
+          /* 防止主题闪烁 */
+          html {
+            visibility: visible;
+            opacity: 1;
+          }
+        `}</style>
       </head>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <main className="min-h-screen bg-background">
             {children}
           </main>

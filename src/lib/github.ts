@@ -38,10 +38,10 @@ const getCache = (): CacheStore => {
   }
   
   // 客户端：使用全局缓存
-  if (!(globalThis as any).__GITHUB_CACHE) {
-    (globalThis as any).__GITHUB_CACHE = createCache();
+  if (!('__GITHUB_CACHE' in globalThis)) {
+    (globalThis as { __GITHUB_CACHE?: CacheStore }).__GITHUB_CACHE = createCache();
   }
-  return (globalThis as any).__GITHUB_CACHE;
+  return (globalThis as { __GITHUB_CACHE: CacheStore }).__GITHUB_CACHE;
 };
 
 // 生成缓存键
@@ -265,9 +265,10 @@ export async function updateIssue(issueNumber: number, title: string, body: stri
 }
 
 export async function getLabels() {
+  const cache = getCache();
   // 检查标签缓存
-  if (getCache().labels && isCacheValid(getCache().labels, LABELS_CACHE_DURATION)) {
-    return getCache().labels.data;
+  if (cache.labels && isCacheValid(cache.labels, LABELS_CACHE_DURATION)) {
+    return cache.labels.data;
   }
 
   const config = getGitHubConfig();

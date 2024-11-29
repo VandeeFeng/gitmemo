@@ -126,6 +126,27 @@ export async function getIssues(page: number = 1, labels?: string) {
   return data;
 }
 
+interface GitHubLabel {
+  id: number;
+  name: string;
+  color: string;
+  description: string | null;
+}
+
+interface GitHubCache<T> {
+  data: T;
+  timestamp: number;
+}
+
+interface GitHubIssue {
+  number: number;
+  title: string;
+  body: string | null;
+  created_at: string;
+  state: string;
+  labels: GitHubLabel[];
+}
+
 export async function getIssue(issueNumber: number) {
   // 检查缓存
   const cachedIssue = cache.singleIssue.get(issueNumber);
@@ -150,7 +171,7 @@ export async function getIssue(issueNumber: number) {
     body: data.body || '',
     created_at: data.created_at,
     state: data.state,
-    labels: data.labels.map((label: any) => ({
+    labels: data.labels.map((label: GitHubLabel) => ({
       id: label.id,
       name: label.name,
       color: label.color,

@@ -212,7 +212,7 @@ export function IssueList({
               <div className="border-t border-gray-200 dark:border-[#373e47]">
                 <div className="px-6 py-3">
                   <div 
-                    className="prose prose-sm dark:prose-invert max-w-none relative"
+                    className="prose dark:prose-invert max-w-none relative"
                     data-color-mode="dark"
                     data-dark-theme="dark_dimmed"
                   >
@@ -224,14 +224,16 @@ export function IssueList({
                             : 'max-h-[10000px]'
                         }`}
                       >
-                        <ReactMarkdown
-                          remarkPlugins={[remarkGfm]}
-                          rehypePlugins={[rehypeRaw, rehypeSanitize]}
-                          components={markdownComponents}
-                          className="text-[#24292f] dark:text-[#adbac7] [&_p]:my-4 [&_ul]:pl-5 [&_ol]:pl-5 [&_ul]:my-4 [&_ol]:my-4 [&_li]:my-1 [&_pre]:bg-[#f6f8fa] dark:[&_pre]:bg-[#2d333b] [&_pre]:p-4 [&_pre]:rounded-lg [&_pre]:my-4"
-                        >
-                          {issue.body}
-                        </ReactMarkdown>
+                        <div className="prose dark:prose-invert max-w-none prose-pre:bg-[#f6f8fa] dark:prose-pre:bg-[#2d333b] prose-pre:p-4 prose-pre:rounded-lg prose-pre:my-4 prose-code:text-[#24292f] dark:prose-code:text-[#adbac7] prose-code:before:content-none prose-code:after:content-none prose-p:leading-relaxed">
+                          <ReactMarkdown
+                            remarkPlugins={[remarkGfm]}
+                            rehypePlugins={[rehypeRaw, rehypeSanitize]}
+                            components={markdownComponents}
+                            className="text-[#24292f] dark:text-[#adbac7]"
+                          >
+                            {issue.body}
+                          </ReactMarkdown>
+                        </div>
                       </div>
                       {!expandedIssues[issue.number] && issue.body.length > 300 && (
                         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white dark:from-[#22272e] to-transparent opacity-100 transition-all duration-500" />

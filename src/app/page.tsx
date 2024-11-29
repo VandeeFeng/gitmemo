@@ -8,29 +8,7 @@ import { useTheme } from "next-themes";
 import { setGitHubConfig, getGitHubConfig } from '@/lib/github';
 import { LabelFilter } from '@/components/label-filter';
 import Link from 'next/link';
-
-interface Label {
-  id: number;
-  name: string;
-  color: string;
-  description: string | null;
-}
-
-interface Issue {
-  number: number;
-  title: string;
-  body: string;
-  created_at: string;
-  state: string;
-  labels: Label[];
-}
-
-interface GitHubConfig {
-  owner: string;
-  repo: string;
-  token: string;
-  issuesPerPage: number;
-}
+import { Issue, GitHubConfig } from '@/types/github';
 
 export default function Home() {
   const [selectedIssue, setSelectedIssue] = useState<Issue | null>(null);

@@ -9,22 +9,7 @@ import rehypeSanitize from 'rehype-sanitize';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { markdownComponents } from '@/components/markdown-components';
-
-interface Label {
-  id: number;
-  name: string;
-  color: string;
-  description: string | null;
-}
-
-interface Issue {
-  number: number;
-  title: string;
-  body: string | null;
-  created_at: string;
-  state: string;
-  labels: Label[];
-}
+import { Issue } from '@/types/github';
 
 export default function IssuePage({ params }: { params: Promise<{ number: string }> }) {
   const resolvedParams = use(params);

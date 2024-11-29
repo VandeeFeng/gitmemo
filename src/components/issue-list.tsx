@@ -9,22 +9,7 @@ import rehypeRaw from 'rehype-raw'
 import rehypeSanitize from 'rehype-sanitize'
 import { markdownComponents } from './markdown-components';
 import Link from 'next/link';
-
-interface Label {
-  id: number;
-  name: string;
-  color: string;
-  description: string | null;
-}
-
-interface Issue {
-  number: number;
-  title: string;
-  body: string | null;
-  created_at: string;
-  state: string;
-  labels: Label[];
-}
+import { Issue } from '@/types/github';
 
 export function IssueList({ 
   onSelect,

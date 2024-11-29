@@ -19,7 +19,9 @@ const LABELS_CACHE_DURATION = 60 * 60 * 1000; // 标签缓存60分钟，因为�
 
 // 声明全局类型
 declare global {
-  var __GITHUB_CACHE: CacheStore | undefined;
+  interface Window {
+    __GITHUB_CACHE: CacheStore | undefined;
+  }
 }
 
 // 确保这是一个模块
@@ -40,10 +42,10 @@ const getCache = (): CacheStore => {
   }
   
   // 客户端：使用全局缓存
-  if (!globalThis.__GITHUB_CACHE) {
-    globalThis.__GITHUB_CACHE = createCache();
+  if (!window.__GITHUB_CACHE) {
+    window.__GITHUB_CACHE = createCache();
   }
-  return globalThis.__GITHUB_CACHE || createCache();
+  return window.__GITHUB_CACHE || createCache();
 };
 
 // 生成缓存键

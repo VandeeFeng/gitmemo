@@ -7,6 +7,10 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
 import rehypeSanitize from 'rehype-sanitize'
+import { getGitHubConfig } from '@/lib/github';
+import type { Components } from 'react-markdown';
+import Link from 'next/link';
+import type { ReactNode } from 'react';
 
 interface Label {
   id: number;
@@ -57,6 +61,37 @@ export function IssueList({
   const [currentPage, setCurrentPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
   const [loadingMore, setLoadingMore] = useState(false);
+
+  const config = getGitHubConfig(false);
+
+  const components: Components = {
+    p: ({ children, ...props }: { children: ReactNode } & JSX.IntrinsicElements['p']) => {
+      const content = Array.isArray(children) ? children.join('') : children;
+      if (typeof content === 'string') {
+        const parts = content.split(/(#\d+)/g);
+        return (
+          <p {...props}>
+            {parts.map((part, i) => {
+              if (part.match(/^#\d+$/)) {
+                const issueNumber = part.substring(1);
+                return (
+                  <Link
+                    key={i}
+                    href={`/issue/${issueNumber}`}
+                    className="text-[#0969da] dark:text-[#2f81f7] hover:underline"
+                  >
+                    {part}
+                  </Link>
+                );
+              }
+              return part;
+            })}
+          </p>
+        );
+      }
+      return <p {...props}>{children}</p>;
+    }
+  };
 
   useEffect(() => {
     async function fetchIssues() {
@@ -153,7 +188,12 @@ export function IssueList({
                 <div className="flex items-start justify-between">
                   <div className="space-y-1 flex-1 min-w-0 pr-4">
                     <h3 className="font-semibold text-[#24292f] dark:text-[#adbac7] truncate">
-                      {issue.title}
+                      <Link
+                        href={`/issue/${issue.number}`}
+                        className="hover:text-[#0969da] dark:hover:text-[#2f81f7] transition-colors"
+                      >
+                        {issue.title}
+                      </Link>
                     </h3>
                     {issue.labels.length > 0 && (
                       <div className="flex flex-wrap gap-1.5">
@@ -245,6 +285,7 @@ export function IssueList({
                         <ReactMarkdown
                           remarkPlugins={[remarkGfm]}
                           rehypePlugins={[rehypeRaw, rehypeSanitize]}
+                          components={components}
                           className="text-[#24292f] dark:text-[#d1d5db] 
                             [&_h1]:!text-[#24292f] [&_h2]:!text-[#24292f] [&_h3]:!text-[#24292f] 
                             dark:[&_h1]:!text-[#adbac7] dark:[&_h2]:!text-[#adbac7] dark:[&_h3]:!text-[#adbac7] 

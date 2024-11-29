@@ -7,31 +7,47 @@ interface GitHubConfig {
   issuesPerPage: number;
 }
 
+// 缓存接口
+interface CacheItem<T> {
+  data: T;
+  timestamp: number;
+}
+
+interface CacheStore {
+  issues: Map<string, CacheItem<any>>;
+  singleIssue: Map<number, CacheItem<any>>;
+  labels: CacheItem<any[]> | null;
+}
+
+// 缓存配置
+const CACHE_DURATION = 5 * 60 * 1000; // 5分钟缓存
+const LABELS_CACHE_DURATION = 30 * 60 * 1000; // 标签缓存30分钟，因为变动较少
+
+const cache: CacheStore = {
+  issues: new Map(),
+  singleIssue: new Map(),
+  labels: null,
+};
+
+// 生成缓存键
+function getCacheKey(page?: number, state?: string) {
+  return `${page || 1}-${state || 'all'}`;
+}
+
+// 检查缓存是否有效
+function isCacheValid(cache: CacheItem<any>, duration: number = CACHE_DURATION) {
+  return Date.now() - cache.timestamp < duration;
+}
+
 let config: GitHubConfig | null = null;
 
 export function setGitHubConfig(newConfig: GitHubConfig) {
   config = newConfig;
+  // 当配置改变时，清除所有缓存
+  cache.issues.clear();
+  cache.singleIssue.clear();
+  cache.labels = null;
   localStorage.setItem('github-config', JSON.stringify(newConfig));
-}
-
-export async function getIssues(page: number = 1) {
-  const config = getGitHubConfig();
-
-  const octokit = new Octokit({
-    auth: config.token
-  });
-
-  const { data } = await octokit.rest.issues.listForRepo({
-    owner: config.owner,
-    repo: config.repo,
-    state: 'all',
-    per_page: config.issuesPerPage,
-    page,
-    sort: 'created',
-    direction: 'desc'
-  });
-
-  return data;
 }
 
 export const getGitHubConfig = (forApi: boolean = true): GitHubConfig => {
@@ -77,88 +93,167 @@ export const getGitHubConfig = (forApi: boolean = true): GitHubConfig => {
   };
 };
 
-export const fetchGitHubAPI = async (endpoint: string, options: RequestInit = {}) => {
+export async function getIssues(page: number = 1) {
+  const cacheKey = getCacheKey(page);
+  const cachedData = cache.issues.get(cacheKey);
+
+  if (cachedData && isCacheValid(cachedData)) {
+    return cachedData.data;
+  }
+
   const config = getGitHubConfig();
-  
-  const response = await fetch(`https://api.github.com${endpoint}`, {
-    ...options,
-    headers: {
-      'Accept': 'application/vnd.github.v3+json',
-      'Authorization': `token ${config.token}`,
-      ...options.headers,
-    },
+  const octokit = new Octokit({
+    auth: config.token
   });
 
-  if (!response.ok) {
-    throw new Error(`GitHub API error: ${response.statusText}`);
+  const { data } = await octokit.rest.issues.listForRepo({
+    owner: config.owner,
+    repo: config.repo,
+    state: 'all',
+    per_page: config.issuesPerPage,
+    page,
+    sort: 'created',
+    direction: 'desc'
+  });
+
+  // 更新缓存
+  cache.issues.set(cacheKey, {
+    data,
+    timestamp: Date.now()
+  });
+
+  return data;
+}
+
+export async function getIssue(issueNumber: number) {
+  // 检查缓存
+  const cachedIssue = cache.singleIssue.get(issueNumber);
+  if (cachedIssue && isCacheValid(cachedIssue)) {
+    return cachedIssue.data;
   }
 
-  return response.json();
-};
+  const config = getGitHubConfig();
+  const octokit = new Octokit({
+    auth: config.token
+  });
 
-export const octokit = new Octokit({
-  auth: getGitHubConfig().token,
-});
+  const { data } = await octokit.rest.issues.get({
+    owner: config.owner,
+    repo: config.repo,
+    issue_number: issueNumber
+  });
+
+  const issueData = {
+    number: data.number,
+    title: data.title,
+    body: data.body || '',
+    created_at: data.created_at,
+    state: data.state,
+    labels: data.labels.map((label: any) => ({
+      id: label.id,
+      name: label.name,
+      color: label.color,
+      description: label.description,
+    })),
+  };
+
+  // 更新缓存
+  cache.singleIssue.set(issueNumber, {
+    data: issueData,
+    timestamp: Date.now()
+  });
+
+  return issueData;
+}
 
 export async function createIssue(title: string, body: string, labels: string[] = []) {
-  try {
-    const response = await octokit.rest.issues.create({
-      owner: getGitHubConfig().owner,
-      repo: getGitHubConfig().repo,
-      title,
-      body,
-      labels,
-    });
-    return response.data;
-  } catch (error) {
-    console.error("Error creating issue:", error);
-    throw error;
-  }
+  const config = getGitHubConfig();
+  const octokit = new Octokit({
+    auth: config.token
+  });
+
+  const { data } = await octokit.rest.issues.create({
+    owner: config.owner,
+    repo: config.repo,
+    title,
+    body,
+    labels
+  });
+
+  // 清除 issues 列表缓存，因为有新的 issue 创建
+  cache.issues.clear();
+
+  return data;
 }
 
 export async function updateIssue(issueNumber: number, title: string, body: string, labels: string[] = []) {
-  try {
-    const response = await octokit.rest.issues.update({
-      owner: getGitHubConfig().owner,
-      repo: getGitHubConfig().repo,
-      issue_number: issueNumber,
-      title,
-      body,
-      labels,
-    });
-    return response.data;
-  } catch (error) {
-    console.error("Error updating issue:", error);
-    throw error;
-  }
+  const config = getGitHubConfig();
+  const octokit = new Octokit({
+    auth: config.token
+  });
+
+  const { data } = await octokit.rest.issues.update({
+    owner: config.owner,
+    repo: config.repo,
+    issue_number: issueNumber,
+    title,
+    body,
+    labels
+  });
+
+  // 清除相关缓存
+  cache.singleIssue.delete(issueNumber);
+  cache.issues.clear();
+
+  return data;
 }
 
 export async function getLabels() {
-  try {
-    const response = await octokit.rest.issues.listLabelsForRepo({
-      owner: getGitHubConfig().owner,
-      repo: getGitHubConfig().repo,
-      per_page: 100,
-    });
-    return response.data;
-  } catch (error) {
-    console.error("Error fetching labels:", error);
-    throw error;
+  // 检查标签缓存
+  if (cache.labels && isCacheValid(cache.labels, LABELS_CACHE_DURATION)) {
+    return cache.labels.data;
   }
+
+  const config = getGitHubConfig();
+  const octokit = new Octokit({
+    auth: config.token
+  });
+
+  const { data } = await octokit.rest.issues.listLabelsForRepo({
+    owner: config.owner,
+    repo: config.repo,
+  });
+
+  // 更新缓存
+  cache.labels = {
+    data,
+    timestamp: Date.now()
+  };
+
+  return data;
 }
 
 export async function createLabel(name: string, color: string, description?: string) {
-  try {
-    const response = await octokit.rest.issues.createLabel({
-      owner: getGitHubConfig().owner,
-      repo: getGitHubConfig().repo,
-      name,
-      color: color.replace('#', ''),
-      description,
-    });
-    return response.data;
-  } catch (error) {
-    console.error("Error creating label:", error);
-    throw error;
-  }
-} 
+  const config = getGitHubConfig();
+  const octokit = new Octokit({
+    auth: config.token
+  });
+
+  const { data } = await octokit.rest.issues.createLabel({
+    owner: config.owner,
+    repo: config.repo,
+    name,
+    color,
+    description
+  });
+
+  // 清除标签缓存
+  cache.labels = null;
+
+  return data;
+}
+
+// 创建一个全局的 Octokit 实例
+export const octokit = new Octokit({
+  auth: getGitHubConfig().token,
+});

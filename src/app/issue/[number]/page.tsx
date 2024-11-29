@@ -83,7 +83,7 @@ export default function IssuePage({ params }: { params: Promise<{ number: string
         <div className="bg-white dark:bg-[#2d333b] border border-gray-200 dark:border-[#373e47] rounded-lg shadow-sm">
           <div className="p-6">
             <div className="flex items-center justify-between mb-4">
-              <h1 className="text-2xl font-semibold text-[#24292f] dark:text-[#adbac7]">
+              <h1 className="text-2xl font-bold text-[#24292f] dark:text-[#adbac7]">
                 {issue.title}
               </h1>
               <div className="flex items-center gap-2">

@@ -45,26 +45,7 @@ export const markdownComponents: Components = {
       </a>
     );
   },
-  code: ({ inline, className, children, ...props }: CodeComponentProps) => {
-    if (inline) {
-      return (
-        <code
-          className="px-[6px] py-[2px] rounded-[6px] bg-[#f6f8fa] dark:bg-[#2d333b] text-[#24292f] dark:text-[#adbac7] text-[85%] font-mono break-word"
-          {...props}
-        >
-          {children}
-        </code>
-      );
-    }
-    return (
-      <code
-        className={`block p-4 rounded-lg bg-[#f6f8fa] dark:bg-[#2d333b] text-[#24292f] dark:text-[#adbac7] text-sm font-mono overflow-x-auto ${className || ''}`}
-        {...props}
-      >
-        {children}
-      </code>
-    );
-  },
+ 
   pre: ({ children, ...props }) => (
     <div className="relative my-4">
       <pre

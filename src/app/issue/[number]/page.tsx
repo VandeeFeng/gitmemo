@@ -158,8 +158,6 @@ export default function IssuePage({ params }: { params: Promise<{ number: string
                   dark:[&_h4]:!text-[#adbac7] dark:[&_h5]:!text-[#adbac7] dark:[&_h6]:!text-[#adbac7]
                   [&_strong]:!text-[#24292f] dark:[&_strong]:!text-[#adbac7]
                   [&_a]:!text-[#0969da] dark:[&_a]:!text-[#2f81f7] [&_a]:no-underline hover:[&_a]:underline hover:[&_a]:text-[#0969da]/90 dark:hover:[&_a]:text-[#2f81f7]/90
-                  [&_code]:!text-[#24292f] dark:[&_code]:!text-[#d1d5db] 
-                  [&_pre]:!bg-[#f6f8fa] dark:[&_pre]:!bg-[#2d333b] 
                   [&_blockquote]:!text-[#57606a] dark:[&_blockquote]:!text-[#8b949e] 
                   [&_blockquote]:!border-l-4 [&_blockquote]:!border-[#d0d7de] dark:[&_blockquote]:!border-[#373e47] 
                   [&_blockquote]:!pl-4 [&_blockquote]:!ml-0 [&_blockquote]:!my-4

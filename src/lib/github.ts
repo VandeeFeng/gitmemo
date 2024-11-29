@@ -14,8 +14,13 @@ interface CacheStore {
 }
 
 // 缓存配置
-const CACHE_DURATION = 5 * 60 * 1000; // 5分钟缓存
-const LABELS_CACHE_DURATION = 30 * 60 * 1000; // 标签缓存30分钟，因为变动较少
+const CACHE_DURATION = 15 * 60 * 1000; // 15分钟缓存
+const LABELS_CACHE_DURATION = 60 * 60 * 1000; // 标签缓存60分钟，因为变动较少
+
+// 声明全局类型
+declare global {
+  var __GITHUB_CACHE: CacheStore | undefined;
+}
 
 // 创建一个在客户端和服务器端都可用的缓存存储
 const createCache = (): CacheStore => ({
@@ -24,7 +29,7 @@ const createCache = (): CacheStore => ({
   labels: null,
 });
 
-// 使用一个函数来获取缓存实例
+// 获取缓存实例
 const getCache = (): CacheStore => {
   if (typeof window === 'undefined') {
     // 服务器端：每个请求使用新的缓存
@@ -32,21 +37,21 @@ const getCache = (): CacheStore => {
   }
   
   // 客户端：使用全局缓存
-  if (!('__GITHUB_CACHE' in globalThis)) {
-    (globalThis as { __GITHUB_CACHE?: CacheStore }).__GITHUB_CACHE = createCache();
+  if (typeof globalThis.__GITHUB_CACHE === 'undefined') {
+    globalThis.__GITHUB_CACHE = createCache();
   }
-  return (globalThis as { __GITHUB_CACHE: CacheStore }).__GITHUB_CACHE;
+  return globalThis.__GITHUB_CACHE;
 };
 
 // 生成缓存键
-function getCacheKey(page: number, labels?: string): string {
+const getCacheKey = (page: number, labels?: string): string => {
   return `${page}-${labels || 'all'}`;
-}
+};
 
 // 检查缓存是否有效
-function isCacheValid<T>(cache: CacheItem<T>, duration: number = CACHE_DURATION) {
+const isCacheValid = <T>(cache: CacheItem<T>, duration: number = CACHE_DURATION): boolean => {
   return Date.now() - cache.timestamp < duration;
-}
+};
 
 let config: GitHubConfig | null = null;
 
@@ -107,9 +112,11 @@ export const getGitHubConfig = (forApi: boolean = true): GitHubConfig => {
 };
 
 export async function getIssues(page: number = 1, labels?: string) {
+  const cache = getCache();
   const cacheKey = getCacheKey(page, labels);
-  const cachedData = getCache().issues.get(cacheKey);
-
+  
+  // 检查缓存
+  const cachedData = cache.issues.get(cacheKey);
   if (cachedData && isCacheValid(cachedData)) {
     return cachedData.data;
   }
@@ -118,7 +125,7 @@ export async function getIssues(page: number = 1, labels?: string) {
   const octokit = new Octokit({
     auth: config.token
   });
-
+  
   const { data } = await octokit.rest.issues.listForRepo({
     owner: config.owner,
     repo: config.repo,
@@ -148,7 +155,7 @@ export async function getIssues(page: number = 1, labels?: string) {
   }));
 
   // 更新缓存
-  getCache().issues.set(cacheKey, {
+  cache.issues.set(cacheKey, {
     data: issuesData,
     timestamp: Date.now()
   });

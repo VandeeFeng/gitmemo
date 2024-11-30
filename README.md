@@ -14,6 +14,11 @@ My personal memos using issues and GitHub Actions.
 - [糊了个页面来配合 gitmemo](https://github.com/VandeeFeng/gitmemo/issues/14)--2024-11-28
 - [糊了个 Dream Journal 来记录梦境](https://github.com/VandeeFeng/gitmemo/issues/13)--2024-11-26
 - [Nothing About Me](https://github.com/VandeeFeng/gitmemo/issues/12)--2024-11-26
+## Memo
+- [刚搞定 GitMemo，VPS 又好了？🤣](https://github.com/VandeeFeng/gitmemo/issues/16)--2024-11-30
+- [糊了个页面来配合 gitmemo](https://github.com/VandeeFeng/gitmemo/issues/14)--2024-11-28
+- [糊了个 Dream Journal 来记录梦境](https://github.com/VandeeFeng/gitmemo/issues/13)--2024-11-26
+- [从 Memos 转移到GitHub](https://github.com/VandeeFeng/gitmemo/issues/11)--2024-11-21
 ## PKM
 - [整理了之前的笔记，现在用org-publish 来发布博客](https://github.com/VandeeFeng/gitmemo/issues/10)--2024-11-21
 - [真正入门 Emacs 了](https://github.com/VandeeFeng/gitmemo/issues/4)--2024-11-21

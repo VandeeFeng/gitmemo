@@ -1,11 +1,11 @@
 ## [GitMemo](https://vandeefeng.github.io/gitmemo/)
 My personal memos using issues and GitHub Actions.
 
-[About me](https://x.vandee.art/wiki)
+[About me](https://github.com/VandeeFeng/gitmemo/issues/12)
 
 [RSS Feed](https://raw.githubusercontent.com/VandeeFeng/gitmemo/main/feed.xml)
 
-## 置顶文章
+## 置顶
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新

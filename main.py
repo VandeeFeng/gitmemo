@@ -12,7 +12,7 @@ from marko.ext.gfm import gfm as marko
 MD_HEAD = """## [GitMemo](https://vandeefeng.github.io/gitmemo/)
 My personal memos using issues and GitHub Actions.
 
-[About me](https://x.vandee.art/wiki)
+[About me](https://github.com/VandeeFeng/gitmemo/issues/12)
 
 [RSS Feed](https://raw.githubusercontent.com/{repo_name}/main/feed.xml)
 """
@@ -148,7 +148,7 @@ def add_md_top(repo, md, me):
     if not TOP_ISSUES_LABELS or not top_issues:
         return
     with open(md, "a+", encoding="utf-8") as md:
-        md.write("## 置顶文章\n")
+        md.write("## 置顶\n")
         for issue in top_issues:
             if is_me(issue, me):
                 add_issue_info(issue, md)

@@ -9,11 +9,11 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [难道书也要被淘汰了？](https://github.com/VandeeFeng/gitmemo/issues/19)--2024-12-05
 - [Brain Rot - 脑腐](https://github.com/VandeeFeng/gitmemo/issues/18)--2024-12-03
 - [强迫输出与渐进式迭代](https://github.com/VandeeFeng/gitmemo/issues/17)--2024-11-30
 - [刚搞定 GitMemo，VPS 又好了？🤣](https://github.com/VandeeFeng/gitmemo/issues/16)--2024-11-30
 - [翻到了以前的《周易》典藏版](https://github.com/VandeeFeng/gitmemo/issues/15)--2024-11-29
-- [糊了个页面来配合 gitmemo](https://github.com/VandeeFeng/gitmemo/issues/14)--2024-11-28
 ## Memo
 - [刚搞定 GitMemo，VPS 又好了？🤣](https://github.com/VandeeFeng/gitmemo/issues/16)--2024-11-30
 - [糊了个页面来配合 gitmemo](https://github.com/VandeeFeng/gitmemo/issues/14)--2024-11-28

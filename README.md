@@ -15,6 +15,7 @@ My personal memos using issues and GitHub Actions.
 - [强迫输出与渐进式迭代](https://github.com/VandeeFeng/gitmemo/issues/17)--2024-11-30
 - [刚搞定 GitMemo，VPS 又好了？🤣](https://github.com/VandeeFeng/gitmemo/issues/16)--2024-11-30
 ## Memo
+- [流动知识检索的构建要抓紧了](https://github.com/VandeeFeng/gitmemo/issues/19)--2024-12-05
 - [刚搞定 GitMemo，VPS 又好了？🤣](https://github.com/VandeeFeng/gitmemo/issues/16)--2024-11-30
 - [糊了个页面来配合 gitmemo](https://github.com/VandeeFeng/gitmemo/issues/14)--2024-11-28
 - [糊了个 Dream Journal 来记录梦境](https://github.com/VandeeFeng/gitmemo/issues/13)--2024-11-26

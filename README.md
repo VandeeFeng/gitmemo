@@ -37,8 +37,10 @@ My personal memos using issues and GitHub Actions.
 </details>
 
 ## TODO
-TODO list from [构建贾维斯 AI 思考助手](https://github.com/VandeeFeng/gitmemo/issues/22)--3 jobs to do--0 jobs done
+TODO list from [构建贾维斯 AI 思考助手](https://github.com/VandeeFeng/gitmemo/issues/22)--5 jobs to do--0 jobs done
 - [ ] 构建 Agent
 - [ ] 设计 prompt
 - [ ] 设计数据库
+- [ ] 接入流动知识检索
+- [ ] 视频 PKM
 

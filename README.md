@@ -9,11 +9,11 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [构建贾维斯 AI 思考助手](https://github.com/VandeeFeng/gitmemo/issues/22)--2024-12-09
 - [AI 交互的隐性成本](https://github.com/VandeeFeng/gitmemo/issues/21)--2024-12-08
 - [失败就像误差一样是不可避免的常态](https://github.com/VandeeFeng/gitmemo/issues/20)--2024-12-06
 - [流动知识检索的构建要抓紧了](https://github.com/VandeeFeng/gitmemo/issues/19)--2024-12-05
 - [Brain Rot - 脑腐](https://github.com/VandeeFeng/gitmemo/issues/18)--2024-12-03
-- [强迫输出与渐进式迭代](https://github.com/VandeeFeng/gitmemo/issues/17)--2024-11-30
 ## Memo
 - [流动知识检索的构建要抓紧了](https://github.com/VandeeFeng/gitmemo/issues/19)--2024-12-05
 - [刚搞定 GitMemo，VPS 又好了？🤣](https://github.com/VandeeFeng/gitmemo/issues/16)--2024-11-30
@@ -35,4 +35,7 @@ My personal memos using issues and GitHub Actions.
 - [极致的压缩](https://github.com/VandeeFeng/gitmemo/issues/5)--2024-11-21
 - [AI 融入思考流程](https://github.com/VandeeFeng/gitmemo/issues/3)--2024-11-21
 </details>
+
+## TODO
+TODO list from [构建贾维斯 AI 思考助手](https://github.com/VandeeFeng/gitmemo/issues/22) all done
 

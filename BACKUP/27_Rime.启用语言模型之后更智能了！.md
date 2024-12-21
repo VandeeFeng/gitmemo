@@ -20,5 +20,3 @@
 [（发布）Org-supertag v0.01 发布，增强 org-mode 的标签系统 - Org-mode - Emacs China](https://emacs-china.org/t/org-supertag-v0-01-org-mode/28530)
 
 [（新坑）打算在 emacs 上复刻 Tana 的 SuperTag - Emacs-general - Emacs China](https://emacs-china.org/t/emacs-tana-supertag/28407/9)，正巧最近也看到了 Tana 里的 SuperTag，这个思路可以借鉴。
-
-webhook一言难尽

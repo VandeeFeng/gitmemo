@@ -8,7 +8,7 @@
 
 [Fcitx 最佳配置实践 (附带语言大模型) 2024-12-17](https://manateelazycat.github.io/2024/12/17/fcitx-best-config/)
 
-[amzxyz/RIME-LMDG: Rime输入法语言模型全流程构建教程，全局带声调词库，最全带读音单字表词典：LMDG - Language, Model, Dictionary, Grammar](https://github.com/amzxyz/RIME-LMDG)
+[amzxyz/RIME-LMDG: Rime输入法语言模型全流程构建教程，全局带声调词库，最全带读音单字表词典](https://github.com/amzxyz/RIME-LMDG)
 
 ## Emacs 新玩意
 有一段时间没逛 Emacs China 了，又发现很多好玩意。Gemini 现在这么强，没有大佬考虑重写一下 Emacs 里的 AI 补全么。

@@ -13,7 +13,7 @@
 ## Emacs 新玩意
 有一段时间没逛 Emacs China 了，又发现很多好玩意。Gemini 现在这么强，没有大佬考虑重写一下 Emacs 里的 AI 补全么。
 
-[将你的 org-roam-ui 发布到 GitHub page 上 - Org-mode - Emacs China](https://emacs-china.org/t/org-roam-ui-github-page/28511)
+[将你的 org-roam-ui 发布到 GitHub page 上 - Org-mode - Emacs China](https://emacs-china.org/t/org-roam-ui-github-page/28511)，这个也很实用。
 
 [终端版的 childframe 要来了 - Emacs-general - Emacs China](https://emacs-china.org/t/childframe/28166)
 

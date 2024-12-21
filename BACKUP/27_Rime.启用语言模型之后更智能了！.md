@@ -1,6 +1,6 @@
 # [Rime 启用语言模型之后更智能了！](https://github.com/VandeeFeng/gitmemo/issues/27)
 
-今天重构了一下午的 GitHub webhook 来同步更新到 gitmemo 的数据库
+今天重构了一下午的 GitHub webhook 来同步更新到 gitmemo 的数据库，还是没能解决重复写入数据的问题。
 
 ## Rime 启用语言模型
 

@@ -1,5 +1,7 @@
 # [Rime 启用语言模型之后更智能了！](https://github.com/VandeeFeng/gitmemo/issues/27)
 
+今天重构了一下午的 GitHub webhook 来同步更新到 gitmemo 的数据库
+
 ## Rime 启用语言模型
 
 各个国家有各个国家的国歌可以直接打出来了！我是用的雾凇拼音的小鹤双拼， 加上了万象语言模型之后，上下文的联想功能明显增强了，牛逼啊。Rime 就是最好的输入法没有之一。

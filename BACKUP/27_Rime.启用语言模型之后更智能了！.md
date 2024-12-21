@@ -21,4 +21,4 @@
 
 [（新坑）打算在 emacs 上复刻 Tana 的 SuperTag - Emacs-general - Emacs China](https://emacs-china.org/t/emacs-tana-supertag/28407/9)，正巧最近也看到了 Tana 里的 SuperTag，这个思路可以借鉴。
 
-webhook一言难尽。。。
+webhook一言难尽

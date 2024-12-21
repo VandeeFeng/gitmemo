@@ -16,3 +16,7 @@
 [将你的 org-roam-ui 发布到 GitHub page 上 - Org-mode - Emacs China](https://emacs-china.org/t/org-roam-ui-github-page/28511)
 
 [终端版的 childframe 要来了 - Emacs-general - Emacs China](https://emacs-china.org/t/childframe/28166)
+
+[（发布）Org-supertag v0.01 发布，增强 org-mode 的标签系统 - Org-mode - Emacs China](https://emacs-china.org/t/org-supertag-v0-01-org-mode/28530)
+
+[（新坑）打算在 emacs 上复刻 Tana 的 SuperTag - Emacs-general - Emacs China](https://emacs-china.org/t/emacs-tana-supertag/28407/9)

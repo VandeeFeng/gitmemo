@@ -9,11 +9,11 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [获取特定仓库的新增 commit](https://github.com/VandeeFeng/gitmemo/issues/28)--2024-12-30
 - [Rime 启用语言模型之后更智能了！](https://github.com/VandeeFeng/gitmemo/issues/27)--2024-12-21
 - [在知识之间、AI 之间创造 connection](https://github.com/VandeeFeng/gitmemo/issues/26)--2024-12-18
 - [Gemini 2.0 挺强的](https://github.com/VandeeFeng/gitmemo/issues/25)--2024-12-15
 - [现象很容易被当作是本质](https://github.com/VandeeFeng/gitmemo/issues/24)--2024-12-12
-- [没有什么正好，数据检索和专注](https://github.com/VandeeFeng/gitmemo/issues/23)--2024-12-11
 ## Memo
 - [Rime 启用语言模型之后更智能了！](https://github.com/VandeeFeng/gitmemo/issues/27)--2024-12-21
 - [Gemini 2.0 挺强的](https://github.com/VandeeFeng/gitmemo/issues/25)--2024-12-15
@@ -27,6 +27,7 @@ My personal memos using issues and GitHub Actions.
 </details>
 
 ## PKM
+- [获取特定仓库的新增 commit](https://github.com/VandeeFeng/gitmemo/issues/28)--2024-12-30
 - [整理了之前的笔记，现在用org-publish 来发布博客](https://github.com/VandeeFeng/gitmemo/issues/10)--2024-11-21
 - [真正入门 Emacs 了](https://github.com/VandeeFeng/gitmemo/issues/4)--2024-11-21
 ## Thoughts

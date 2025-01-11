@@ -19,3 +19,4 @@
 你可以从这里了解到我：
 - Blog: <https://x.vandee.art/blog>
 - Wiki: <https://x.vandee.art/wiki>
+- Photo: <https://x.vandee.art/photo>

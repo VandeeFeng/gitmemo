@@ -9,11 +9,11 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [映射信息 from people](https://github.com/VandeeFeng/gitmemo/issues/32)--2025-01-16
 - [个人摄影网站搞定](https://github.com/VandeeFeng/gitmemo/issues/31)--2025-01-08
 - [好东西越来越难被看到了](https://github.com/VandeeFeng/gitmemo/issues/30)--2025-01-05
 - [搜索、整合、分析信息的能力，会变得越来越重要](https://github.com/VandeeFeng/gitmemo/issues/29)--2025-01-04
 - [获取特定仓库的新增 commit](https://github.com/VandeeFeng/gitmemo/issues/28)--2024-12-30
-- [Rime 启用语言模型之后更智能了！](https://github.com/VandeeFeng/gitmemo/issues/27)--2024-12-21
 ## Memo
 - [个人摄影网站搞定](https://github.com/VandeeFeng/gitmemo/issues/31)--2025-01-08
 - [好东西越来越难被看到了](https://github.com/VandeeFeng/gitmemo/issues/30)--2025-01-05
@@ -33,13 +33,14 @@ My personal memos using issues and GitHub Actions.
 - [整理了之前的笔记，现在用org-publish 来发布博客](https://github.com/VandeeFeng/gitmemo/issues/10)--2024-11-21
 - [真正入门 Emacs 了](https://github.com/VandeeFeng/gitmemo/issues/4)--2024-11-21
 ## Thoughts
+- [映射信息 from people](https://github.com/VandeeFeng/gitmemo/issues/32)--2025-01-16
 - [好东西越来越难被看到了](https://github.com/VandeeFeng/gitmemo/issues/30)--2025-01-05
 - [搜索、整合、分析信息的能力，会变得越来越重要](https://github.com/VandeeFeng/gitmemo/issues/29)--2025-01-04
 - [在知识之间、AI 之间创造 connection](https://github.com/VandeeFeng/gitmemo/issues/26)--2024-12-18
 - [现象很容易被当作是本质](https://github.com/VandeeFeng/gitmemo/issues/24)--2024-12-12
-- [没有什么正好，数据检索和专注](https://github.com/VandeeFeng/gitmemo/issues/23)--2024-12-11
 <details><summary>显示更多</summary>
 
+- [没有什么正好，数据检索和专注](https://github.com/VandeeFeng/gitmemo/issues/23)--2024-12-11
 - [AI 交互的隐性成本](https://github.com/VandeeFeng/gitmemo/issues/21)--2024-12-08
 - [失败就像误差一样是不可避免的常态](https://github.com/VandeeFeng/gitmemo/issues/20)--2024-12-06
 - [强迫输出与渐进式迭代](https://github.com/VandeeFeng/gitmemo/issues/17)--2024-11-30

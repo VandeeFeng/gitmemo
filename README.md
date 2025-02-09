@@ -9,11 +9,11 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [本地文档 RAG 思路 Chipper 项目](https://github.com/VandeeFeng/gitmemo/issues/35)--2025-02-09
 - [热情的扩散](https://github.com/VandeeFeng/gitmemo/issues/34)--2025-01-29
 - [慢下来的能力，坚持自己的判断](https://github.com/VandeeFeng/gitmemo/issues/33)--2025-01-23
 - [映射信息 from people](https://github.com/VandeeFeng/gitmemo/issues/32)--2025-01-16
 - [个人摄影网站搞定](https://github.com/VandeeFeng/gitmemo/issues/31)--2025-01-08
-- [好东西越来越难被看到了](https://github.com/VandeeFeng/gitmemo/issues/30)--2025-01-05
 ## Memo
 - [个人摄影网站搞定](https://github.com/VandeeFeng/gitmemo/issues/31)--2025-01-08
 - [好东西越来越难被看到了](https://github.com/VandeeFeng/gitmemo/issues/30)--2025-01-05
@@ -29,6 +29,7 @@ My personal memos using issues and GitHub Actions.
 </details>
 
 ## PKM
+- [本地文档 RAG 思路 Chipper 项目](https://github.com/VandeeFeng/gitmemo/issues/35)--2025-02-09
 - [获取特定仓库的新增 commit](https://github.com/VandeeFeng/gitmemo/issues/28)--2024-12-30
 - [整理了之前的笔记，现在用org-publish 来发布博客](https://github.com/VandeeFeng/gitmemo/issues/10)--2024-11-21
 - [真正入门 Emacs 了](https://github.com/VandeeFeng/gitmemo/issues/4)--2024-11-21

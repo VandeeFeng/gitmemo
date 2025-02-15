@@ -9,19 +9,20 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [记录我第一个被采纳的 issue](https://github.com/VandeeFeng/gitmemo/issues/38)--2025-02-15
 - [认知偏差1](https://github.com/VandeeFeng/gitmemo/issues/37)--2025-02-10
 - [泡泡就是这么吹起来的](https://github.com/VandeeFeng/gitmemo/issues/36)--2025-02-10
 - [本地文档 RAG 思路 Chipper 项目](https://github.com/VandeeFeng/gitmemo/issues/35)--2025-02-09
 - [热情的扩散](https://github.com/VandeeFeng/gitmemo/issues/34)--2025-01-29
-- [慢下来的能力，坚持自己的判断](https://github.com/VandeeFeng/gitmemo/issues/33)--2025-01-23
 ## Memo
+- [记录我第一个被采纳的 issue](https://github.com/VandeeFeng/gitmemo/issues/38)--2025-02-15
 - [泡泡就是这么吹起来的](https://github.com/VandeeFeng/gitmemo/issues/36)--2025-02-10
 - [个人摄影网站搞定](https://github.com/VandeeFeng/gitmemo/issues/31)--2025-01-08
 - [好东西越来越难被看到了](https://github.com/VandeeFeng/gitmemo/issues/30)--2025-01-05
 - [Rime 启用语言模型之后更智能了！](https://github.com/VandeeFeng/gitmemo/issues/27)--2024-12-21
-- [Gemini 2.0 挺强的](https://github.com/VandeeFeng/gitmemo/issues/25)--2024-12-15
 <details><summary>显示更多</summary>
 
+- [Gemini 2.0 挺强的](https://github.com/VandeeFeng/gitmemo/issues/25)--2024-12-15
 - [流动知识检索的构建要抓紧了](https://github.com/VandeeFeng/gitmemo/issues/19)--2024-12-05
 - [刚搞定 GitMemo，VPS 又好了？🤣](https://github.com/VandeeFeng/gitmemo/issues/16)--2024-11-30
 - [糊了个页面来配合 gitmemo](https://github.com/VandeeFeng/gitmemo/issues/14)--2024-11-28

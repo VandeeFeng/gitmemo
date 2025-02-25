@@ -38,13 +38,14 @@ My personal memos using issues and GitHub Actions.
 - [整理了之前的笔记，现在用org-publish 来发布博客](https://github.com/VandeeFeng/gitmemo/issues/10)--2024-11-21
 - [真正入门 Emacs 了](https://github.com/VandeeFeng/gitmemo/issues/4)--2024-11-21
 ## Thoughts
+- [现在的信息太无聊了](https://github.com/VandeeFeng/gitmemo/issues/40)--2025-02-25
 - [认知偏差1](https://github.com/VandeeFeng/gitmemo/issues/37)--2025-02-10
 - [热情的扩散](https://github.com/VandeeFeng/gitmemo/issues/34)--2025-01-29
 - [慢下来的能力，坚持自己的判断](https://github.com/VandeeFeng/gitmemo/issues/33)--2025-01-23
 - [映射信息 from people](https://github.com/VandeeFeng/gitmemo/issues/32)--2025-01-16
-- [好东西越来越难被看到了](https://github.com/VandeeFeng/gitmemo/issues/30)--2025-01-05
 <details><summary>显示更多</summary>
 
+- [好东西越来越难被看到了](https://github.com/VandeeFeng/gitmemo/issues/30)--2025-01-05
 - [搜索、整合、分析信息的能力，会变得越来越重要](https://github.com/VandeeFeng/gitmemo/issues/29)--2025-01-04
 - [在知识之间、AI 之间创造 connection](https://github.com/VandeeFeng/gitmemo/issues/26)--2024-12-18
 - [现象很容易被当作是本质](https://github.com/VandeeFeng/gitmemo/issues/24)--2024-12-12

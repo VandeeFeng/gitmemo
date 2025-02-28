@@ -9,19 +9,20 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
 - [所谓反抗到底是在反抗什么？](https://github.com/VandeeFeng/gitmemo/issues/43)--2025-02-27
 - [Cloudflare R2  图床防爬](https://github.com/VandeeFeng/gitmemo/issues/42)--2025-02-27
 - [非必要别更新！！！](https://github.com/VandeeFeng/gitmemo/issues/41)--2025-02-25
 - [现在的信息太无聊了](https://github.com/VandeeFeng/gitmemo/issues/40)--2025-02-25
-- [Gemini 的 personality 也挺好玩的](https://github.com/VandeeFeng/gitmemo/issues/39)--2025-02-19
 ## Memo
+- [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
 - [Cloudflare R2  图床防爬](https://github.com/VandeeFeng/gitmemo/issues/42)--2025-02-27
 - [非必要别更新！！！](https://github.com/VandeeFeng/gitmemo/issues/41)--2025-02-25
 - [现在的信息太无聊了](https://github.com/VandeeFeng/gitmemo/issues/40)--2025-02-25
 - [Gemini 的 personality 也挺好玩的](https://github.com/VandeeFeng/gitmemo/issues/39)--2025-02-19
-- [记录我第一个被采纳的 issue](https://github.com/VandeeFeng/gitmemo/issues/38)--2025-02-15
 <details><summary>显示更多</summary>
 
+- [记录我第一个被采纳的 issue](https://github.com/VandeeFeng/gitmemo/issues/38)--2025-02-15
 - [泡泡就是这么吹起来的](https://github.com/VandeeFeng/gitmemo/issues/36)--2025-02-10
 - [个人摄影网站搞定](https://github.com/VandeeFeng/gitmemo/issues/31)--2025-01-08
 - [好东西越来越难被看到了](https://github.com/VandeeFeng/gitmemo/issues/30)--2025-01-05

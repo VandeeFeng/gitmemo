@@ -17,6 +17,6 @@
 - 其他所有你认为是我的，就是我。
 
 你可以从这里了解到我：
-- Blog: <https://x.vandee.art/blog>
-- Wiki: <https://x.vandee.art/wiki>
-- Photo: <https://x.vandee.art/photo>
+- Blog: <https://x404.xyz/blog>
+- Wiki: <https://x404.xyz/wiki>
+- Photo: <https://x404.xyz/photo>

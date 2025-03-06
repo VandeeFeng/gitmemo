@@ -14,6 +14,8 @@ My personal memos using issues and GitHub Actions.
 - [Cloudflare R2  图床防爬](https://github.com/VandeeFeng/gitmemo/issues/42)--2025-02-27
 - [非必要别更新！！！](https://github.com/VandeeFeng/gitmemo/issues/41)--2025-02-25
 - [现在的信息太无聊了](https://github.com/VandeeFeng/gitmemo/issues/40)--2025-02-25
+## Emacs
+- [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
 ## Memo
 - [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
 - [Cloudflare R2  图床防爬](https://github.com/VandeeFeng/gitmemo/issues/42)--2025-02-27

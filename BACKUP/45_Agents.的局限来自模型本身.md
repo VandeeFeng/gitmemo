@@ -4,7 +4,7 @@ MCP 无疑扩展了 LLM 的交互，后面可能还会出现其他的 protocols�
 
 而 agents 的效果取决于 LLM 本身的能力。就从现在的 function calling 和 tool 的情况来说，距离我想象中的 agents 还有一段距离。
  
-当 LLM 有了能够根据输入生成 tool 的能力的时候，才是 agents 爆发的时候。
+当 LLM 有了能够根据输入生成 tool 的能力的时候，才是 agents 真正爆发的时候。
 
 去年12月，Anthropic提出了一个全新的定义：「LLM智能体能动态地决定自己的执行流程和工具使用方式，并自主控制任务的完成过程。」
 

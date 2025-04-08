@@ -9,11 +9,11 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [自我效能](https://github.com/VandeeFeng/gitmemo/issues/49)--2025-04-08
 - [技术入侵 or 技术平权？](https://github.com/VandeeFeng/gitmemo/issues/48)--2025-03-21
 - [类 Firefox config](https://github.com/VandeeFeng/gitmemo/issues/47)--2025-03-11
 - [又突然想学数学了](https://github.com/VandeeFeng/gitmemo/issues/46)--2025-03-11
 - [Agents 的局限来自模型本身](https://github.com/VandeeFeng/gitmemo/issues/45)--2025-03-11
-- [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
 ## Emacs
 - [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
 ## Memo
@@ -45,13 +45,14 @@ My personal memos using issues and GitHub Actions.
 - [整理了之前的笔记，现在用org-publish 来发布博客](https://github.com/VandeeFeng/gitmemo/issues/10)--2024-11-21
 - [真正入门 Emacs 了](https://github.com/VandeeFeng/gitmemo/issues/4)--2024-11-21
 ## Thoughts
+- [自我效能](https://github.com/VandeeFeng/gitmemo/issues/49)--2025-04-08
 - [技术入侵 or 技术平权？](https://github.com/VandeeFeng/gitmemo/issues/48)--2025-03-21
 - [又突然想学数学了](https://github.com/VandeeFeng/gitmemo/issues/46)--2025-03-11
 - [Agents 的局限来自模型本身](https://github.com/VandeeFeng/gitmemo/issues/45)--2025-03-11
 - [所谓反抗到底是在反抗什么？](https://github.com/VandeeFeng/gitmemo/issues/43)--2025-02-27
-- [现在的信息太无聊了](https://github.com/VandeeFeng/gitmemo/issues/40)--2025-02-25
 <details><summary>显示更多</summary>
 
+- [现在的信息太无聊了](https://github.com/VandeeFeng/gitmemo/issues/40)--2025-02-25
 - [认知偏差1](https://github.com/VandeeFeng/gitmemo/issues/37)--2025-02-10
 - [热情的扩散](https://github.com/VandeeFeng/gitmemo/issues/34)--2025-01-29
 - [慢下来的能力，坚持自己的判断](https://github.com/VandeeFeng/gitmemo/issues/33)--2025-01-23

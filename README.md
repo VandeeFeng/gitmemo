@@ -9,20 +9,21 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [Crust](https://github.com/VandeeFeng/gitmemo/issues/52)--2025-04-16
 - [极简笔记方案](https://github.com/VandeeFeng/gitmemo/issues/51)--2025-04-14
 - [不太看好 MCP](https://github.com/VandeeFeng/gitmemo/issues/50)--2025-04-14
 - [自我效能](https://github.com/VandeeFeng/gitmemo/issues/49)--2025-04-08
 - [技术入侵 or 技术平权？](https://github.com/VandeeFeng/gitmemo/issues/48)--2025-03-21
-- [类 Firefox config](https://github.com/VandeeFeng/gitmemo/issues/47)--2025-03-11
 ## Emacs
 - [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
+- [Crust](https://github.com/VandeeFeng/gitmemo/issues/52)--2025-04-16
 - [极简笔记方案](https://github.com/VandeeFeng/gitmemo/issues/51)--2025-04-14
 - [类 Firefox config](https://github.com/VandeeFeng/gitmemo/issues/47)--2025-03-11
 - [又突然想学数学了](https://github.com/VandeeFeng/gitmemo/issues/46)--2025-03-11
 - [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
-- [Cloudflare R2  图床防爬](https://github.com/VandeeFeng/gitmemo/issues/42)--2025-02-27
 <details><summary>显示更多</summary>
 
+- [Cloudflare R2  图床防爬](https://github.com/VandeeFeng/gitmemo/issues/42)--2025-02-27
 - [非必要别更新！！！](https://github.com/VandeeFeng/gitmemo/issues/41)--2025-02-25
 - [现在的信息太无聊了](https://github.com/VandeeFeng/gitmemo/issues/40)--2025-02-25
 - [Gemini 的 personality 也挺好玩的](https://github.com/VandeeFeng/gitmemo/issues/39)--2025-02-19

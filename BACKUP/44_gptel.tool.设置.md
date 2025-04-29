@@ -10,6 +10,8 @@
 
 这可咋办。。。一直用的 Firefox。
 
+已经用上 LibreWolf 了。  #47 
+
 加上了用 jina.ai reader 获取网页内容：
 
 ```

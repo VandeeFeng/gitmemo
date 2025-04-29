@@ -14,6 +14,8 @@ My personal memos using issues and GitHub Actions.
 - [极简笔记方案](https://github.com/VandeeFeng/gitmemo/issues/51)--2025-04-14
 - [不太看好 MCP](https://github.com/VandeeFeng/gitmemo/issues/50)--2025-04-14
 - [自我效能](https://github.com/VandeeFeng/gitmemo/issues/49)--2025-04-08
+## Memo
+
 - [Crust](https://github.com/VandeeFeng/gitmemo/issues/52)--2025-04-16
 - [极简笔记方案](https://github.com/VandeeFeng/gitmemo/issues/51)--2025-04-14
 - [类 Firefox config](https://github.com/VandeeFeng/gitmemo/issues/47)--2025-03-11
@@ -38,10 +40,14 @@ My personal memos using issues and GitHub Actions.
 - [从 Memos 转移到GitHub](https://github.com/VandeeFeng/gitmemo/issues/11)--2024-11-21
 </details>
 
+## PKM
+
 - [本地文档 RAG 思路 Chipper 项目](https://github.com/VandeeFeng/gitmemo/issues/35)--2025-02-09
 - [获取特定仓库的新增 commit](https://github.com/VandeeFeng/gitmemo/issues/28)--2024-12-30
 - [整理了之前的笔记，现在用org-publish 来发布博客](https://github.com/VandeeFeng/gitmemo/issues/10)--2024-11-21
 - [真正入门 Emacs 了](https://github.com/VandeeFeng/gitmemo/issues/4)--2024-11-21
+## Thoughts
+
 - [我们的思考依靠共鸣，而非演绎](https://github.com/VandeeFeng/gitmemo/issues/53)--2025-04-22
 - [不太看好 MCP](https://github.com/VandeeFeng/gitmemo/issues/50)--2025-04-14
 - [自我效能](https://github.com/VandeeFeng/gitmemo/issues/49)--2025-04-08

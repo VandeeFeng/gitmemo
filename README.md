@@ -14,6 +14,9 @@ My personal memos using issues and GitHub Actions.
 - [极简笔记方案](https://github.com/VandeeFeng/gitmemo/issues/51)--2025-04-14
 - [不太看好 MCP](https://github.com/VandeeFeng/gitmemo/issues/50)--2025-04-14
 - [自我效能](https://github.com/VandeeFeng/gitmemo/issues/49)--2025-04-08
+## Emacs
+
+- [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
 ## Memo
 
 - [Crust](https://github.com/VandeeFeng/gitmemo/issues/52)--2025-04-16

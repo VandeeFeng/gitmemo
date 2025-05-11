@@ -9,11 +9,11 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [Keyword - 大模型的压缩和解压缩](https://github.com/VandeeFeng/gitmemo/issues/56)--2025-05-11
 - [世界是对数的](https://github.com/VandeeFeng/gitmemo/issues/55)--2025-05-11
 - [如果一个实现还不够简洁，那么就说明它还不够完美](https://github.com/VandeeFeng/gitmemo/issues/54)--2025-05-05
 - [我们的思考依靠共鸣，而非演绎](https://github.com/VandeeFeng/gitmemo/issues/53)--2025-04-22
 - [Crust](https://github.com/VandeeFeng/gitmemo/issues/52)--2025-04-16
-- [极简笔记方案](https://github.com/VandeeFeng/gitmemo/issues/51)--2025-04-14
 ## Emacs
 
 - [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
@@ -51,13 +51,14 @@ My personal memos using issues and GitHub Actions.
 - [真正入门 Emacs 了](https://github.com/VandeeFeng/gitmemo/issues/4)--2024-11-21
 ## Thoughts
 
+- [Keyword - 大模型的压缩和解压缩](https://github.com/VandeeFeng/gitmemo/issues/56)--2025-05-11
 - [世界是对数的](https://github.com/VandeeFeng/gitmemo/issues/55)--2025-05-11
 - [如果一个实现还不够简洁，那么就说明它还不够完美](https://github.com/VandeeFeng/gitmemo/issues/54)--2025-05-05
 - [我们的思考依靠共鸣，而非演绎](https://github.com/VandeeFeng/gitmemo/issues/53)--2025-04-22
 - [不太看好 MCP](https://github.com/VandeeFeng/gitmemo/issues/50)--2025-04-14
-- [自我效能](https://github.com/VandeeFeng/gitmemo/issues/49)--2025-04-08
 <details><summary>显示更多</summary>
 
+- [自我效能](https://github.com/VandeeFeng/gitmemo/issues/49)--2025-04-08
 - [技术入侵 or 技术平权？](https://github.com/VandeeFeng/gitmemo/issues/48)--2025-03-21
 - [又突然想学数学了](https://github.com/VandeeFeng/gitmemo/issues/46)--2025-03-11
 - [Agents 的局限来自模型本身](https://github.com/VandeeFeng/gitmemo/issues/45)--2025-03-11

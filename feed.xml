@@ -1,5 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/VandeeFeng/gitmemo</id><title>RSS feed of VandeeFeng's gitmemo</title><updated>2025-05-12T03:10:34.171691+00:00</updated><link href="https://github.com/VandeeFeng/gitmemo"/><link href="https://raw.githubusercontent.com/VandeeFeng/gitmemo/main/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/VandeeFeng/gitmemo/issues/56</id><title>Keyword - 大模型的压缩和解压缩</title><updated>2025-05-12T03:10:34.493747+00:00</updated><content type="html"><![CDATA[<blockquote>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/VandeeFeng/gitmemo</id><title>RSS feed of VandeeFeng's gitmemo</title><updated>2025-05-14T06:57:00.084122+00:00</updated><link href="https://github.com/VandeeFeng/gitmemo"/><link href="https://raw.githubusercontent.com/VandeeFeng/gitmemo/main/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/VandeeFeng/gitmemo/issues/57</id><title>Nuphy Air75 V2 键盘</title><updated>2025-05-14T06:57:00.381296+00:00</updated><content type="html"><![CDATA[<p>Nuphy Air75 键盘到了，选的茶轴。</p>
+<p>整个做工用料很舒服，触摸的手感很好，配色选的黑色，外观挺满意的。无线的响应的速度也挺快，基本零延时。</p>
+<p>之前 Macbook 一直就用的笔记本的键盘，打字需要按压的力度大一些，这个键盘是矮轴，键程很短，以我现在的力度一按就到底了，所以刚上手对感觉回弹力度不大。</p>
+<p>这个茶轴声音不是很大。回弹会有和点击鼠标一样的很清脆的 click 的声音，按下去的声音是有点闷的麻将音。声音挺喜欢的，打字起来很有节奏感。</p>
+<p>整个键盘布局和 mac 的按键基本一致，不需要再习惯。数字键的部分排列更紧密，0、-、= 这三个按键距离无名指更近，比 Mac 更容易按到。</p>
+<p>链接到电脑上的接头是 USB 的，我为什么要把之前的 usb 转 c 的头子丢了。。。还是上个星期才丢的。。。</p>
+<p>Fn 加上数字键就可以快速切换链接的蓝牙设备，这个挺方便的。</p>
+<p>再就是可以直接放在 Macbook 上，键盘底部有两个橡胶的突出的卡条，正好可以卡住，挺方便的。</p>
+<p>最近刚折腾了一个 Linux ，现在两个电脑都用这一个键盘了。</p>
+<p>从到手到现在，持续使用了4、5个小时，打字很轻松，手一点也不酸。</p>
+<p>整体来说，挺满意的。</p>
+<p>对硬件这些我一直没啥特别的需求，也不怎么折腾。印象中客制化键盘很久之前就开始了。这个品牌之前也没听说，这个键盘也是看的一些大佬推荐入手，国补下来 594，不多不少。</p>
+<p>之前的机械键盘也还可以用，但也很多年了。Macbook 的键盘手感也确实一般，综合一下，还是入手了。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/57"/><category term="Memo"/><published>2025-05-14T06:56:41+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/56</id><title>Keyword - 大模型的压缩和解压缩</title><updated>2025-05-14T06:57:00.517480+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>未来能第一个说出来这些「Magic Words」的人，就率先打开了一个新的参数空间。</p>
 <p>via: <a href="https://x.com/lijigang_com/status/1921103439813283862">https://x.com/lijigang_com/status/1921103439813283862</a></p>
 </blockquote>
@@ -7,7 +20,7 @@
 <p>大模型的本质是压缩，这也就意味着它一定可以提高信息处理和交换的效率，信息就是编码和解码。</p>
 <p>掌握更多的关键词作为信息的索引，是对 LLM 解压缩的关键，就像搜索引擎里的关键词一样。</p>
 <p>随着 LLM 能力的提升，prompt 可以写的越来越简单，keyword 关键词起到的效果就会更大。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/56"/><category term="Thoughts"/><published>2025-05-11T07:51:54+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/55</id><title>世界是对数的</title><updated>2025-05-12T03:10:34.626546+00:00</updated><content type="html"><![CDATA[<p>之前从来没有系统的从数学的角度来理解世界，之前比较喜欢物理。近几年开始看数学，数学是通往真理的钥匙之一。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/56"/><category term="Thoughts"/><published>2025-05-11T07:51:54+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/55</id><title>世界是对数的</title><updated>2025-05-14T06:57:00.625135+00:00</updated><content type="html"><![CDATA[<p>之前从来没有系统的从数学的角度来理解世界，之前比较喜欢物理。近几年开始看数学，数学是通往真理的钥匙之一。</p>
 <p>也可以说我们现在的世界是建立在数学之上的。数学是人类探究出的物质世界的最底层规律。数学是理解和描述世界的重要工具和语言，没有数学也就没有现代科学。</p>
 <h2>不合理有效性</h2>
 <p>数学的高度逻辑性和严谨性似乎与物质世界的有序性相契合，也就是数学概念的普遍有效性。数学的存在和其在描述世界本质方面的“不合理有效性”（Unreasonable Effectiveness），也就是我们感受到的这些巧合。</p>
@@ -25,7 +38,7 @@
 <li>本福特定律: 本福特定律也许暗示着我们的大自然就是天生钟爱对数。物理世界的数值以对数的形式跨越着数量级，而我们的大脑又用对数运算，把它们压缩回可感知的空间中，才让我们体会到世界在每个尺度上专属的精彩。</li>
 <li>正如津巴多在《普通心理学》中写道：知觉赋予感觉以意义，因此知觉产生的是对世界的解释，而不是对世界的完美表征。</li>
 </ul>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/55"/><category term="Thoughts"/><published>2025-05-11T04:44:31+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/54</id><title>如果一个实现还不够简洁，那么就说明它还不够完美</title><updated>2025-05-12T03:10:34.719769+00:00</updated><content type="html"><![CDATA[<p>如果一个实现还不够简洁，那么就说明它还不够完美。 -- Vandee</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/55"/><category term="Thoughts"/><published>2025-05-11T04:44:31+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/54</id><title>如果一个实现还不够简洁，那么就说明它还不够完美</title><updated>2025-05-14T06:57:00.781073+00:00</updated><content type="html"><![CDATA[<p>如果一个实现还不够简洁，那么就说明它还不够完美。 -- Vandee</p>
 <p><a href="https://www.youtube.com/watch?v=sCr_gb8rdEI">Two decades of Git: A conversation with creator Linus Torvalds - YouTube</a> ，这是微软 GitHub 和 Linus Torvalds 的访谈，回顾了 Git 的 20 年历程。看到一半突然冒出了这些想法：</p>
 <p>一个越是简单的实现，背后越是复杂。</p>
 <p>我想表达的『简单』是一种呈现，复杂是它得以呈现的过程和支撑，如果没有这些，那么它只能是空洞的脆弱的空壳。</p>
@@ -35,7 +48,7 @@
 <p>但这也可能是人类认知局限的一种“妥协”。追求简单这点上，从古至今我们的思维都没有怎么变，人类不断的探索未知，渴望从复杂的物质现象中，找到规律，找到真理，但我始终有种感觉，它其实并不存在。</p>
 <p>有序是我们从无序中“创造”的，物质的本质就是无序的，有序是它呈现出的一种人类认知范围内更方便理解的现象。就像时间，或许它就是现有人类认知体系里无法归纳出的范畴，在另一个维度里，时间可能根本就不是以我们现有的认知体系来呈现的。我的理论知识有限，表达的不太准确，意思就是这个意思。</p>
 <p>但正是人类的好奇心和求之，驱使我们突破人类的种种局限，不断的突破想象力的边界，才有了现在得以一直延续的人类文明。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/54"/><category term="Thoughts"/><published>2025-05-05T06:14:30+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/53</id><title>我们的思考依靠共鸣，而非演绎</title><updated>2025-05-12T03:10:34.808650+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/54"/><category term="Thoughts"/><published>2025-05-05T06:14:30+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/53</id><title>我们的思考依靠共鸣，而非演绎</title><updated>2025-05-14T06:57:00.875596+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>Geoffrey Hinton says the more we understand how AI and the brain actually work, the less human thinking looks like logic.</p>
 <p>We're not reasoning machines, he says. We're analogy machines. We think by resonance, not deduction.</p>
 <p>“We're much less rational than we thought.”</p>
@@ -47,22 +60,22 @@
 </blockquote>
 <p>这让我想起了很久之前的一个思考：人类的思维习惯是用已知来描述、定义未知。</p>
 <p><a href="https://zh.wikipedia.org/wiki/%E6%9D%B0%E5%BC%97%E9%87%8C%C2%B7%E8%BE%9B%E9%A1%BF">杰弗里·辛顿 - 维基百科</a></p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/53"/><category term="Thoughts"/><published>2025-04-22T10:08:39+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/52</id><title>Crust</title><updated>2025-05-12T03:10:34.918534+00:00</updated><content type="html"><![CDATA[<p>和我想做的一样！区别是我还不会！🤣</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/53"/><category term="Thoughts"/><published>2025-04-22T10:08:39+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/52</id><title>Crust</title><updated>2025-05-14T06:57:00.990584+00:00</updated><content type="html"><![CDATA[<p>和我想做的一样！区别是我还不会！🤣</p>
 <p><a href="https://www.youtube.com/watch?v=5MIsMbFjvkw">What if Rust was Worse than C - YouTube</a></p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/52"/><category term="Memo"/><published>2025-04-16T03:03:59+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/51</id><title>极简笔记方案</title><updated>2025-05-12T03:10:35.017436+00:00</updated><content type="html"><![CDATA[<p>很早就接触到了用 HTML 文件来做笔记的方法，但是自己一直没有尝试，直到看到这个项目：<a href="https://github.com/keepworking/nash">https://github.com/keepworking/nash</a></p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/52"/><category term="Memo"/><published>2025-04-16T03:03:59+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/51</id><title>极简笔记方案</title><updated>2025-05-14T06:57:01.114261+00:00</updated><content type="html"><![CDATA[<p>很早就接触到了用 HTML 文件来做笔记的方法，但是自己一直没有尝试，直到看到这个项目：<a href="https://github.com/keepworking/nash">https://github.com/keepworking/nash</a></p>
 <p>在原作者的基础上，根据自己的需求加了一些东西，现在很可用了：<a href="https://github.com/VandeeFeng/nash">https://github.com/VandeeFeng/nash</a> ，简直就是一个迷你版的 tiddlywiki。</p>
 <p>笔记的形式始终是次要的，重要的是记录的内容。</p>
 <p>一个自己最愿意使用的笔记方案，就是最好的笔记方案。这几年也一直在慢慢的把我的笔记系统去形式化，低耦合。</p>
 <p>HTML 和 markdown 相比，对我现在来说，优势就在于一步到位，可以根据自己的需求写 CSS，JavaScript，也不必要依赖任何平台或者框架。</p>
 <p>再一个，可能现在更方便被 AI crawl 爬，也算是一个优势吧。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/51"/><category term="Memo"/><published>2025-04-14T08:00:35+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/50</id><title>不太看好 MCP</title><updated>2025-05-12T03:10:35.128667+00:00</updated><content type="html"><![CDATA[<p>从 MCP 出来到现在，我本能的不太看好它，也不知道为什么。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/51"/><category term="Memo"/><published>2025-04-14T08:00:35+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/50</id><title>不太看好 MCP</title><updated>2025-05-14T06:57:01.229507+00:00</updated><content type="html"><![CDATA[<p>从 MCP 出来到现在，我本能的不太看好它，也不知道为什么。</p>
 <p>但作为我理想中 agent 形态的过渡期 #45 ，MCP 的实现还是提供了很多可能性的。</p>
 <p>Andrej Karpathy 有一条回答是 please make it stop :https://x.com/karpathy/status/1899887925103648933</p>
 <p><a href="https://mp.weixin.qq.com/s/pzuhLTK4uwdzbReJAwhETw">华中科技大学｜模型上下文协议 (MCP)- 现状剖析、安全威胁与未来研究方向</a></p>
 <p><a href="https://simonwillison.net/2025/Apr/9/mcp-prompt-injection/#atom-everything">Model Context Protocol has prompt injection security problems</a></p>
 <p><a href="https://mp.weixin.qq.com/s/x3N7uPV1sTRyGWPH0jnz7w">AI Agent破局：MCP与A2A定义安全新边界</a></p>
 <p><a href="https://blog.sshh.io/p/everything-wrong-with-mcp">Everything Wrong with MCP - by Shrivu Shankar</a></p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/50"/><category term="Thoughts"/><published>2025-04-14T01:52:24+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/49</id><title>自我效能</title><updated>2025-05-12T03:10:35.231673+00:00</updated><content type="html"><![CDATA[<p>在 AI 这个放大器下，许多指标上的差异会被拉平，提升效率就变得更重要，时间对于每个人都是平等的。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/50"/><category term="Thoughts"/><published>2025-04-14T01:52:24+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/49</id><title>自我效能</title><updated>2025-05-14T06:57:01.342468+00:00</updated><content type="html"><![CDATA[<p>在 AI 这个放大器下，许多指标上的差异会被拉平，提升效率就变得更重要，时间对于每个人都是平等的。</p>
 <blockquote>
 <p>所谓的自我效能，是指相信自己有能力成功完成特定任务或应对特定情况的信心。很多复杂的因素决定了一个人自我效能的高低，这并非天生的。成长过程中长辈的态度、通过对他人的观察、个体与环境互动等等都影响一个人的自我效能水平。</p>
 <p>在同样面对一个问题，自我效能低的人，看到的往往全是问题，最终放弃。而自我效能高的人，有强大的信念认为可以解决问题。前者也许在智力上比后者更高，但后者可以通过这种信念一直前进，超越前者。</p>
@@ -70,7 +83,7 @@
 </blockquote>
 <p>没想到 obsidian 出了一个剪藏插件，这是目前用过最好用的了。</p>
 <p><a href="https://obsidian.md/clipper">https://obsidian.md/clipper</a></p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/49"/><category term="Thoughts"/><published>2025-04-08T05:34:49+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/48</id><title>技术入侵 or 技术平权？</title><updated>2025-05-12T03:10:35.341643+00:00</updated><content type="html"><![CDATA[<p><a href="https://news.ycombinator.com/item?id=43422413">FOSS infrastructure is under attack by AI companies | Hacker News</a> 里有个评论说到：</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/49"/><category term="Thoughts"/><published>2025-04-08T05:34:49+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/48</id><title>技术入侵 or 技术平权？</title><updated>2025-05-14T06:57:01.456508+00:00</updated><content type="html"><![CDATA[<p><a href="https://news.ycombinator.com/item?id=43422413">FOSS infrastructure is under attack by AI companies | Hacker News</a> 里有个评论说到：</p>
 <blockquote>
 <p>AI firms seem to be leading from a position that goodwill is irrelevant: a $100bn pile of capital, like an 800lb gorilla, does what it wants. AI will be incorporated into all products whether you like it or not; it will absorb all data whether you like it or not.</p>
 <p>人工智能企业似乎正以一种善意无关紧要的姿态引领潮流：1000 亿美元的巨额资本，犹如一只重达 800 磅的大猩猩，随心所欲。 无论你是否乐意，人工智能都将被整合到所有产品中；无论你是否乐意，它都将吸收所有数据。 </p>
@@ -80,7 +93,7 @@
 <p>客观来讲，我觉得可以形容这种情况为“技术入侵”。</p>
 <p>前两天看到一个推文：<a href="https://x.com/oran_ge/status/1902152722994098267">https://x.com/oran_ge/status/1902152722994098267</a> ，提出了一个观点，大致意思是：LLM 是一次技术平权，让没有编程相关技术的人也可以以较低的门槛玩玩 AI，写写代码。</p>
 <p>时间会证明 AI 到底会带来多大的改变，讨论这些是非长远看来没啥意义，历史的趋势不是个人可以左右的。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/48"/><category term="Thoughts"/><published>2025-03-21T05:18:57+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/47</id><title>类 Firefox config</title><updated>2025-05-12T03:10:35.444157+00:00</updated><content type="html"><![CDATA[<p>由于最近 Firefox 的隐私声明问题，包括这几年的一些操作，把一直用的 Firefox 换成了 LibreWolf。一个舒服、顺手的浏览器对我很重要。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/48"/><category term="Thoughts"/><published>2025-03-21T05:18:57+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/47</id><title>类 Firefox config</title><updated>2025-05-14T06:57:01.596618+00:00</updated><content type="html"><![CDATA[<p>由于最近 Firefox 的隐私声明问题，包括这几年的一些操作，把一直用的 Firefox 换成了 LibreWolf。一个舒服、顺手的浏览器对我很重要。</p>
 <img alt='firefox config' src='https://github.com/user-attachments/assets/49692793-95e6-4aa5-9f1c-ad24fc2a54bd' width='50%' >
 <h1>Info</h1>
 <ul>
@@ -1053,7 +1066,7 @@ div.vimiumColumn {
   font-family: var(--font);
 }
 </code></pre>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/47"/><category term="Memo"/><published>2025-03-11T08:54:32+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/46</id><title>又突然想学数学了</title><updated>2025-05-12T03:10:35.568567+00:00</updated><content type="html"><![CDATA[<p>对哲学的兴趣逐渐减淡，对数学和物理的兴趣越来越浓。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/47"/><category term="Memo"/><published>2025-03-11T08:54:32+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/46</id><title>又突然想学数学了</title><updated>2025-05-14T06:57:01.714508+00:00</updated><content type="html"><![CDATA[<p>对哲学的兴趣逐渐减淡，对数学和物理的兴趣越来越浓。</p>
 <blockquote>
 <p><a href="https://www.bilibili.com/video/BV15BR5Y1EdB/">奖金100万美元的数学悬案，为什么科学家希望它永远没人能解？</a></p>
 <p>数学到底是真理，还是接近真理的工具？</p>
@@ -1070,7 +1083,7 @@ div.vimiumColumn {
 永远存在于对地平线的凝视
 而非对终点的占有</p>
 </blockquote>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/46"/><category term="Thoughts"/><category term="Memo"/><published>2025-03-11T08:39:26+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/45</id><title>Agents 的局限来自模型本身</title><updated>2025-05-12T03:10:35.673301+00:00</updated><content type="html"><![CDATA[<p>MCP 无疑扩展了 LLM 的交互，后面可能还会出现其他的 protocols。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/46"/><category term="Thoughts"/><category term="Memo"/><published>2025-03-11T08:39:26+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/45</id><title>Agents 的局限来自模型本身</title><updated>2025-05-14T06:57:01.841126+00:00</updated><content type="html"><![CDATA[<p>MCP 无疑扩展了 LLM 的交互，后面可能还会出现其他的 protocols。</p>
 <p>而 agents 的效果取决于 LLM 本身的能力。就从现在的 function calling 和 tool 的情况来说，距离我想象中的 agents 还有一段距离。</p>
 <p>当 LLM 有了能够根据输入生成 tool 的能力的时候，才是 agents 真正爆发的时候。</p>
 <p>去年12月，Anthropic提出了一个全新的定义：「LLM智能体能动态地决定自己的执行流程和工具使用方式，并自主控制任务的完成过程。」</p>
@@ -1079,7 +1092,7 @@ div.vimiumColumn {
 <p>我既不想鼓吹 AI，也对 AI 抱有很多幻想，未来起源于想象。</p>
 <p>有点像魔术，虽然你知道它是假的，但重要的是它带给你难忘的体验。</p>
 <p>虽然现在的 AI 其实还并不是那么的神奇，但是它已经像魔术一样实现了许多以前无法实现的东西。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/45"/><category term="Thoughts"/><published>2025-03-11T07:28:28+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/44</id><title>gptel tool 设置</title><updated>2025-05-12T03:10:35.775751+00:00</updated><content type="html"><![CDATA[<p>好久没关注 <a href="https://github.com/karthink/gptel">gptel</a> 的更新，居然支持自定义 tool 了，可以调用支持 function calling 的模型，这可太方便了。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/45"/><category term="Thoughts"/><published>2025-03-11T07:28:28+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/44</id><title>gptel tool 设置</title><updated>2025-05-14T06:57:01.949606+00:00</updated><content type="html"><![CDATA[<p>好久没关注 <a href="https://github.com/karthink/gptel">gptel</a> 的更新，居然支持自定义 tool 了，可以调用支持 function calling 的模型，这可太方便了。</p>
 <p><a href="https://github.com/sigoden/aichat">aichat</a> 也支持自定义 tool，之前一直用本地模型，没有怎么关注 tool 调用，又有很多好玩的可以玩了。</p>
 <blockquote>
 <p><a href="https://x.com/theo/status/1895247223577026832">Mozilla just changed the Firefox TOS. - X</a> </p>
@@ -1121,7 +1134,7 @@ div.vimiumColumn {
          )
       (error &quot;未在 auth-source 中找到 Gemini API 密钥！请检查您的 auth-source 配置。&quot;)))
 </code></pre>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/44"/><category term="Memo"/><category term="Emacs"/><published>2025-02-28T15:53:44+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/43</id><title>所谓反抗到底是在反抗什么？</title><updated>2025-05-12T03:10:35.874679+00:00</updated><content type="html"><![CDATA[<p>#6 </p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/44"/><category term="Memo"/><category term="Emacs"/><published>2025-02-28T15:53:44+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/43</id><title>所谓反抗到底是在反抗什么？</title><updated>2025-05-14T06:57:02.085377+00:00</updated><content type="html"><![CDATA[<p>#6 </p>
 <p><a href="https://www.bilibili.com/video/BV1QmP7eBEXd/">其实我也不知道哪吒在燃什么</a> 这个视频的观点真好。动不动就是煽动爱国情绪，挑起政治对立，搞各种正确，太没劲了，这个视频的评论区也是看不下去。</p>
 <p>看看观点本身不就好了？</p>
 <p>我在 <a href="https://www.vandee.art/2024-11-21-recording-is-resistance.html">记录本身就是一种反抗 - gitmemo</a> 里想到：</p>
@@ -1133,7 +1146,7 @@ div.vimiumColumn {
 <p>我记录这些并不是为了反抗什么，虽然带着同样的目的，但手段可以就是手段，它不象征任何。扫地僧扫地其实并不是为了什么，它只是在扫地，它的手段和目的已经融为一体互相转化了，但又不通过任何目的来驱使这个手段。</p>
 <p>现在我自然还没有达到这种境界，就只是凭着直觉记录着，不反抗什么，只是保持希望，保持热爱，像大地一样承载和接受。大地愤怒么？它从来都很平静，但平静得让人类不敢轻易践踏自然的法则，这是比 “反抗” 更坚实、更伟大的力量，因为它会滋生希望而不是畏惧、愤怒和伤害。</p>
 </blockquote>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/43"/><category term="Thoughts"/><published>2025-02-27T06:04:47+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/42</id><title>Cloudflare R2  图床防爬</title><updated>2025-05-12T03:10:36.003656+00:00</updated><content type="html"><![CDATA[<p>之前用 GitHub 当图床，一个是访问的速度很慢，再一个总觉得滥用了资源。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/43"/><category term="Thoughts"/><published>2025-02-27T06:04:47+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/42</id><title>Cloudflare R2  图床防爬</title><updated>2025-05-14T06:57:02.195248+00:00</updated><content type="html"><![CDATA[<p>之前用 GitHub 当图床，一个是访问的速度很慢，再一个总觉得滥用了资源。</p>
 <p>还是转到 Cloudflare R2 了。</p>
 <ul>
 <li>
@@ -1148,23 +1161,23 @@ div.vimiumColumn {
 </li>
 </ul>
 <p>设置了才知道之前图片被爬了多少次。。。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/42"/><category term="Memo"/><published>2025-02-27T04:39:32+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/41</id><title>非必要别更新！！！</title><updated>2025-05-12T03:10:36.094215+00:00</updated><content type="html"><![CDATA[<p>由于设置了 Emacs package 的自动更新，不知道是哪里出现了冲突，在生成 org-blog 的时候，代码块出现了奇怪的缩进。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/42"/><category term="Memo"/><published>2025-02-27T04:39:32+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/41</id><title>非必要别更新！！！</title><updated>2025-05-14T06:57:02.292804+00:00</updated><content type="html"><![CDATA[<p>由于设置了 Emacs package 的自动更新，不知道是哪里出现了冲突，在生成 org-blog 的时候，代码块出现了奇怪的缩进。</p>
 <p>找了一下午也没完全发现原因。。。好在暂时修复了问题。</p>
 <p>非必要别更新！！！非必要别更新！！！非必要别更新！！！非必要别更新！！！非必要别更新！！！</p>
 <p>手贱已经出了无数次问题了，但是还是忍不住 🤣 </p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/41"/><category term="Memo"/><published>2025-02-25T08:26:25+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/40</id><title>现在的信息太无聊了</title><updated>2025-05-12T03:10:36.201612+00:00</updated><content type="html"><![CDATA[<p>#36 </p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/41"/><category term="Memo"/><published>2025-02-25T08:26:25+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/40</id><title>现在的信息太无聊了</title><updated>2025-05-14T06:57:02.408862+00:00</updated><content type="html"><![CDATA[<p>#36 </p>
 <p>DeepSeek R1 出来了！DeepSeek R1 好厉害！</p>
 <p>Grok3 出来了！Grok 3 好厉害！</p>
 <p><a href="https://www.anthropic.com/news/claude-3-7-sonnet">Claude 3.7 Sonnet and Claude Code</a>  出来了 ！Claude 3.7 好厉害！</p>
 <p>技术就是这样潜移默化的影响着生活。</p>
 <p>现在铺天盖地的 Deep Research，关键是 search，而 search 的关键是内容。优质内容总不能用爱发电，这些热点把利益卷走，优质内容的创作者的热情也就慢慢被消磨了。</p>
 <p>但这些都只是客观，最根本的还是发现、处理信息的能力。信息检索和获取的工作流要再加强。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/40"/><category term="Thoughts"/><category term="Memo"/><published>2025-02-25T05:57:14+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/39</id><title>Gemini 的 personality 也挺好玩的</title><updated>2025-05-12T03:10:36.299832+00:00</updated><content type="html"><![CDATA[<p>挺逗的🤣</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/40"/><category term="Thoughts"/><category term="Memo"/><published>2025-02-25T05:57:14+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/39</id><title>Gemini 的 personality 也挺好玩的</title><updated>2025-05-14T06:57:02.514572+00:00</updated><content type="html"><![CDATA[<p>挺逗的🤣</p>
 <p>现在的 LLM 好像都加入了更多的幽默元素，<a href="https://x.com/karpathy/status/1891213379018400150">Andrej Karpathy on X: &quot;Actually I quite like the new ChatGPT 4o personality, whatever they did.</a></p>
 <p>原来专门有个词来形容这个：vibe（氛围感）</p>
 <p><a href="https://x.com/karpathy/status/1886192184808149383">Andrej Karpathy on X: &quot;There's a new kind of coding I call &quot;vibe coding&quot;</a></p>
 <p><a href="https://arstechnica.com/ai/2025/03/is-vibe-coding-with-ai-gnarly-or-reckless-maybe-some-of-both/">Will the future of software development run on vibes? - Ars Technica</a></p>
-<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/1b8a73d0-9696-42c0-b1c0-6db69fab078a" />]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/39"/><category term="Memo"/><published>2025-02-19T06:20:32+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/38</id><title>记录我第一个被采纳的 issue</title><updated>2025-05-12T03:10:36.427996+00:00</updated><content type="html"><![CDATA[<p>没想到会真的考虑我的这些小建议</p>
+<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/1b8a73d0-9696-42c0-b1c0-6db69fab078a" />]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/39"/><category term="Memo"/><published>2025-02-19T06:20:32+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/38</id><title>记录我第一个被采纳的 issue</title><updated>2025-05-14T06:57:02.642211+00:00</updated><content type="html"><![CDATA[<p>没想到会真的考虑我的这些小建议</p>
 <p><a href="https://github.com/TilmanGriesel/chipper/issues/105">add default model setting info · Issue #105 · TilmanGriesel/chipper</a></p>
 <p><a href="https://github.com/nbonamy/witsy/issues/73">support local web search · Issue #73 · nbonamy/witsy</a></p>
 <p>虽然这两个 issue 都是完全从他们的项目出发的，但还是有种占了便宜的感觉。。。</p>
@@ -1177,7 +1190,7 @@ div.vimiumColumn {
 <p>这。。。<a href="https://github.com/BewlyBewly/BewlyBewly">BewlyBewly</a> 直接 archive 了。。一直在用。。。</p>
 <p><a href="https://www.bilibili.com/video/BV17JKgeaEiC/">开源项目被人收费上架，作者气得直接弃坑。开源活该？</a></p>
 <p>我这嘴开光了。。。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/38"/><category term="Memo"/><published>2025-02-15T04:45:15+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/37</id><title>认知偏差1</title><updated>2025-05-12T03:10:36.553261+00:00</updated><content type="html"><![CDATA[<p>避免被既定规则、权威观点或个人偏好固化认知习惯。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/38"/><category term="Memo"/><published>2025-02-15T04:45:15+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/37</id><title>认知偏差1</title><updated>2025-05-14T06:57:02.747137+00:00</updated><content type="html"><![CDATA[<p>避免被既定规则、权威观点或个人偏好固化认知习惯。</p>
 <p>举个例子，我更喜欢 Emacs，但更习惯 Vim 的输入方式。不必完全拘泥于 Emacs 的快捷键，也不必全盘接受 Vim 的设定，怎么顺手怎么来就好。</p>
 <p>快捷键设计的初衷是为了减少键盘操作，提升编程效率。通常情况下，vim 比 Emacs 的快捷键需要的键盘操作要少。但许多特定的编辑需求在 Emacs 里通过自定义函数来设置，比 vim 更方便。</p>
 <p><a href="https://maskray.me/blog/2024-11-02-tinkering-with-neovim">Tinkering with Neovim | MaskRay</a> 看到一个大佬从 Emacs 转向了 Nvim，之前也是 Emacs，这次的理由是，nvim 基于终端的简洁性，还说到：使用熟悉的语言自定义编辑器非常重要。所以还是怎么顺手怎么来。 -- 2025.2.18</p>
@@ -1191,25 +1204,25 @@ div.vimiumColumn {
 <p>承认自己喜欢的事物的缺点，说起来容易往往很难做到。</p>
 <p>我最喜欢的是古典乐，但是摇滚、流行也都听，真实的音乐就是好的音乐, 就如同海明威的写作信条：任何作品的终极价值，取决于作者在文本中留下的生命刻痕。</p>
 <p>真正的个性，不仅在于特立独行，更在于包容那些即使不认同的个性。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/37"/><category term="Thoughts"/><published>2025-02-10T09:13:46+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/36</id><title>泡泡就是这么吹起来的</title><updated>2025-05-12T03:10:36.661077+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/37"/><category term="Thoughts"/><published>2025-02-10T09:13:46+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/36</id><title>泡泡就是这么吹起来的</title><updated>2025-05-14T06:57:02.858190+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>I'll give it a read. I must admit, the more I learn about the inner workings of LLM's the more I see them as simply the sum of their parts and nothing more. The rest is just anthropomorphism and marketing.</p>
 <p>我会读一读的。我必须承认，我对 LLM 的内部运作了解得越多，就越觉得它们只是各部分的总和，仅此而已。剩下的只是拟人化和营销而已。 </p>
 <p>via：<a href="https://news.ycombinator.com/item?id=42989320">https://news.ycombinator.com/item?id=42989320</a></p>
 </blockquote>
 <p>刚看看到这个就看到 Sam Altman 的新 blog ：<a href="https://blog.samaltman.com/three-observations">Three Observations</a> 🤣</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/36"/><category term="Memo"/><published>2025-02-10T04:25:55+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/35</id><title>本地文档 RAG 思路 Chipper 项目</title><updated>2025-05-12T03:10:36.757595+00:00</updated><content type="html"><![CDATA[<p>Chipper: <a href="https://github.com/TilmanGriesel/chipper">https://github.com/TilmanGriesel/chipper</a></p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/36"/><category term="Memo"/><published>2025-02-10T04:25:55+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/35</id><title>本地文档 RAG 思路 Chipper 项目</title><updated>2025-05-14T06:57:02.976309+00:00</updated><content type="html"><![CDATA[<p>Chipper: <a href="https://github.com/TilmanGriesel/chipper">https://github.com/TilmanGriesel/chipper</a></p>
 <p>其实很早就关注了这个项目，但是一直没有尝试。这个项目基于 Elasticsearch 来实现文档搜索和 RAG。LLM 的提供支持 ollama 和 huggingface。提供脚本一键 docker 部署很方便。</p>
 <p>我看重的功能是：它可以提供一个 ollama 的代理。也就是使用这个项目的 ollama 代理之后，就可以直接调用项目的文档 RAG 了，而这个项目管理文档 RAG 很方便。这样就可以把它当作是一个文档搜索引擎了。Chipper 项目相当于一个 pipeline？</p>
 <p>现在就可以把用 <a href="https://github.com/VandeeFeng/ReadPDFpbp">read PDF page by page</a> 整理过的笔记系统的学习，逐步替代NotebookLM。完善 <a href="https://www.vandee.art/2025-01-20-fragmented-knowledge-learning-with-ai.html">碎片知识学习 - with AI</a>和<a href="https://www.vandee.art/2024-12-24-the-structrued-knowledge-workflow-with-ai.html">结构化知识工作流 - with AI</a></p>
 <p>整个技术栈很值得参考，还是由于知识不足，所以一直没有构建好本地文档的知识问答体系。 #22 #26</p>
 <p>在 obsidian 里很早就可以很方便的用插件来实现了，但是还是自己折腾更有意思。</p>
 <p>又重构了 gitmemos 的很多东西。。。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/35"/><category term="PKM"/><published>2025-02-09T05:47:54+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/34</id><title>热情的扩散</title><updated>2025-05-12T03:10:36.908710+00:00</updated><content type="html"><![CDATA[<p>不知道从什么时候开始，在 Emacs 里记笔记这件事本身就会让我觉得很有意思。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/35"/><category term="PKM"/><published>2025-02-09T05:47:54+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/34</id><title>热情的扩散</title><updated>2025-05-14T06:57:03.130908+00:00</updated><content type="html"><![CDATA[<p>不知道从什么时候开始，在 Emacs 里记笔记这件事本身就会让我觉得很有意思。</p>
 <p>相似的，我其实不喜欢读论文，但用自己构建的工具来学论文，就变得有意思了。我也很懒，平常不太爱出远门，但是带上相机，我就有了去很多地方的兴趣。</p>
 <p>这应该就是热情的扩散。</p>
 <p>当在一个领域或者某个阶段当中，不可避免的需要面对枯燥乏味或是很难推进的事物，附加上各种鸡汤式的理由来强行说服自己不会是我的做法，依靠奖励来推动行动也不可取，强迫自己对一个东西发展出兴趣更没有必要。</p>
 <p>Embark on something with passion and interest，在自己感兴趣的事物的基础上发展、扩散到更多的领域。这应该是一种更正面的，克服枯燥、懒惰的方法。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/34"/><category term="Thoughts"/><published>2025-01-29T09:49:29+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/33</id><title>慢下来的能力，坚持自己的判断</title><updated>2025-05-12T03:10:37.027993+00:00</updated><content type="html"><![CDATA[<p>最近一直在看 <a href="https://www.youtube.com/@TsodingDaily">Tsoding Daily - YouTube</a>，太喜欢 Tsoding 的态度了。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/34"/><category term="Thoughts"/><published>2025-01-29T09:49:29+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/33</id><title>慢下来的能力，坚持自己的判断</title><updated>2025-05-14T06:57:03.244243+00:00</updated><content type="html"><![CDATA[<p>最近一直在看 <a href="https://www.youtube.com/@TsodingDaily">Tsoding Daily - YouTube</a>，太喜欢 Tsoding 的态度了。</p>
 <p>现在铺天盖地都是关于 AI 的消息，在变化或变革发生的时候，人们总会下意识的对比，随即是可能的感慨。比如我前面这句。</p>
 <p>特别是在这些变革还没有真正彻底发生的时候。</p>
 <p>看到 Tsoding 一如既往的坚持自己的态度，坚持自己喜欢的方式，这是在变化中宝贵的东西。这不是固执和不愿意接受改变，当固执被证明为是一种正确，它就成为了一种独特的判断力，一种风格，一种品味。</p>
@@ -1218,7 +1231,7 @@ div.vimiumColumn {
 <p>从 Tsoding 的身上看到了许多底层逻辑的东西，和我都不谋而合。在 <a href="https://www.youtube.com/watch?v=XAGCULPO_DE&amp;t=4182s">I tried React and it Ruined My Life - YouTube</a> 这个视频里，他做了我也一直会做的事情，就只是兴趣，就只是去探求、思考一个事物底层的逻辑，去发现，explore。这正是人类发展的原动力，discover，explore，think，imagine。</p>
 <p>现在这个时代，如果用一个字来描述就是：快。来的也快，去得也快，很多东西都变成了一次性的。信息也是，产品也是，娱乐也是，消费也是。</p>
 <p>任何时候，都要有能慢下来的能力，控制节奏的能力。这需要在一个陌生环境里清晰的判断力，以及对信息过滤筛选的能力。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/33"/><category term="Thoughts"/><published>2025-01-23T05:36:25+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/32</id><title>映射信息 from people</title><updated>2025-05-12T03:10:37.123773+00:00</updated><content type="html"><![CDATA[<p>Looi Robot 终于到了！太好玩了。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/33"/><category term="Thoughts"/><published>2025-01-23T05:36:25+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/32</id><title>映射信息 from people</title><updated>2025-05-14T06:57:03.347848+00:00</updated><content type="html"><![CDATA[<p>Looi Robot 终于到了！太好玩了。</p>
 <img alt='looi' src='https://github.com/user-attachments/assets/5394b544-9723-44d3-8a30-65071463371c' width='50%'>
 <p>从人出发的信息？从人映射信息？好像都不太准确，英文 the information reflected from people 应该是我想表达的意思。</p>
 <p>在信息网络里，人始终是一个不可分割的最小端点之一，信息网络的构成离不开人与人的交互。我不喜欢和纯粹的信息打交道，我需要的是鲜活的信息，有人味的信息。因此，我觉得这可以算作是一种映射。</p>
@@ -1229,12 +1242,12 @@ div.vimiumColumn {
 <p>我一直把编程语言就真的看作是一种语言，这就是门外汉的优势，更多的想象力。</p>
 <p>因此类比语言的学习，放到语境，和上下文，环境里，直接的体验，就是最简单直接的方法。就像母语一样，用着用着自然就会了。我觉得编程也是一样。它是逻辑思维的另一种表达。</p>
 <p>就像最近在看汇编，我完全不知道相关的特定代码和语法，但是这并不妨碍我去理解它逻辑上的运行，看 Tsoding 的视频也吸收的很快，我觉得这一定是和语言相通的。理论上的学习当然是必须的，但这并不冲突，我们谁也不是过了汉语多少多少级才开口说话。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/32"/><category term="Thoughts"/><published>2025-01-16T05:50:20+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/31</id><title>个人摄影网站搞定</title><updated>2025-05-12T03:10:37.235987+00:00</updated><content type="html"><![CDATA[<p>用 <a href="https://github.com/sambecker/exif-photo-blog">https://github.com/sambecker/exif-photo-blog</a> 这个项目部署到了 Vercel。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/32"/><category term="Thoughts"/><published>2025-01-16T05:50:20+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/31</id><title>个人摄影网站搞定</title><updated>2025-05-14T06:57:03.444857+00:00</updated><content type="html"><![CDATA[<p>用 <a href="https://github.com/sambecker/exif-photo-blog">https://github.com/sambecker/exif-photo-blog</a> 这个项目部署到了 Vercel。</p>
 <p>整体的风格比较简约，符合我的胃口，毕竟摄影就是黑白灰，就是光影。</p>
 <p>后面再慢慢自己折腾改改。</p>
 <p>我的摄影作品集：<a href="https://x.vandee.art/photo">https://x.vandee.art/photo</a></p>
 <img  alt="photo-site" width="80%" src="https://github.com/user-attachments/assets/a3d2fed6-765e-448b-9b71-1685735f31f8" />
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/31"/><category term="Memo"/><published>2025-01-08T08:56:29+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/30</id><title>好东西越来越难被看到了</title><updated>2025-05-12T03:10:37.341753+00:00</updated><content type="html"><![CDATA[<p>今天发现一个宝藏项目：<a href="https://github.com/nbonamy/witsy">https://github.com/nbonamy/witsy</a>。感谢作者的开源。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/31"/><category term="Memo"/><published>2025-01-08T08:56:29+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/30</id><title>好东西越来越难被看到了</title><updated>2025-05-14T06:57:03.562654+00:00</updated><content type="html"><![CDATA[<p>今天发现一个宝藏项目：<a href="https://github.com/nbonamy/witsy">https://github.com/nbonamy/witsy</a>。感谢作者的开源。</p>
 <p>和传统的 LLM 集成聊天软件不同的是，它还提供了弹出窗口，可以在几乎任何地方选中文字和 LLM 交互，还可以和本地的 Python 代码集成，完全就是一个小型的 compute use。整个的设计思路太棒了，是我到目前体验到的最舒服，最符合自己使用场景和需求的 LLM 集成客户端软件。</p>
 <p>然而这个项目只有 200 多个 Star。</p>
 <p>大数据、算法、流量，到现在的 AI 搜索，我们往往看到的只是大多数人看到的，这虽然是一个老问题，但总是让我感到一种失落感。一想到每天都有这么多好的想法被大浪冲刷掉，在大浪风口的更多的是裹挟着各方利益、或是被过度包装的这些看起来满足了大多数人需求的产物。</p>
@@ -1242,7 +1255,7 @@ div.vimiumColumn {
 <p>所以如何衡量一个小众、个体？当它被大多数人承认的时候，它就不是当初的小众了。不被大多数人认可和承认正是独立的特性和价值。我也一直不以这个为判断一件事物的决定性因素。</p>
 <p>独立价值越来越难在现在的规则里体现，也越来越难被甄别。当个人价值和独立思维被群体意志和趋势、倾向所掩盖，麻木之后，也就更难发现真正有价值的东西了。</p>
 <p>这也是我这么多年来一直想坚持的东西，保持相对的独立真的挺重要。说文雅一些，也就是品味。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/30"/><category term="Thoughts"/><category term="Memo"/><published>2025-01-05T09:45:48+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/29</id><title>搜索、整合、分析信息的能力，会变得越来越重要</title><updated>2025-05-12T03:10:37.473403+00:00</updated><content type="html"><![CDATA[<p>和 AI 交互，让 AI 帮助自己学习，用 AI 提升学习的效率，看起来是个很自然的过程。错觉是，AI 已经帮我们更好的搜索了，但实际上并不是。没有目的和方法的和 LLM 聊天只会浪费更多时间，因为它本身会产生不可避免的幻觉（hallucination），再就是需要至少 2-3 轮的对话才能获得相对准确的答案，要考虑到 <a href="https://www.vandee.art/2024-12-08-The-Hidden-Costs-of-AI-Interaction.html">AI 交互的隐性成本</a> , #21 。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/30"/><category term="Thoughts"/><category term="Memo"/><published>2025-01-05T09:45:48+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/29</id><title>搜索、整合、分析信息的能力，会变得越来越重要</title><updated>2025-05-14T06:57:03.682439+00:00</updated><content type="html"><![CDATA[<p>和 AI 交互，让 AI 帮助自己学习，用 AI 提升学习的效率，看起来是个很自然的过程。错觉是，AI 已经帮我们更好的搜索了，但实际上并不是。没有目的和方法的和 LLM 聊天只会浪费更多时间，因为它本身会产生不可避免的幻觉（hallucination），再就是需要至少 2-3 轮的对话才能获得相对准确的答案，要考虑到 <a href="https://www.vandee.art/2024-12-08-The-Hidden-Costs-of-AI-Interaction.html">AI 交互的隐性成本</a> , #21 。</p>
 <p>背后的几个关键问题是：学习的资料、信息从哪里来，这些信息和 LLM 交互的链接（Agent ，RAG），LLM 模型本身的针对性优化（fine-tuning），再就是和 LLM 交互的技巧（prompt）。 #26 </p>
 <p>汇总一下现在常用的小玩意：</p>
 <h2>学习 GitHub 仓库的代码</h2>
@@ -1271,12 +1284,12 @@ div.vimiumColumn {
 <li><a href="https://searchthearxiv.com/">search the arXiv</a></li>
 <li><a href="https://search.luxirty.com/">Luxirty Search</a></li>
 </ul>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/29"/><category term="Thoughts"/><published>2025-01-04T07:51:48+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/28</id><title>获取特定仓库的新增 commit</title><updated>2025-05-12T03:10:37.588273+00:00</updated><content type="html"><![CDATA[<p>一直想汇总一下一个星期之内做了哪些，获取了哪些信息，但没有找到很简洁的方法。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/29"/><category term="Thoughts"/><published>2025-01-04T07:51:48+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/28</id><title>获取特定仓库的新增 commit</title><updated>2025-05-14T06:57:03.824124+00:00</updated><content type="html"><![CDATA[<p>一直想汇总一下一个星期之内做了哪些，获取了哪些信息，但没有找到很简洁的方法。</p>
 <p>n8n 总觉得现在没有那么值得去从头折腾的很有价值的内容。用 Zeabur 通过自己的服务器部署了好久了，一直没有动力折腾起来。</p>
 <p>先用 GitHub 的 commit 新增来过渡一下。然后在 NotebookLM 里就可以简单的回顾了。</p>
 <img width="60%" alt="gitdiff" src="https://github.com/user-attachments/assets/5edf6be2-e9fa-402e-b230-691b72501567">
 <img width="60%" alt="gitdiffnote" src="https://github.com/user-attachments/assets/f5126983-f63b-44db-ba7e-4b89035acfc8">
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/28"/><category term="PKM"/><published>2024-12-30T13:29:55+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/27</id><title>Rime 启用语言模型之后更智能了！</title><updated>2025-05-12T03:10:37.689735+00:00</updated><content type="html"><![CDATA[<p>今天重构了 GitHub webhook 来同步更新到 gitmemo 的数据库，还是没能解决已有 issue 插入新 row 的问题，增量更新的功能是正常的。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/28"/><category term="PKM"/><published>2024-12-30T13:29:55+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/27</id><title>Rime 启用语言模型之后更智能了！</title><updated>2025-05-14T06:57:04.212988+00:00</updated><content type="html"><![CDATA[<p>今天重构了 GitHub webhook 来同步更新到 gitmemo 的数据库，还是没能解决已有 issue 插入新 row 的问题，增量更新的功能是正常的。</p>
 <p>解决了，原来是保存的时候 owner 没有统一大小写。。。  --2024-12-23</p>
 <p>现在同步更方便了，GitHub issue 有变化的时候会触发 webhook 自动写入数据库，手动同步支持增量更新，不用每次都重复写入所有的 issue</p>
 <h2>Rime 启用语言模型</h2>
@@ -1290,17 +1303,17 @@ div.vimiumColumn {
 <p><a href="https://emacs-china.org/t/childframe/28166">终端版的 childframe 要来了 - Emacs-general - Emacs China</a></p>
 <p><a href="https://emacs-china.org/t/org-supertag-v0-01-org-mode/28530">（发布）Org-supertag v0.01 发布，增强 org-mode 的标签系统 - Org-mode - Emacs China</a></p>
 <p><a href="https://emacs-china.org/t/emacs-tana-supertag/28407/9">（新坑）打算在 emacs 上复刻 Tana 的 SuperTag - Emacs-general - Emacs China</a>，正巧最近也看到了 Tana 里的 SuperTag，这个思路可以借鉴。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/27"/><category term="Memo"/><published>2024-12-21T06:05:00+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/26</id><title>在知识之间、AI 之间创造 connection</title><updated>2025-05-12T03:10:38.010794+00:00</updated><content type="html"><![CDATA[<p>直觉上觉得 RAG 的作用比较局限，之前看到过一个论文是在讨论 long context 和 RAG 之间哪个更好。现在的模型上下文都可以处理的很长，不知道有没有新的定论。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/27"/><category term="Memo"/><published>2024-12-21T06:05:00+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/26</id><title>在知识之间、AI 之间创造 connection</title><updated>2025-05-14T06:57:04.314543+00:00</updated><content type="html"><![CDATA[<p>直觉上觉得 RAG 的作用比较局限，之前看到过一个论文是在讨论 long context 和 RAG 之间哪个更好。现在的模型上下文都可以处理的很长，不知道有没有新的定论。</p>
 <p>一个高中生（LLM）在考试之前拿着一个博士生的课本（RAG），总觉得局限性还是有的，它可以背诵出博士生课本的内容，但可能不能很好的理解。RAG 在短短一年之内发展出了很多形态，我觉得Graph RAG 的思路是挺通用的。不管用不用 RAG，都可以给 LLM 一个地图，一个索引指导，让 LLM 通过索引来获取自己想针对性提问的内容。</p>
 <p>对于普通用户来说，我觉得用 SQL 检索关键字直接从 PKM 数据库里找到相关的内容应该可以简单有效的提升 RAG 的效果。不光是和 LLM 的交互里可以运用到地图的思路，在自己做笔记的时候，也应该有一个思维地图，在查找相关概念的时候，可以沿着地图很方便的找到。 #19 #22 </p>
 <p>Google 的 NotebookLM 已经做到了我想实现的形态，更多的还是应该自己主动总结，做好索引地图。之前总想着让 LLM 浏览大量文件总结出问题帮助思考，这一步还是得自己来。有了索引地图之后，只需要让 LLM 在数据库里检索相关的字段就挺方便了。</p>
 <p>最近在玩 <a href="https://github.com/phidatahq/phidata">phidata</a> , 用来构建 agent 确实挺方便的。参考官方的 cookbook 整了一个本地 ollama 的 RAG小玩意，视频如下：</p>
 <p><a href="https://github.com/user-attachments/assets/b7ba2eb4-8703-4b41-ab74-ca40148d6b60">https://github.com/user-attachments/assets/b7ba2eb4-8703-4b41-ab74-ca40148d6b60</a></p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/26"/><category term="Thoughts"/><published>2024-12-18T08:14:23+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/25</id><title>Gemini 2.0 挺强的</title><updated>2025-05-12T03:10:38.108112+00:00</updated><content type="html"><![CDATA[<p>用 streamlit 和 phidata 测试了一下 Gemini 2.0 ，对图像的识别挺强的。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/26"/><category term="Thoughts"/><published>2024-12-18T08:14:23+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/25</id><title>Gemini 2.0 挺强的</title><updated>2025-05-14T06:57:04.434270+00:00</updated><content type="html"><![CDATA[<p>用 streamlit 和 phidata 测试了一下 Gemini 2.0 ，对图像的识别挺强的。</p>
 <p>应该是将视频转换为图片来处理的，对中文的识别也挺准确，生成的结果也挺准确，逻辑性也很强。但是视频长度比较长的，可能超过了 API 的限制，无法生成结果。</p>
 <p>视频 PKM 准备就用 Gemini 2.0 了 #22 </p>
 <img width="60%" alt="gemini" src="https://github.com/user-attachments/assets/f3e91e09-9147-4e90-820b-a68e8f33e017">
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/25"/><category term="Memo"/><published>2024-12-15T14:06:31+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/24</id><title>现象很容易被当作是本质</title><updated>2025-05-12T03:10:38.196741+00:00</updated><content type="html"><![CDATA[<p>今天看到李继刚在即刻上的帖子：<a href="https://m.okjike.com/originalPosts/6757ac94226a37f99f92b2a7">https://m.okjike.com/originalPosts/6757ac94226a37f99f92b2a7</a></p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/25"/><category term="Memo"/><published>2024-12-15T14:06:31+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/24</id><title>现象很容易被当作是本质</title><updated>2025-05-14T06:57:04.566300+00:00</updated><content type="html"><![CDATA[<p>今天看到李继刚在即刻上的帖子：<a href="https://m.okjike.com/originalPosts/6757ac94226a37f99f92b2a7">https://m.okjike.com/originalPosts/6757ac94226a37f99f92b2a7</a></p>
 <blockquote>
 <p>我一直困惑于意义从何而来，现在我似乎触摸到了一个可能的答案：意义产生于压缩的过程中。当我们将纷繁复杂的现象压缩成一个模式或概念时，我们实际上是在创造意义。这让我想起了科学定律，它们不正是将宇宙的混沌压缩成优雅方程的尝试吗？</p>
 <p>写到这里，我忽然意识到一件事：这些思考本身就是一种压缩，是我试图将今天的对话经验压缩成文字的尝试。而当其他人读到这些文字时，他们又会在自己的思维中进行解压缩，重建出新的理解。这个过程本身就印证了我们讨论的主题。</p>
@@ -1314,7 +1327,7 @@ div.vimiumColumn {
 <p>而关于意义，则更不是产生于压缩的过程当中，换句话说，意义不是产生于抽象的过程当中。真正的意义是独立于这些而存在的，因为这些相对于人类的意义只相对于人类而产生，就像某些事物只对自己有特殊的意义，这个事物当然对每个人的意义是不同的。但这个意义并不是我所说的意义，如果说独立于意识之外的物质就是没有意义的，是人类和这些物质进行交换的所有过程才产生了这些相对于全人类的意义。</p>
 <p>硬生生的讨论意义的产生其实就挺没有“意义”的，我相信绝对物质的存在，绝对的物质在脱离人类意识的基础上，当然是没有意义的，我们所讨论的意义，讨论的前提就是在人类的思维下的，因此当然这些意义都是相对于人类的意义，这些绝对的物质对于其他生物的意义天然是和人类不同的，就像其他生物的视觉和人类就不一样，看到的物质的颜色天然就和人类也不一样。</p>
 <p>意义并不是创造的，或者反过来说，任何和人类有关的意义都是创造的。这些人类和绝对物质之间反馈的结果，都是“意义”，只是看主体如何抽象和表达。而广义的意义更是定义在群体认知之上，就好像艺术，如果没有了历史和欣赏的群体，那么艺术是没有意义的。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/24"/><category term="Thoughts"/><published>2024-12-12T09:41:13+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/23</id><title>没有什么正好，数据检索和专注</title><updated>2025-05-12T03:10:38.400302+00:00</updated><content type="html"><![CDATA[<p>前两天在思考 构建贾维斯 AI 思考助手 #22 ，正在犹豫 Dify 和 n8n 选哪个</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/24"/><category term="Thoughts"/><published>2024-12-12T09:41:13+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/23</id><title>没有什么正好，数据检索和专注</title><updated>2025-05-14T06:57:04.655473+00:00</updated><content type="html"><![CDATA[<p>前两天在思考 构建贾维斯 AI 思考助手 #22 ，正在犹豫 Dify 和 n8n 选哪个</p>
 <p>今天正好就看到了 <a href="https://1q43.blog/post/10736/">不要轻易地走进 AI Native（AI 原生） – 虹线</a> </p>
 <blockquote>
 <p>但对于个人使用者来说，我为什么不等它真的超过了 n8n 在用它呢？</p>
@@ -1328,7 +1341,7 @@ div.vimiumColumn {
 </blockquote>
 <p>心理学上肯定有一个术语来专门描述我上面的这两个正好。在专注某些领域的问题时，自然会注意到更多相关的内容，而选择性忽略其他的。这些正好可能就是对专注和坚持的奖励。</p>
 <p>这也正是数据、搜索的作用和重要性，当新问题出现时，能够尽可能的获取相关的信息。这也是我想在 流动知识检索 #19 里实现的目标。让 AI 帮助我汇总相关领域的知识，减少人工筛选的成本。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/23"/><category term="Thoughts"/><published>2024-12-11T12:53:21+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/22</id><title>构建贾维斯 AI 思考助手</title><updated>2025-05-12T03:10:38.489667+00:00</updated><content type="html"><![CDATA[<p>之前看到一个帖子说的是构建一个基于 AI 的人生 coach，挺有意思的。通过不同的 agent 和 prompt 还有资料库通过 RAG 来分析，给予思考和建议。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/23"/><category term="Thoughts"/><published>2024-12-11T12:53:21+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/22</id><title>构建贾维斯 AI 思考助手</title><updated>2025-05-14T06:57:04.773311+00:00</updated><content type="html"><![CDATA[<p>之前看到一个帖子说的是构建一个基于 AI 的人生 coach，挺有意思的。通过不同的 agent 和 prompt 还有资料库通过 RAG 来分析，给予思考和建议。</p>
 <p>现在的 PKM 的 AI  分析没有加入思维的循环，还是做成自动化比较方便。 #19 </p>
 <p>具体实现：</p>
 <ul>
@@ -1346,17 +1359,17 @@ div.vimiumColumn {
 <li><input disabled="" type="checkbox"> 视频 PKM</li>
 </ul>
 <img width="60%" alt="截屏2024-12-09 12 21 54" src="https://github.com/user-attachments/assets/715d6bda-a75a-4907-8e54-656db5fc4073">
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/22"/><category term="TODO"/><published>2024-12-09T04:31:10+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/21</id><title>AI 交互的隐性成本</title><updated>2025-05-12T03:10:38.590948+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.vandee.art/2024-12-08-The-Hidden-Costs-of-AI-Interaction.html">AI 交互的隐性成本</a></p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/22"/><category term="TODO"/><published>2024-12-09T04:31:10+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/21</id><title>AI 交互的隐性成本</title><updated>2025-05-14T06:57:04.931008+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.vandee.art/2024-12-08-The-Hidden-Costs-of-AI-Interaction.html">AI 交互的隐性成本</a></p>
 <p>每一次技术的革新，科学的发展，都会提高生产力，提升效率，但这不等于是对个人的，相反技术的革命会增加个人的成本，个人要适应这些变化。</p>
 <p>让 AI 帮助自己思考才是本质，最大的投资永远应该是自己。</p>
 <p>这也是为什么，进大半年一直在折腾我的各种 PKM。用 AI 来优化信息获取、信息整理，帮助自己思考，我认为是一劳永逸的。学 AI 就是学一个新的语言，一个和代码、二进制沟通的语言，而这个语言迟早会和当初英文一样，编入义务教育的课本。</p>
 <p>就单纯想想以后不想被那些和我曾经一样嚣张跋扈的年轻人鄙视，就很有动力了🤣。 </p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/21"/><category term="Thoughts"/><published>2024-12-08T09:46:44+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/20</id><title>失败就像误差一样是不可避免的常态</title><updated>2025-05-12T03:10:38.687699+00:00</updated><content type="html"><![CDATA[<p>最近用 cursor 糊了两个小玩意，还是挺好玩的。也再次确认了一个事情：坚持是必不可少的特质。人尽皆知但通常很难做到。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/21"/><category term="Thoughts"/><published>2024-12-08T09:46:44+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/20</id><title>失败就像误差一样是不可避免的常态</title><updated>2025-05-14T06:57:05.030054+00:00</updated><content type="html"><![CDATA[<p>最近用 cursor 糊了两个小玩意，还是挺好玩的。也再次确认了一个事情：坚持是必不可少的特质。人尽皆知但通常很难做到。</p>
 <p>健身，跑步除了能让身体健康，最重要的是，身体在这个磨炼的过程中同样会强化内心。我的毅力大部分是在这个过程中得到的锻炼。</p>
 <p>好多次在重构 GitMemo 的时候都嫌麻烦不想搞了，但当多巴胺和内啡肽开始作用之后，正反馈会慢慢战胜这些怠倦。</p>
 <p>失败就像误差一样是不可避免的常态，这其中失败程度的不那么多的，往往我们会称作成功了。所以也可以说，成功是必然的，它是暂时的，是一种摇摆的状态。就像下面 Vercel 的部署一样，这一次成功的部署不代表下一次更新，它只是一个包含了更少失败可能性的一个相对状态。</p>
 <img width="60%" alt="vercel" src="https://github.com/user-attachments/assets/bf2a7727-c76a-4507-8d23-1a8f2cdf0814">
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/20"/><category term="Thoughts"/><published>2024-12-06T06:59:27+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/19</id><title>流动知识检索的构建要抓紧了</title><updated>2025-05-12T03:10:38.804695+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/20"/><category term="Thoughts"/><published>2024-12-06T06:59:27+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/19</id><title>流动知识检索的构建要抓紧了</title><updated>2025-05-14T06:57:05.133207+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>书籍作为一种商品，现在主要在互联网上售卖，受营销、炒作和社交媒体的影响。这意味着什么呢？这意味着你能买到什么书是一个比你能刷到什么短视频更受算法而不是你自己控制的事情。</p>
 <p>via: <a href="https://m.okjike.com/originalPosts/675186cfe323d56ad33d436e">https://m.okjike.com/originalPosts/675186cfe323d56ad33d436e</a></p>
 </blockquote>
@@ -1364,11 +1377,11 @@ div.vimiumColumn {
 <p>但环境的影响始终只是一方面，自身的判断力才是最核心的。</p>
 <p>我现在的流动知识检索的构建都是基于文字的，视频和音频的也要赶紧加上。许多优质资源在视频和播客里也是很多现在，特别是播客，感觉是我没有开发的一个净土。</p>
 <img width="50%" alt="task" src="https://github.com/user-attachments/assets/762061b1-4d7d-440f-abf5-228813fc5f2e">
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/19"/><category term="Memo"/><published>2024-12-05T13:44:05+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/18</id><title>Brain Rot - 脑腐</title><updated>2025-05-12T03:10:38.921696+00:00</updated><content type="html"><![CDATA[<p>2024 年 12 月 2 日，牛津大学出版社宣布“脑腐”（brain rot）为 2024 年牛津年度词汇。这个词汇是由牛津语言专家短 listed 的六个词汇中选出的，经过两周的公众投票和广泛讨论后，最终被选为年度词汇。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/19"/><category term="Memo"/><published>2024-12-05T13:44:05+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/18</id><title>Brain Rot - 脑腐</title><updated>2025-05-14T06:57:05.235505+00:00</updated><content type="html"><![CDATA[<p>2024 年 12 月 2 日，牛津大学出版社宣布“脑腐”（brain rot）为 2024 年牛津年度词汇。这个词汇是由牛津语言专家短 listed 的六个词汇中选出的，经过两周的公众投票和广泛讨论后，最终被选为年度词汇。</p>
 <p>via：<a href="https://corp.oup.com/news/brain-rot-named-oxford-word-of-the-year-2024/">https://corp.oup.com/news/brain-rot-named-oxford-word-of-the-year-2024/</a></p>
 <p>低劣信息对大脑的腐蚀从互联网内容和生态发生变化的时候就已经开始了。短视频，快餐文化的趋势是一定的，面对这些裹着糖衣的无营养内容，如果还不能获得筛选获取信息的能力的话，慢慢地就会生锈了。</p>
 <p>只是我觉得大部分的人都不太重视。信息交换决定了人和外界的反馈，最终会反馈到自身。信息健康，暂且这么描述，它和身体健康一样重要。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/18"/><published>2024-12-03T05:50:45+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/17</id><title>强迫输出与渐进式迭代</title><updated>2025-05-12T03:10:39.043022+00:00</updated><content type="html"><![CDATA[<p>#7 ：AI 能更好的整理无序的信息，帮助自己提出更好的问题。知识的结构化需要不断的迭代，信息不是知识。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/18"/><published>2024-12-03T05:50:45+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/17</id><title>强迫输出与渐进式迭代</title><updated>2025-05-14T06:57:05.347760+00:00</updated><content type="html"><![CDATA[<p>#7 ：AI 能更好的整理无序的信息，帮助自己提出更好的问题。知识的结构化需要不断的迭代，信息不是知识。</p>
 <p>在音乐里有一个概念叫作 Loop，往往是一段循环的旋律或者节奏来帮助对象快速进入旋律想表达的形态。在知识循环里也是一样，也有 intro，loop，reverse，bridge。我挺享受这种知识的乐章，就像谱写一段旋律一样，学习本来就不是枯燥乏味重复的填鸭。</p>
 <p>现在的流程：</p>
 <ul>
@@ -1379,23 +1392,23 @@ div.vimiumColumn {
 </ul>
 <p>需要优化循环的逻辑，适当插入 AI 帮助思考、提问的环节。每一个环节都需要高度同步自己的思维，用双链、标签、高度原子化的概念替代搜索和复杂的检索。让孤岛信息 orphan information 能够自然的融入原子化的循环流程。孤岛信息就像需要被优化和谐的音符。</p>
 <img width="50%" alt="loop" src="https://github.com/user-attachments/assets/d797f00f-e4e8-495a-8bd5-24f56fbce3e7">
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/17"/><category term="Thoughts"/><published>2024-11-30T06:14:52+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/16</id><title>刚搞定 GitMemo，VPS 又好了？🤣</title><updated>2025-05-12T03:10:39.128942+00:00</updated><content type="html"><![CDATA[<p>#14  #11 </p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/17"/><category term="Thoughts"/><published>2024-11-30T06:14:52+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/16</id><title>刚搞定 GitMemo，VPS 又好了？🤣</title><updated>2025-05-14T06:57:05.454838+00:00</updated><content type="html"><![CDATA[<p>#14  #11 </p>
 <p>上个星期 VPS 突然不能访问了，怀疑是 IP 被 GFW blocked 了。正好又在考虑把一些记录的东西迁移到 GitHub，于是开始着手 <a href="https://github.com/VandeeFeng/gitmemos">GitMemo</a> 作为 Memos 的平替。昨天刚把这个搞定，VPS 突然又好了？就是这么巧，一点也不夸张，刚提交完最后一个 commit，VPS 就好了。不得不让我把国庆到美国大选和电信网络抽风了几次联系起来。</p>
 <p>如果不是 VPS 我就不会玩 Memos，如果不是大中华的网络问题，VPS 就不会突然访问不了，如果不是突然访问不了，我可能不会这么快决定着手 GitMemo。</p>
 <p>但真的是这样么？兴趣才是那个挂在我前面的胡萝卜，而我愿意相信它。没有什么宿命和上帝的引导，而是直觉 #2 。</p>
 <p>面对不可描述或解释的事物时，人类的习惯从原始时代到现在并没有改变多少。甚至是期待增加一些传奇色彩和宿命的感觉的。其实没有什么巧合，运气，刚刚好。这些只是不完全事件统计下，人的主观偏向性。就拿这次来说，这两个我愿意认为是很巧的事件背后还有多的是我没有统计在内的，因此，其实一点也不巧合。</p>
 <p>但人是需要信念和希望的，是需要去描绘意义的。还是以爱因斯坦的相对论为例，就是因为爱因斯坦一直相信自己的直觉，相信宇宙的简洁性，才最终得到 E=mc² 这个无比简洁优美的物理表达式。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/16"/><category term="Memo"/><published>2024-11-30T04:01:22+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/15</id><title>翻到了以前的《周易》典藏版</title><updated>2025-05-12T03:10:39.234026+00:00</updated><content type="html"><![CDATA[<p>回忆起来，从第一次接触到《周易》到现在差不多20年了，其实这类的书是有风险的。类似的还有《道德经》。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/16"/><category term="Memo"/><published>2024-11-30T04:01:22+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/15</id><title>翻到了以前的《周易》典藏版</title><updated>2025-05-14T06:57:05.561538+00:00</updated><content type="html"><![CDATA[<p>回忆起来，从第一次接触到《周易》到现在差不多20年了，其实这类的书是有风险的。类似的还有《道德经》。</p>
 <p>淹死的都是会水的人，和冲浪一样，没有驾驭自然的能力就去借助它，是会出问题的。现在应该可以系统的重新开始看看了。</p>
 <p>当个算命的闲书来看就已经很有趣了。但真正吸引我的是，在周易里看到了融入自然的端倪。</p>
 <img width="50%" height="40%" alt="1" src="https://testingcf.jsdelivr.net/gh/vandeefeng/gitbox@main/img/%E6%98%93%E7%BB%8F2.jpeg">
-<img width="50%" height="40%" alt="2" src="https://testingcf.jsdelivr.net/gh/vandeefeng/gitbox@main/img/%E6%98%93%E7%BB%8F1.jpeg">]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/15"/><published>2024-11-29T07:01:56+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/14</id><title>糊了个页面来配合 gitmemo</title><updated>2025-05-12T03:10:39.345545+00:00</updated><content type="html"><![CDATA[<p>gitblog 原项目是用  Zola 来做的页面，更适合博客，不太符合 memo 的特性，在 cursor 的协助下，弄了个 gitmemo页面。</p>
+<img width="50%" height="40%" alt="2" src="https://testingcf.jsdelivr.net/gh/vandeefeng/gitbox@main/img/%E6%98%93%E7%BB%8F1.jpeg">]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/15"/><published>2024-11-29T07:01:56+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/14</id><title>糊了个页面来配合 gitmemo</title><updated>2025-05-14T06:57:05.654175+00:00</updated><content type="html"><![CDATA[<p>gitblog 原项目是用  Zola 来做的页面，更适合博客，不太符合 memo 的特性，在 cursor 的协助下，弄了个 gitmemo页面。</p>
 <p>代码在 <a href="https://github.com/VandeeFeng/gitmemos">https://github.com/VandeeFeng/gitmemos</a></p>
 <p>又更新了许多细节，包括详情页，缓存优化，反链。基本和 Memos 使用的体验差不多了。</p>
 <p>由于之前的疏忽，supabase 没有放在服务端，又重构了一下午。</p>
 <img width="50%" height="50%" alt="gitmemo" src="https://github.com/user-attachments/assets/637aace6-066c-4807-a50e-473fd105d868">
 <p>#11 </p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/14"/><category term="Memo"/><published>2024-11-28T01:22:34+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/13</id><title>糊了个 Dream Journal 来记录梦境</title><updated>2025-05-12T03:10:39.464601+00:00</updated><content type="html"><![CDATA[<p>在 Cursor 的帮忙下，总算把这个功能弄出来了，在 BlinkShot 原项目的基础上增加了邮箱登录，保存图片，日历视图，数据都保存在 supabase。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/14"/><category term="Memo"/><published>2024-11-28T01:22:34+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/13</id><title>糊了个 Dream Journal 来记录梦境</title><updated>2025-05-14T06:57:05.753352+00:00</updated><content type="html"><![CDATA[<p>在 Cursor 的帮忙下，总算把这个功能弄出来了，在 BlinkShot 原项目的基础上增加了邮箱登录，保存图片，日历视图，数据都保存在 supabase。</p>
 <p>代码质量肯定是很烂，不过真的挺好玩的。AI 拓宽了想象的边界，现在可以每天记录梦境生成图片了。初衷是想做成周公解梦的🤣</p>
 <!--more-->
 <img width="400" alt="BlinkShot – Real-Time AI Image Generator1" src="https://github.com/user-attachments/assets/4e1e94e8-f106-4f3b-815e-a9d94093b430">
@@ -1403,7 +1416,7 @@ div.vimiumColumn {
 <br>
 <img width="400" alt="BlinkShot – Real-Time AI Image Generator2" src="https://github.com/user-attachments/assets/fd27e34d-a931-421c-8b50-0ea62ee8406a">
 <p>GitHub：<a href="https://github.com/VandeeFeng/blinkshot/tree/V4">https://github.com/VandeeFeng/blinkshot/tree/V4</a></p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/13"/><category term="Memo"/><published>2024-11-26T16:19:40+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/12</id><title>Nothing About Me</title><updated>2025-05-12T03:10:39.583460+00:00</updated><content type="html"><![CDATA[<p>我所有带有社交属性的玩意儿，都没有 About Me 这一项，究其原因大抵是因为我感觉没有什么可以介绍的。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/13"/><category term="Memo"/><published>2024-11-26T16:19:40+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/12</id><title>Nothing About Me</title><updated>2025-05-14T06:57:05.855597+00:00</updated><content type="html"><![CDATA[<p>我所有带有社交属性的玩意儿，都没有 About Me 这一项，究其原因大抵是因为我感觉没有什么可以介绍的。</p>
 <p>直到我偶然看到一句话，大概是说：许多机会和变数都是从了解与被了解开始的。现在我依然觉得没有什么可以介绍的，但有一个面向外界、面向偶然的窗口还是好的。</p>
 <p>带有一点悲观主义色彩的说，我一直认为人和人之间不存在真正的相互理解。如果有，中东也不会一直打到现在，如果有，一个对不起就可以解决世界90%的问题，如果有，各个阶层和阶级之间就不会有那么多矛盾。或者换句话来说，大部分情况下，我们选择了不选择，选择了不去理解，理解是需要沉重的时间和精力成本的。</p>
 <p>自我介绍这个从小学开始就一直存在的保留节目，会一直伴随着一个人，直到被刻在墓碑上。仅仅作为一个自我介绍，我是可以写的，但下面的这些内容，从根本上就不是我，也仅仅仅供参考。</p>
@@ -1423,7 +1436,7 @@ div.vimiumColumn {
 <li>Wiki: <a href="https://x404.xyz/wiki">https://x404.xyz/wiki</a></li>
 <li>Photo: <a href="https://x404.xyz/photo">https://x404.xyz/photo</a></li>
 </ul>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/12"/><category term="About"/><published>2024-11-26T04:46:13+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/11</id><title>从 Memos 转移到GitHub</title><updated>2025-05-12T03:10:39.679941+00:00</updated><content type="html"><![CDATA[<p>Memos 挺好玩的，但是还是想慢慢转移到 GitHub。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/12"/><category term="About"/><published>2024-11-26T04:46:13+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/11</id><title>从 Memos 转移到GitHub</title><updated>2025-05-14T06:57:06.004615+00:00</updated><content type="html"><![CDATA[<p>Memos 挺好玩的，但是还是想慢慢转移到 GitHub。</p>
 <p>这也是我最近一直在思考的问题，社交属性的权重我现在很低：</p>
 <blockquote>
 <p>其中很重要的一个原因是，我不希望我的许多内容由平台决定应该哪些被看到。因为我觉得我写的大部分内容可能对他人没有价值，只是对我自己有价值。如果它恰巧对某个他人有价值，我也希望这个他人是在自己的主观能动性下，经历了一番搜索与挖掘才找到的。</p>
@@ -1440,11 +1453,11 @@ div.vimiumColumn {
 <p>Gitblog 原项目本身更适合发布 Blog 和长篇文章，针对 Memo 的特性，需要针对性的优化。</p>
 <p>不得不说，perplexity 还是可以的，果然 <code>&lt;!--more--&gt;</code> 是通用的。在 <code>config.toml</code> 里加上 <code>summary_length = 100</code> ，设置默认摘要长度好像没用。</p>
 <p>#6 </p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/11"/><category term="Memo"/><published>2024-11-21T10:45:32+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/10</id><title>整理了之前的笔记，现在用org-publish 来发布博客</title><updated>2025-05-12T03:10:39.793950+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.vandee.art/2024-11-01-my-pkm-building-logs.html">我的 PKM 构建 Log</a>，把之前的零散博客都整理了一遍。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/11"/><category term="Memo"/><published>2024-11-21T10:45:32+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/10</id><title>整理了之前的笔记，现在用org-publish 来发布博客</title><updated>2025-05-14T06:57:06.115434+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.vandee.art/2024-11-01-my-pkm-building-logs.html">我的 PKM 构建 Log</a>，把之前的零散博客都整理了一遍。</p>
 <p>脱离笔记软件并不是脱离某个具体的体系和产品，而是将这些体系变成自己的，进而脱离笔记软件和传统笔记方法的固定思维。现在在 Emacs 里，我依然会使用 bash 脚本来完成部分零散的笔记，例如结合我的 tiddlywiki，快速构建 Markdown 笔记。</p>
 <p>无论是 Emacs 还是 Nvim，它们都可以用 bash 脚本作为依赖最低的方法扩展自己记录笔记的方式。Nvim 和 Emacs 我真的都很喜欢，但是 org-mode 给我的编辑体验是其他任何其他纯文本形式替代不了的。</p>
 <p>Vim 编辑模式、PKM方法才是那支笔，它们把笔记数据、操作系统链接起来，你可以在任何环境使用这只笔。忘掉所有招式就练成太极了。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/10"/><category term="PKM"/><published>2024-11-21T09:33:14+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/9</id><title>开源模型随着时间的推移，优势会越来越明显</title><updated>2025-05-12T03:10:39.894392+00:00</updated><content type="html"><![CDATA[<p>有三个兄弟——长兄、中兄和幼弟。小时候，长兄总是第一个获得新东西。新的衣服、鞋子、游戏机等等。这就像OpenAI和Anthropic一样，它们是基于云的闭源人工智能，处在技术最前沿。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/10"/><category term="PKM"/><published>2024-11-21T09:33:14+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/9</id><title>开源模型随着时间的推移，优势会越来越明显</title><updated>2025-05-14T06:57:06.252370+00:00</updated><content type="html"><![CDATA[<p>有三个兄弟——长兄、中兄和幼弟。小时候，长兄总是第一个获得新东西。新的衣服、鞋子、游戏机等等。这就像OpenAI和Anthropic一样，它们是基于云的闭源人工智能，处在技术最前沿。</p>
 <p>中兄虽然没有最先得到新东西的机会，但会先拿到手下的物品。他能得到稍微穿过的衣服、不是全新的鞋子，但仍能使用很久，并且上一代的游戏机。这就像Llama和Mistral一样，它们是开源的人工智能，性能不输于闭源的最好产品，而且成本更低。</p>
 <p>幼弟最后才得到二手物品。这些可能是已经磨损的衣服、旧的鞋、玩过的游戏机。这就好比本地推理一样，在这种情况下，用户无需支付计算费用，对开发者来说也同样是免费的。</p>
 <p>当兄弟们还年轻时，他们所拥有的东西在数量和质量上存在很大的差距，但随着时间的推移，这种差距变得越来越不明显。8K电视和4K电视之间的差别不大，而iPhone 16与iPhone 14之间也没有多大不同。</p>
@@ -1452,7 +1465,7 @@ div.vimiumColumn {
 <p>Source:  <a href="https://docs.google.com/document/d/14BBVzpSSFZkPS3ja3s2LbfFV_inpjsbxPezIV06O9s8/edit?tab=t.0">https://docs.google.com/document/d/14BBVzpSSFZkPS3ja3s2LbfFV_inpjsbxPezIV06O9s8/edit?tab=t.0</a></p>
 <p>开源模型随着时间的推移，优势会越来越明显。</p>
 <p>Ollama 现在支持直接运行 HuggingFace 的任意 GGUF 模型：<a href="https://huggingface.co/docs/hub/en/ollama">Use Ollama with any GGUF Model on Hugging Face Hub</a></p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/9"/><published>2024-11-21T09:24:53+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/8</id><title>《智人之上》</title><updated>2025-05-12T03:10:40.060005+00:00</updated><content type="html"><![CDATA[<p>“我认为在 AI 时代，我们应该讨论智能的边际收益，并试图找出哪些因素与智能是互补的，以及当智能水平非常高时，哪些因素会成为新的限制因素。” — Dario Amodei </p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/9"/><published>2024-11-21T09:24:53+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/8</id><title>《智人之上》</title><updated>2025-05-14T06:57:06.364125+00:00</updated><content type="html"><![CDATA[<p>“我认为在 AI 时代，我们应该讨论智能的边际收益，并试图找出哪些因素与智能是互补的，以及当智能水平非常高时，哪些因素会成为新的限制因素。” — Dario Amodei </p>
 <p>前段时间刚看完《智人之上》，从《人类简史》到这一部，尤瓦尔·赫拉利都在强调信息和想象在人类历史中发挥的作用。在 AI 时代，人类的想象可以无限放大，这在历史上的其他节点是不曾有过的。今年的物理、化学诺贝尔奖项全是和 AI 相关的，这充分说明了 AI 在科学的探索当中，让人类想象的边界得以拓展。</p>
 <p>人类的历史从来都和宗教与想象紧密相关，最近正好又在重温 <a href="https://www.bilibili.com/video/BV1vd4y1276t/">罗马的历史</a>，科学和 AI 现在也分不开了，暂且先把 AI 定义成一种技术。演说家们也正在这个新的历史舞台上开始了他们新的演说，Elon Musk，Sam Altman: <a href="https://ia.samaltman.com/">The Intelligence Age</a>，Dario Amodei: <a href="https://wiki.vandee.art/#Machines%20of%20Loving%20Grace%20-%20Dario%20Amodei">Machines of Loving Grace - Dario Amodei</a>。</p>
 <p>如果说人和动物开始产生分化是从人开始会使用火，那么人类这个物种能够延续至今靠的就是想象。Hope，belief，imaging，love，我认为这是人性中最伟大的几种力量。我相信 AI ，但肯定不会宗教式的狂热与迷信，就像我一直相信科学一样。AI 作为一种技术来说，并不能直接决定由信息网络交织而成的人类社会所面临的诸多问题，当然这是在 AI 还不能改变人性的前提下。</p>
@@ -1461,7 +1474,7 @@ div.vimiumColumn {
 <p>宗教和科学是相辅相成的。 我曾经说过，没有宗教的科学是跛脚的，没有科学的宗教是盲目的。 它们相互依存，有着共同的目标--寻求真理。 因此，宗教禁止伽利略、达尔文或其他科学家是荒谬的。 科学家说没有上帝也同样荒谬。 真正的科学家有信仰，但这并不意味着他必须信奉某种信条。 没有宗教就没有慈善。 我们每个人的灵魂都是由推动宇宙的同样的生生不息的精神所赋予的。</p>
 <p>--爱因斯坦，在《爱因斯坦与诗人》（1983 年）一书中提到，该书根据威廉-赫尔曼斯与爱因斯坦的一系列谈话重新编辑（大致如此）</p>
 <p>Imaging and creating！很幸运能出生在这个时代，经历这个可能是人类想象边界被拓宽的历史性飞跃。当然技术的飞跃可能带来<a href="https://wiki.vandee.art/#%E6%8A%80%E6%9C%AF%E8%BF%9B%E6%AD%A5%E7%9A%84%E4%BB%A3%E4%BB%B7">很多问题</a>。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/8"/><category term="Thoughts"/><published>2024-11-21T09:23:56+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/7</id><title>如果你思考而不输出，你只是以为自己在思考</title><updated>2025-05-12T03:10:40.167827+00:00</updated><content type="html"><![CDATA[<p>#6 </p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/8"/><category term="Thoughts"/><published>2024-11-21T09:23:56+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/7</id><title>如果你思考而不输出，你只是以为自己在思考</title><updated>2025-05-14T06:57:06.447272+00:00</updated><content type="html"><![CDATA[<p>#6 </p>
 <p>已整理到 <a href="https://wiki.vandee.art/#%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%80%9D%E8%80%83%E8%80%8C%E4%B8%8D%E8%BE%93%E5%87%BA%EF%BC%8C%E4%BD%A0%E5%8F%AA%E6%98%AF%E4%BB%A5%E4%B8%BA%E8%87%AA%E5%B7%B1%E5%9C%A8%E6%80%9D%E8%80%83">如果你思考而不输出，你只是以为自己在思考</a></p>
 <p>Paul 10月31号发布了一篇文章<a href="https://paulgraham.com/writes.html">Writes and Write-Nots</a>，谈AI时代的写作。他的观点是，在未来人们会分为会写作的人和根本不会写作的人。写作的基础是思考，所以当AI免除了人们写作的痛苦时，也会一并免除了人们的思考。于是，这将是人类认知上的一大变化，个人现在要对此做出选择。</p>
 <p>一直在关注这个大佬：<a href="https://paulgraham.com/">Paul Graham</a>，居然今天才发现就是《黑客与画家》的作者 <a href="https://en.wikipedia.org/wiki/Paul_Graham_(programmer)">保罗·格雷厄姆 Paul Graham  - Wikipedia</a> 🤣。我好像一直对人名、地名、符号的记忆会选择性的过滤。。</p>
@@ -1474,7 +1487,7 @@ div.vimiumColumn {
 <!--more-->
 <p>最近在陆续修整以前写过的东西，在<a href="https://www.vandee.art/2023-09-18-read-or-listen.html">读或听或看？</a>那个时候开始决定强迫自己纯文字阅读。从 RSS订阅到 ReadWise，<a href="https://www.vandee.art/2024-10-12-bookmark-and-summary-by-github-actions.html">Clip</a> ，再到现在的 <a href="https://www.vandee.art/2024-10-28-memos-and-ssl-config.html">Memo</a>，信息 - 获取 - 知识迭代结构化 - 备份 - 流动知识RAG - 信息反馈与交互，这条链路实行的很舒服。PKM 体系大头还是在 Wiki，是迭代的原子笔记，Memos 记录闪念，Clip 备份有记录价值的文章。</p>
 <p>记录是存在的一种最简单的证明，某种意义上，如果在一个体系或者规则里没有留下痕迹，那么就是不存在的。历史是过往，更是现时的延展，所有的过往，都构成了自己此刻的一部分。 </p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/7"/><category term="Thoughts"/><category term="Top"/><published>2024-11-21T09:19:42+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/6</id><title>没有记录就没有发生，而记录本身已经是一种反抗</title><updated>2025-05-12T03:10:40.269723+00:00</updated><content type="html"><![CDATA[<p>在考虑把收藏 GitHub 项目的整理转移到 GitHub 上，现在保存的链接已经很多了，本身这些东西就在 GitHub 上。所以先随便写了个Python，用GitHub Actions 定时触发来获取我在 GitHub 上 Star 的项目信息。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/7"/><category term="Thoughts"/><category term="Top"/><published>2024-11-21T09:19:42+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/6</id><title>没有记录就没有发生，而记录本身已经是一种反抗</title><updated>2025-05-14T06:57:06.557278+00:00</updated><content type="html"><![CDATA[<p>在考虑把收藏 GitHub 项目的整理转移到 GitHub 上，现在保存的链接已经很多了，本身这些东西就在 GitHub 上。所以先随便写了个Python，用GitHub Actions 定时触发来获取我在 GitHub 上 Star 的项目信息。</p>
 <p>下面的这些也是我这几年正在思考的问题，</p>
 <p><a href="https://wiki.vandee.art/#%E6%B2%A1%E6%9C%89%E8%AE%B0%E5%BD%95%E5%B0%B1%E6%B2%A1%E6%9C%89%E5%8F%91%E7%94%9F%EF%BC%8C%E8%80%8C%E8%AE%B0%E5%BD%95%E6%9C%AC%E8%BA%AB%E5%B7%B2%E7%BB%8F%E6%98%AF%E4%B8%80%E7%A7%8D%E5%8F%8D%E6%8A%97">没有记录就没有发生，而记录本身已经是一种反抗</a>，</p>
 <p>GitHub 再适合不过了。 </p>
@@ -1488,22 +1501,22 @@ div.vimiumColumn {
 <p>GitHub 已经成为互联网最重要的基础设施之一，有太多人，太多事都直接或间接地依赖于 GitHub，除非人类在未来完全不需要开源代码(这显然不可能)，否则我想不出 GitHub 有关闭的可能。对 GitHub 来说，存在 100 年简直是小意思，500 年也不是不可能。这是我的预言，不一定准确，但我还挺有信心的。</p>
 <p>人总想留下某种痕迹，证明自己活过，然而事实上，99.999%  的普通人就这么被历史遗忘了——曾经是这样。我们处在信息时代的早期，同样也处在人类文明的早期。从今往后，被数字化的东西只会越来越多。既然有人意识到了 GitHub 的独特性，随着时间推移，越来越多的人总会意识到。那时候会发生什么？自然是，越来越多的人会把自己的信息搬到 GitHub 上，依托 GitHub  实现曾经人们可望而不可及的&quot;永生&quot;。人有两次死亡，第一次是肉体，第二次是被人忘记。我忘记这句话是谁说的了，但现在我们已经可以回避第二次。只要  GitHub 支持，就一定会有人这么做，至少我是其中之一。几十几百年后，GitHub  将成为世界上最大的数字公墓，注册用户大部分都已去世，然而个人主页，项目，commit 历史 还述说着他们生前做过的事——就比如 Joe 的<a href="https://joearms.github.io/">博客</a>。这虽然是个比较 creepy 的推论，但从另一个角度想，却证明了人类的巨大进步：对抗死亡是人类文明的永恒主题，而我们已经实现了阶段性胜利。</p>
 </blockquote>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/6"/><category term="Thoughts"/><published>2024-11-21T09:16:55+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/5</id><title>极致的压缩</title><updated>2025-05-12T03:10:40.404367+00:00</updated><content type="html"><![CDATA[<p><a href="https://book.douban.com/subject/35916136/">概念与类比 (豆瓣)</a> 也是侯世达写的，在 z-library 里居然没有，加入书单。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/6"/><category term="Thoughts"/><published>2024-11-21T09:16:55+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/5</id><title>极致的压缩</title><updated>2025-05-14T06:57:06.671070+00:00</updated><content type="html"><![CDATA[<p><a href="https://book.douban.com/subject/35916136/">概念与类比 (豆瓣)</a> 也是侯世达写的，在 z-library 里居然没有，加入书单。</p>
 <p>z-library 的新域名：<a href="https://z-library.sk/">https://z-library.sk/</a></p>
 <p><a href="https://mp.weixin.qq.com/s/JT2oOG2SYw2pDYEHlEmcyQ">专访李继刚 - 我想用20年时间，给世界留一句话</a> ，极致的压缩。prompt 就像写作，它是自然语言与计算机编程语言的桥梁。压缩也同样是LLM的本质，它就是一个巨大的 ZIP。</p>
 <p><a href="https://wiki.vandee.art/#%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%80%9D%E8%80%83%E8%80%8C%E4%B8%8D%E8%BE%93%E5%87%BA%EF%BC%8C%E4%BD%A0%E5%8F%AA%E6%98%AF%E4%BB%A5%E4%B8%BA%E8%87%AA%E5%B7%B1%E5%9C%A8%E6%80%9D%E8%80%83">如果你思考而不输出，你只是以为自己在思考</a></p>
 <p>不是在追赶什么，或者制定什么目标，只是不想被另一个昨天的自己超越。— Vandee</p>
 <p><a href="https://www.bilibili.com/video/BV1XGSJYgE1J/">这么牛的实绩，怪不得她一复出还是巅峰_哔哩哔哩_bilibili</a> - 郭晶晶华为见非凡。保持一颗起跳的心，压好人生的水花。无畏的勇气，坚定的意志，智慧的选择。敢于非凡，方见非凡。从容有度，非凡如一。 </p>
 <p>华为的格局确实大。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/5"/><category term="Thoughts"/><published>2024-11-21T09:14:55+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/4</id><title>真正入门 Emacs 了</title><updated>2025-05-12T03:10:40.521174+00:00</updated><content type="html"><![CDATA[<p>现在才算是真正开始用 Emacs 了，大多数捷径其实是远路。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/5"/><category term="Thoughts"/><published>2024-11-21T09:14:55+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/4</id><title>真正入门 Emacs 了</title><updated>2025-05-14T06:57:06.784772+00:00</updated><content type="html"><![CDATA[<p>现在才算是真正开始用 Emacs 了，大多数捷径其实是远路。</p>
 <p>DoomEmacs 就像精装修，还是从毛坯开始好玩。基本复原了之前 DoomEmacs 的体验。</p>
 <p>从使用习惯、艺术审美、实用性、使用场景几个出发点，重新打磨设计了很多很多细节。</p>
 <img width="400" alt="emacs-note" src="https://github.com/user-attachments/assets/3829cd37-be47-47d0-870d-72c83cd42c77">
 <img width="400" alt="new-emacs2" src="https://github.com/user-attachments/assets/e71a1952-1461-4f99-ae75-5b8c82854b3e">
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/4"/><category term="PKM"/><published>2024-11-21T09:11:43+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/3</id><title>AI 融入思考流程</title><updated>2025-05-12T03:10:40.624700+00:00</updated><content type="html"><![CDATA[<p>AI 善于回答问题，而人类提出问题。科学、简洁的把 AI 融入自己的思考流程，帮助自己提出更好的问题，这比那些花里胡哨的东西有用多了。用 mem0，LangChain，phidata 构建了几个带 RAG 的简单 agent，我使用下来，对于思考的帮助其实感觉并不多。</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/4"/><category term="PKM"/><published>2024-11-21T09:11:43+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/3</id><title>AI 融入思考流程</title><updated>2025-05-14T06:57:06.879490+00:00</updated><content type="html"><![CDATA[<p>AI 善于回答问题，而人类提出问题。科学、简洁的把 AI 融入自己的思考流程，帮助自己提出更好的问题，这比那些花里胡哨的东西有用多了。用 mem0，LangChain，phidata 构建了几个带 RAG 的简单 agent，我使用下来，对于思考的帮助其实感觉并不多。</p>
 <p>现在打开 HackerNews，ProductHunt，GitHubTrends，一半以上都是 AI 相关的内容，看多了是真怀念以前没有 AI 时候的内容质量。</p>
 <p><a href="https://github.com/user-attachments/assets/63906feb-2f13-4d4a-82fd-3275472c9e9d">https://github.com/user-attachments/assets/63906feb-2f13-4d4a-82fd-3275472c9e9d</a></p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/3"/><category term="Thoughts"/><published>2024-11-21T09:05:18+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/2</id><title>相信直觉</title><updated>2025-05-12T03:10:40.732735+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/3"/><category term="Thoughts"/><published>2024-11-21T09:05:18+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/2</id><title>相信直觉</title><updated>2025-05-14T06:57:07.022062+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>每个人在每个时刻都有一些直觉，这些直觉多半是正确的，可是也有一些需要修正，需要加入一些新的观念，变成新的较正确的直觉。我从而了解到：一方面直觉非常重要，可是另一方面又要能及时吸取新的观念修正自己的直觉。</p>
 <p>— 杨振宁</p>
 <p><a href="https://www.bilibili.com/video/BV1ZJ9CY4EzR/">【毕导】在这个简单的问题上，你学的教材可能一直是错的</a> ,其实在上学的时候关于水底折射成像的这个问题一直很疑惑我。真的要相信直觉。</p>
@@ -1517,5 +1530,5 @@ div.vimiumColumn {
 <p>乔布斯多次提到了直觉这个问题。乔布斯去印度学习冥想的这一段经历让他从此开始开挂，从直觉出发，释放了自己无限的想象力。苹果公司的命名也好，iPhone 最初的手指替代触摸笔的想法也好，MacBook 就应该可以是直接放进文件袋的厚度也好，这些看似不可能的事情，都来自于直觉，对需求的敏锐洞察，当然还有绝对的自信和暴君乔布斯的执行力，以及现实扭曲力场的说服力和感染力。</p>
 <p>E=mc² 爱因斯坦就是一个想象力加上直觉的最好例子。爱因斯坦相信宇宙的简洁性，相对论不是在说宇宙是相对的，恰恰相反，这是爱因斯坦对于牛顿决定论的反思，相对论一直在追求另一种”绝对“的规律，这个规律在每个彼此相对的系统里是宇宙通用的，因此在广义相对论之后爱因斯坦对于量子力学和相对论之间一直达不到统一，才会开始怀疑自己，在晚年有了许多不统一的论断。终于在一系列推翻了自己想法之后，得到了这个无比简洁的物理方程式表达。</p>
 <p>在直观体验中，物体的能量就应该是与质量和速度相关联的。尽管这种直觉可能不符合更为深层次的科学或哲学原理，但从根本上讲，这个世界是我们感知和解释的对象。因此，我们总结出的自然规律应基于人的主观体验，这样才能构建符合逻辑和规律的认知体系。</p>
-]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/2"/><category term="Top"/><published>2024-11-21T09:00:14+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/1</id><title>Hello world</title><updated>2025-05-12T03:10:40.883152+00:00</updated><content type="html"><![CDATA[<p>Hello world!💡</p>
+]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/2"/><category term="Top"/><published>2024-11-21T09:00:14+00:00</published></entry><entry><id>https://github.com/VandeeFeng/gitmemo/issues/1</id><title>Hello world</title><updated>2025-05-14T06:57:07.130375+00:00</updated><content type="html"><![CDATA[<p>Hello world!💡</p>
 ]]></content><link href="https://github.com/VandeeFeng/gitmemo/issues/1"/><published>2024-11-21T08:38:29+00:00</published></entry></feed>

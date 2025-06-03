@@ -9,23 +9,24 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [整合 MCP 优化的 vibe coding rules](https://github.com/VandeeFeng/gitmemo/issues/59)--2025-06-03
 - [打水困境](https://github.com/VandeeFeng/gitmemo/issues/58)--2025-05-17
 - [Nuphy Air75 V2 键盘](https://github.com/VandeeFeng/gitmemo/issues/57)--2025-05-14
 - [Keyword - 大模型的压缩和解压缩](https://github.com/VandeeFeng/gitmemo/issues/56)--2025-05-11
 - [世界是对数的](https://github.com/VandeeFeng/gitmemo/issues/55)--2025-05-11
-- [如果一个实现还不够简洁，那么就说明它还不够完美](https://github.com/VandeeFeng/gitmemo/issues/54)--2025-05-05
 ## Emacs
 
 - [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
 ## Memo
 
+- [整合 MCP 优化的 vibe coding rules](https://github.com/VandeeFeng/gitmemo/issues/59)--2025-06-03
 - [Nuphy Air75 V2 键盘](https://github.com/VandeeFeng/gitmemo/issues/57)--2025-05-14
 - [Crust](https://github.com/VandeeFeng/gitmemo/issues/52)--2025-04-16
 - [极简笔记方案](https://github.com/VandeeFeng/gitmemo/issues/51)--2025-04-14
 - [类 Firefox config](https://github.com/VandeeFeng/gitmemo/issues/47)--2025-03-11
-- [又突然想学数学了](https://github.com/VandeeFeng/gitmemo/issues/46)--2025-03-11
 <details><summary>显示更多</summary>
 
+- [又突然想学数学了](https://github.com/VandeeFeng/gitmemo/issues/46)--2025-03-11
 - [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
 - [Cloudflare R2  图床防爬](https://github.com/VandeeFeng/gitmemo/issues/42)--2025-02-27
 - [非必要别更新！！！](https://github.com/VandeeFeng/gitmemo/issues/41)--2025-02-25

@@ -16,12 +16,16 @@ Dify，n8n，字节的 Coze 扣子等。
 ## 更多基于 VSCode 的 AI 代码编辑器的出现
 Cursor，Windsurf（已被 OpenAI 收购），Trae（字节）。还有 cline 这些 VSCode 的 AI 代码编辑插件。
 
+还有 [Augment Code - AI coding platform for real software.](https://www.augmentcode.com/) ，[TabbyML/tabby: Self-hosted AI coding assistant](https://github.com/TabbyML/tabby) 等 IDE 插件。
+
 ## Claude code 等 CLI AI 代码编辑助手
 卷完了 IDE，又开始下一轮了。Claude code 这是把 cursor 给背刺了。Cursor 最近也出现了一连串的反应: https://x.com/karminski3/status/1935423134892704219 , https://forum.cursor.com/t/cursor-pro-cursor-ultra/104528/11
 
 OpenAI 也在 Claude code 出现之后的几个月开源了 codex：https://github.com/openai/codex
 
 效果上，网上普遍的反馈 Claude code 比 codex 要好。
+
+在 Claude code 等出现之前，Aider 这些 CLI 的代码编辑工具就已经很多了。
 
 
 

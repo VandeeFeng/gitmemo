@@ -27,6 +27,6 @@ OpenAI 也在 Claude code 出现之后的几个月开源了 codex：https://gith
 
 在 Claude code 等出现之前，Aider 这些 CLI 的代码编辑工具就已经很多了。
 
-
+在官网短暂无法访问之后，Gemini CLI 也来了：https://github.com/google-gemini/gemini-cli  --2025-06-26
 
 

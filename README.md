@@ -9,7 +9,7 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
-- [弃用之前的 clip 剪藏方案](https://github.com/VandeeFeng/gitmemo/issues/63)--2025-07-03
+- [弃用之前的 clip 剪藏方案 → Hoarder](https://github.com/VandeeFeng/gitmemo/issues/63)--2025-07-03
 - [Vibe Coding Timeline](https://github.com/VandeeFeng/gitmemo/issues/62)--2025-06-22
 - [生成式 GUI](https://github.com/VandeeFeng/gitmemo/issues/61)--2025-06-22
 - [不要在信息获取上浪费时间 - 信息茧房](https://github.com/VandeeFeng/gitmemo/issues/60)--2025-06-18
@@ -19,7 +19,7 @@ My personal memos using issues and GitHub Actions.
 - [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28
 ## Memo
 
-- [弃用之前的 clip 剪藏方案](https://github.com/VandeeFeng/gitmemo/issues/63)--2025-07-03
+- [弃用之前的 clip 剪藏方案 → Hoarder](https://github.com/VandeeFeng/gitmemo/issues/63)--2025-07-03
 - [Vibe Coding Timeline](https://github.com/VandeeFeng/gitmemo/issues/62)--2025-06-22
 - [整合 MCP 优化的 vibe coding rules](https://github.com/VandeeFeng/gitmemo/issues/59)--2025-06-03
 - [Nuphy Air75 V2 键盘](https://github.com/VandeeFeng/gitmemo/issues/57)--2025-05-14

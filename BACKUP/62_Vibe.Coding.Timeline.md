@@ -1,7 +1,8 @@
 # [Vibe Coding Timeline](https://github.com/VandeeFeng/gitmemo/issues/62)
 
-随手记录一下 vibe coding 的发展
+随手记录一下 vibe coding 的发展，按照时间先后顺序排序。
 
+# pair programming 阶段
 ## 以 Cursor 为代表的 AI 代码编辑器的出现
 如果我没记错，cursor 在 vibe coding 概念被 AK 大佬提出之前就很多人在用了。
 
@@ -29,6 +30,11 @@ OpenAI 也在 Claude code 出现之后的几个月开源了 codex：https://gith
 
 在官网短暂无法访问之后，2025-06-25 ，Gemini CLI 也来了：https://github.com/google-gemini/gemini-cli  , https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/
 
+cursor 算是开始走下神坛了，负面的消息越来越多，吹的人越来越少，风向越来越导向 Claude code ，对国内的 IP 也开始控制了。
 
+Amazon 推出了 [Kiro](https://kiro.dev/blog/introducing-kiro/)，又一个类 cursor。
 
+# parallel agents 阶段
+随着 Claude code 的兴起，parallel agents 的概念出现。各种 GitHub actions，自动代码审核提交 PR 的流程越来越成熟，看到很多项目都开始用 Claude code 做管理了。 --2025-07-19
 
+有代表性的是这个项目：https://github.com/BloopAI/vibe-kanban

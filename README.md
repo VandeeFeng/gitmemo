@@ -9,11 +9,11 @@ My personal memos using issues and GitHub Actions.
 - [如果你思考而不输出，你只是以为自己在思考](https://github.com/VandeeFeng/gitmemo/issues/7)--2024-11-21
 - [相信直觉](https://github.com/VandeeFeng/gitmemo/issues/2)--2024-11-21
 ## 最近更新
+- [暂时停用 gitmemo](https://github.com/VandeeFeng/gitmemo/issues/64)--2025-08-02
 - [弃用之前的 clip 剪藏方案 → Hoarder](https://github.com/VandeeFeng/gitmemo/issues/63)--2025-07-03
 - [Vibe Coding Timeline](https://github.com/VandeeFeng/gitmemo/issues/62)--2025-06-22
 - [生成式 GUI](https://github.com/VandeeFeng/gitmemo/issues/61)--2025-06-22
 - [不要在信息获取上浪费时间 - 信息茧房](https://github.com/VandeeFeng/gitmemo/issues/60)--2025-06-18
-- [整合 MCP 优化的 vibe coding rules](https://github.com/VandeeFeng/gitmemo/issues/59)--2025-06-03
 ## Emacs
 
 - [gptel tool 设置](https://github.com/VandeeFeng/gitmemo/issues/44)--2025-02-28

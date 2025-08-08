@@ -34,6 +34,10 @@ cursor 算是开始走下神坛了，负面的消息越来越多，吹的人越�
 
 Amazon 推出了 [Kiro](https://kiro.dev/blog/introducing-kiro/)，又一个类 cursor。
 
+陆续出现了 opencode：https://github.com/sst/opencode ,  crush: https://github.com/charmbracelet/crush
+
+cursor 推出了 cursor CLI ：https://x.com/cursor_ai/status/1953559384531050724   --2025-08-07
+
 # parallel agents 阶段
 随着 Claude code 的兴起，parallel agents 的概念出现。各种 GitHub actions，自动代码审核提交 PR 的流程越来越成熟，看到很多项目都开始用 Claude code 做管理了。 --2025-07-19
 

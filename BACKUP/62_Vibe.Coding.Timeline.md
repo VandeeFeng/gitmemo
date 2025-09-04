@@ -42,3 +42,6 @@ cursor 推出了 cursor CLI ：https://x.com/cursor_ai/status/195355938453105072
 随着 Claude code 的兴起，parallel agents 的概念出现。各种 GitHub actions，自动代码审核提交 PR 的流程越来越成熟，看到很多项目都开始用 Claude code 做管理了。 --2025-07-19
 
 有代表性的是这个项目：https://github.com/BloopAI/vibe-kanban
+
+# Agent Client Protocol (ACP)
+Zed团队宣布Claude Code正式进入Beta测试阶段，通过新的 Agent Client Protocol (ACP)与Zed无缝集成: https://zed.dev/blog/claude-code-via-acp

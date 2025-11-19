@@ -43,5 +43,7 @@ cursor 推出了 cursor CLI ：https://x.com/cursor_ai/status/195355938453105072
 
 有代表性的是这个项目：https://github.com/BloopAI/vibe-kanban
 
+Google 推出了新的 [Google Antigravity](http://antigravity.google/) 代理开发平台，提供 AI IDE 体验和具备直接存取编辑器、终端和浏览器的 AI 代理功能，直接整合 Gemini 3 Pro、2.5 Computer Use 和 Nano Banana（Gemini 2.5 Image）三种模型，可自主规划、执行复杂的端到端软件开发任务，同时具备自行验证代码的能力  --2025-11-19
+
 # Agent Client Protocol (ACP)
 Zed团队宣布Claude Code正式进入Beta测试阶段，通过新的 Agent Client Protocol (ACP)与Zed无缝集成: https://zed.dev/blog/claude-code-via-acp
